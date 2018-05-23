@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import CTPanoramaView
 
 class ViewController: UIViewController {
     override func viewDidLoad() {

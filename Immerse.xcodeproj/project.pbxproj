@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		1D948D9485A646542E1AE52D /* Pods_ImmerseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B34536E297BAAB9C6ABF2DD3 /* Pods_ImmerseTests.framework */; };
 		59F49FEDFDC0C001A7E7B3AB /* Pods_Immerse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10467C47D94BF3EDC2CCE081 /* Pods_Immerse.framework */; };
+		5E53470D20B5BE4200EDE55E /* FieldAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53470C20B5BE4200EDE55E /* FieldAViewController.swift */; };
+		5E53470F20B5BE5C00EDE55E /* FieldBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53470E20B5BE5C00EDE55E /* FieldBViewController.swift */; };
+		5E53471120B5BE7800EDE55E /* FieldPanaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53471020B5BE7800EDE55E /* FieldPanaViewController.swift */; };
 		5E53DF9020AB189000153856 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53DF8F20AB189000153856 /* AppDelegate.swift */; };
 		5E53DF9220AB189000153856 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53DF9120AB189000153856 /* ViewController.swift */; };
 		5E53DF9520AB189000153856 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E53DF9320AB189000153856 /* Main.storyboard */; };
@@ -50,6 +53,9 @@
 		10467C47D94BF3EDC2CCE081 /* Pods_Immerse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Immerse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3595C1A65257165159A151D2 /* Pods-Immerse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Immerse.release.xcconfig"; path = "Pods/Target Support Files/Pods-Immerse/Pods-Immerse.release.xcconfig"; sourceTree = "<group>"; };
 		475A348933277792B3FFBE08 /* Pods-ImmerseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImmerseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImmerseTests/Pods-ImmerseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5E53470C20B5BE4200EDE55E /* FieldAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldAViewController.swift; sourceTree = "<group>"; };
+		5E53470E20B5BE5C00EDE55E /* FieldBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldBViewController.swift; sourceTree = "<group>"; };
+		5E53471020B5BE7800EDE55E /* FieldPanaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldPanaViewController.swift; sourceTree = "<group>"; };
 		5E53DF8C20AB189000153856 /* Immerse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Immerse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E53DF8F20AB189000153856 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E53DF9120AB189000153856 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -132,6 +138,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		5E53470B20B5BE2500EDE55E /* Field VC */ = {
+			isa = PBXGroup;
+			children = (
+				5E53470C20B5BE4200EDE55E /* FieldAViewController.swift */,
+				5E53470E20B5BE5C00EDE55E /* FieldBViewController.swift */,
+				5E53471020B5BE7800EDE55E /* FieldPanaViewController.swift */,
+			);
+			name = "Field VC";
+			sourceTree = "<group>";
+		};
 		5E53DF8320AB189000153856 = {
 			isa = PBXGroup;
 			children = (
@@ -157,6 +173,7 @@
 		5E53DF8E20AB189000153856 /* Immerse */ = {
 			isa = PBXGroup;
 			children = (
+				5E53470B20B5BE2500EDE55E /* Field VC */,
 				5E677F8520ABBBAF00E1C46B /* INC */,
 				5E53DF8F20AB189000153856 /* AppDelegate.swift */,
 				5E53DF9120AB189000153856 /* ViewController.swift */,
@@ -411,13 +428,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E53470D20B5BE4200EDE55E /* FieldAViewController.swift in Sources */,
 				5E53DF9220AB189000153856 /* ViewController.swift in Sources */,
 				5E53DF9820AB189000153856 /* Immerse.xcdatamodeld in Sources */,
 				5E677F8220ABA6C200E1C46B /* blockCListViewController.swift in Sources */,
 				5E677F8D20ABBBE400E1C46B /* IncDViewController.swift in Sources */,
 				5E53DF9020AB189000153856 /* AppDelegate.swift in Sources */,
+				5E53470F20B5BE5C00EDE55E /* FieldBViewController.swift in Sources */,
 				5E677F8920ABBBCB00E1C46B /* IncBViewController.swift in Sources */,
 				5E677F8420ABB55300E1C46B /* IncPanaPhotosViewController.swift in Sources */,
+				5E53471120B5BE7800EDE55E /* FieldPanaViewController.swift in Sources */,
 				5E8DD4CB20B428C500EEA163 /* selectionViewController.swift in Sources */,
 				5E677F8720ABBBBE00E1C46B /* IncAViewController.swift in Sources */,
 				5E677F8B20ABBBD900E1C46B /* IncCViewController.swift in Sources */,

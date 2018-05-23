@@ -148,6 +148,13 @@
                                     <segue destination="ro9-W1-xsz" kind="show" id="ecr-Tv-QA2"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UU3-BT-5cT">
+                                <rect key="frame" x="194" y="168" width="86" height="135"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="Qa9-7H-pW0" kind="show" id="NG9-JC-ckY"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="e3g-Rq-Zx2"/>
@@ -157,6 +164,50 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hif-JE-har" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3655.0724637681164" y="105.97826086956522"/>
+        </scene>
+        <!--Field Pana View Controller-->
+        <scene sceneID="Kpc-PT-Z6o">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="Qa9-7H-pW0" customClass="FieldPanaViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d7c-YW-czv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4493" y="407"/>
+        </scene>
+        <!--FieldA View Controller-->
+        <scene sceneID="0Ja-fB-uOF">
+            <objects>
+                <viewController storyboardIdentifier="FIELD1A" useStoryboardIdentifierAsRestorationIdentifier="YES" id="2A4-xF-f02" customClass="FieldAViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="B7i-WZ-ajj" customClass="CTPanoramaView" customModule="CTPanoramaView">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="wS7-U3-BoS"/>
+                    </view>
+                    <connections>
+                        <outlet property="FieldAPv" destination="B7i-WZ-ajj" id="Wh0-kd-ckf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ltt-3O-b9O" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5178" y="400"/>
+        </scene>
+        <!--FieldB View Controller-->
+        <scene sceneID="HA6-pr-mYj">
+            <objects>
+                <viewController storyboardIdentifier="FIELD1B" useStoryboardIdentifierAsRestorationIdentifier="YES" id="4uw-bi-wzq" customClass="FieldBViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AJQ-AO-n7G" customClass="CTPanoramaView" customModule="CTPanoramaView">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="LQK-JS-hxO"/>
+                    </view>
+                    <connections>
+                        <outlet property="FieldBPv" destination="AJQ-AO-n7G" id="7uz-IB-fbe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SZg-gU-AHE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5155" y="1084"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="def-5l-q4l">
