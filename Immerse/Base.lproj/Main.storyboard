@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -89,9 +90,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="PJv-2j-g1h">
-                                <rect key="frame" x="0.0" y="20" width="414" height="716"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="PJv-2j-g1h">
+                                <rect key="frame" x="0.0" y="64" width="414" height="672"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
                                     <outlet property="dataSource" destination="UuS-P4-AXb" id="lcP-bi-Kss"/>
@@ -100,12 +100,19 @@
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="PJv-2j-g1h" firstAttribute="bottom" secondItem="9Ik-Sd-iB2" secondAttribute="bottom" id="AML-pd-F7w"/>
+                            <constraint firstItem="PJv-2j-g1h" firstAttribute="leading" secondItem="saC-si-yzP" secondAttribute="leading" id="UGg-Ma-Cws"/>
+                            <constraint firstItem="PJv-2j-g1h" firstAttribute="width" secondItem="saC-si-yzP" secondAttribute="height" multiplier="9:16" id="bWF-o5-WBA"/>
+                            <constraint firstItem="PJv-2j-g1h" firstAttribute="top" secondItem="9Ik-Sd-iB2" secondAttribute="top" id="dQD-Ty-9gY"/>
+                            <constraint firstItem="PJv-2j-g1h" firstAttribute="width" secondItem="saC-si-yzP" secondAttribute="width" id="dlT-yt-MoW"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="9Ik-Sd-iB2"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Xa-4F-FOU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-146" y="855"/>
+            <point key="canvasLocation" x="-146.37681159420291" y="854.34782608695662"/>
         </scene>
         <!--Pana Photos View Controller-->
         <scene sceneID="x6C-nD-VD8">
@@ -167,9 +174,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="anZ-gk-Df8" firstAttribute="width" secondItem="RjE-77-IXT" secondAttribute="width" id="Ble-JJ-ENU"/>
-                            <constraint firstItem="anZ-gk-Df8" firstAttribute="top" secondItem="xVY-aS-sPA" secondAttribute="top" id="DI7-Ya-U05"/>
+                            <constraint firstItem="anZ-gk-Df8" firstAttribute="top" secondItem="xVY-aS-sPA" secondAttribute="top" id="Deo-kv-UXQ"/>
+                            <constraint firstItem="anZ-gk-Df8" firstAttribute="bottom" secondItem="xVY-aS-sPA" secondAttribute="bottom" id="EVG-HM-Byl"/>
                             <constraint firstItem="anZ-gk-Df8" firstAttribute="leading" secondItem="RjE-77-IXT" secondAttribute="leading" id="xB9-zR-DOE"/>
-                            <constraint firstItem="anZ-gk-Df8" firstAttribute="bottom" secondItem="xVY-aS-sPA" secondAttribute="bottom" id="zPU-TW-KqZ"/>
+                            <constraint firstItem="anZ-gk-Df8" firstAttribute="width" secondItem="RjE-77-IXT" secondAttribute="height" multiplier="9:16" id="zxm-Uy-CRE"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="xVY-aS-sPA"/>
                     </view>
