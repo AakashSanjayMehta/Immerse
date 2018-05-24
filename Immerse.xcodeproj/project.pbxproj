@@ -18,6 +18,7 @@
 		5E53471C20B6506C00EDE55E /* CafePanoPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53471B20B6506C00EDE55E /* CafePanoPageViewController.swift */; };
 		5E53471E20B6508900EDE55E /* CafeAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53471D20B6508900EDE55E /* CafeAViewController.swift */; };
 		5E53472020B6509300EDE55E /* CafeBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53471F20B6509300EDE55E /* CafeBViewController.swift */; };
+		5E53472220B6541C00EDE55E /* CanteenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53472120B6541C00EDE55E /* CanteenViewController.swift */; };
 		5E53DF9020AB189000153856 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53DF8F20AB189000153856 /* AppDelegate.swift */; };
 		5E53DF9220AB189000153856 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53DF9120AB189000153856 /* ViewController.swift */; };
 		5E53DF9520AB189000153856 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E53DF9320AB189000153856 /* Main.storyboard */; };
@@ -68,6 +69,7 @@
 		5E53471B20B6506C00EDE55E /* CafePanoPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafePanoPageViewController.swift; sourceTree = "<group>"; };
 		5E53471D20B6508900EDE55E /* CafeAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeAViewController.swift; sourceTree = "<group>"; };
 		5E53471F20B6509300EDE55E /* CafeBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeBViewController.swift; sourceTree = "<group>"; };
+		5E53472120B6541C00EDE55E /* CanteenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanteenViewController.swift; sourceTree = "<group>"; };
 		5E53DF8C20AB189000153856 /* Immerse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Immerse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E53DF8F20AB189000153856 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E53DF9120AB189000153856 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -178,14 +180,15 @@
 			name = BLockLists;
 			sourceTree = "<group>";
 		};
-		5E53471A20B6504D00EDE55E /* Cafe */ = {
+		5E53471A20B6504D00EDE55E /* Cafe and (E)Canteen */ = {
 			isa = PBXGroup;
 			children = (
 				5E53471B20B6506C00EDE55E /* CafePanoPageViewController.swift */,
 				5E53471D20B6508900EDE55E /* CafeAViewController.swift */,
 				5E53471F20B6509300EDE55E /* CafeBViewController.swift */,
+				5E53472120B6541C00EDE55E /* CanteenViewController.swift */,
 			);
-			name = Cafe;
+			name = "Cafe and (E)Canteen";
 			sourceTree = "<group>";
 		};
 		5E53DF8320AB189000153856 = {
@@ -213,7 +216,7 @@
 		5E53DF8E20AB189000153856 /* Immerse */ = {
 			isa = PBXGroup;
 			children = (
-				5E53471A20B6504D00EDE55E /* Cafe */,
+				5E53471A20B6504D00EDE55E /* Cafe and (E)Canteen */,
 				5E53471720B64E0400EDE55E /* BLockLists */,
 				5E53471220B64AFE00EDE55E /* Block C Labs */,
 				5E53470B20B5BE2500EDE55E /* Field VC */,
@@ -477,6 +480,7 @@
 				5E53DF9820AB189000153856 /* Immerse.xcdatamodeld in Sources */,
 				5E677F8220ABA6C200E1C46B /* blockCListViewController.swift in Sources */,
 				5E677F8D20ABBBE400E1C46B /* IncDViewController.swift in Sources */,
+				5E53472220B6541C00EDE55E /* CanteenViewController.swift in Sources */,
 				5E53DF9020AB189000153856 /* AppDelegate.swift in Sources */,
 				5E53470F20B5BE5C00EDE55E /* FieldBViewController.swift in Sources */,
 				5E677F8920ABBBCB00E1C46B /* IncBViewController.swift in Sources */,

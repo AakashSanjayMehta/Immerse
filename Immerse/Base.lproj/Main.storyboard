@@ -209,10 +209,28 @@
             </objects>
             <point key="canvasLocation" x="5138" y="1060"/>
         </scene>
+        <!--Canteen View Controller-->
+        <scene sceneID="jNm-sC-d3j">
+            <objects>
+                <viewController storyboardIdentifier="CANVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="eJ2-R3-FKR" customClass="CanteenViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ojL-l8-Ndz" customClass="CTPanoramaView" customModule="CTPanoramaView">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="reD-hc-LtT"/>
+                    </view>
+                    <connections>
+                        <outlet property="IPCanteenV" destination="ojL-l8-Ndz" id="FgA-GF-XZQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uR1-z8-PhS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2445" y="1984"/>
+        </scene>
         <!--Cafe Pano Page View Controller-->
         <scene sceneID="OR8-ot-4kw">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="s1T-wh-Lpb" customClass="CafePanoPageViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController"/>
+                <pageViewController storyboardIdentifier="CAFEPAN" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="s1T-wh-Lpb" customClass="CafePanoPageViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ecN-bX-w8M" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4357" y="1997"/>
@@ -220,13 +238,16 @@
         <!--CafeA View Controller-->
         <scene sceneID="tc7-gX-S47">
             <objects>
-                <viewController id="Ayb-fD-09B" customClass="CafeAViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CAFE1A" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Ayb-fD-09B" customClass="CafeAViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pJq-XX-T9G" customClass="CTPanoramaView" customModule="CTPanoramaView">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="yFm-ik-V1R"/>
                     </view>
+                    <connections>
+                        <outlet property="IPCafeA" destination="pJq-XX-T9G" id="fiD-Y5-KdW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WpM-0V-f6Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -235,7 +256,7 @@
         <!--CafeB View Controller-->
         <scene sceneID="zoV-fJ-7Pl">
             <objects>
-                <viewController id="FTP-qO-6Ij" customClass="CafeBViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CAFE1B" useStoryboardIdentifierAsRestorationIdentifier="YES" id="FTP-qO-6Ij" customClass="CafeBViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="G6E-1c-9u8" customClass="CTPanoramaView" customModule="CTPanoramaView">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

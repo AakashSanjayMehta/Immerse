@@ -9,7 +9,7 @@
 import UIKit
 
 class blockBListViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-    let blockBPlace = ["Cafe"]
+    let blockBPlace = ["Cafe, Pond"]
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return blockBPlace.count
     }
@@ -25,7 +25,8 @@ class blockBListViewController: UIViewController, UITableViewDelegate, UITableVi
         tableView.deselectRow(at: indexPath, animated: true)
         switch (indexPath.row) {
         case 0:
-            
+            let vc = self.storyboard?.instantiateViewController(withIdentifier: "CAFEPAN")
+            self.navigationController!.pushViewController(vc!, animated: true)
             break
            
         default:

@@ -8,11 +8,52 @@
 
 import UIKit
 
-class CafePanoPageViewController: UIPageViewController {
+class CafePanoPageViewController: UIPageViewController, UIPageViewControllerDataSource, UIPageViewControllerDelegate {
+    func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
+        guard let viewControllerIndex = pages.index(of: viewController) else { return nil }
+        
+        let previousIndex = viewControllerIndex - 1
+        
+        guard previousIndex >= 0          else { return pages.last }
+        
+        guard pages.count > previousIndex else { return nil        }
+        
+        return pages[previousIndex]
+    }
+    
+    func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController? {
+        guard let viewControllerIndex = pages.index(of: viewController) else { return nil }
+        
+        let previousIndex = viewControllerIndex - 1
+        
+        guard previousIndex >= 0          else { return pages.last }
+        
+        guard pages.count > previousIndex else { return nil        }
+        
+        return pages[previousIndex]
+        
+    }
+    fileprivate lazy var pages: [UIViewController] = {
+        return [
+            self.getViewController(withIdentifier: "CAFE1A"),
+            self.getViewController(withIdentifier: "CAFE1B")
+        ]
+    }()
+    
+    fileprivate func getViewController(withIdentifier identifier: String) -> UIViewController
+    {
+        return UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: identifier)
+    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.dataSource = self
+        self.delegate = self
+        if let firstVC = pages.first
+        {
+            setViewControllers([firstVC], direction: .forward, animated: true, completion: nil)
+        }
         // Do any additional setup after loading the view.
     }
 

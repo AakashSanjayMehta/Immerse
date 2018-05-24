@@ -1,5 +1,5 @@
 //
-//  CafeAViewController.swift
+//  CanteenViewController.swift
 //  Immerse
 //
 //  Created by Aakash Sanjay Mehta on 24/5/18.
@@ -9,13 +9,14 @@
 import UIKit
 import CTPanoramaView
 
-class CafeAViewController: UIViewController {
-
-    @IBOutlet var IPCafeA: CTPanoramaView!
+//NOT PART OF CAFE PAGE PANO
+class CanteenViewController: UIViewController {
+    @IBOutlet var IPCanteenV: CTPanoramaView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        IPCafeA.controlMethod = .motion
-        IPCafeA.image = UIImage(named: "Cafe_1a")
+        IPCanteenV.controlMethod = .motion
+        IPCanteenV.image = UIImage(named: "Canteen_1a")
 
         // Do any additional setup after loading the view.
     }

@@ -9,7 +9,7 @@
 import UIKit
 
 class blockCListViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-    let blockCPlace = ["SST Inc.", "Robotics @ apex", "Sec 1 and 3 clasrooms", "Biotechnology Lab", "Makers' Lab"]
+    let blockCPlace = ["SST Inc.", "Robotics @ apex", "Sec 1 and 3 clasrooms", "Biotechnology Lab", "Makers' Lab", "Canteen"]
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return blockCPlace.count
     }
@@ -39,6 +39,10 @@ class blockCListViewController: UIViewController, UITableViewDelegate, UITableVi
             break
         case 4:
             let vc = self.storyboard?.instantiateViewController(withIdentifier: "MLV")
+            self.navigationController!.pushViewController(vc!, animated: true)
+            break
+        case 5:
+            let vc = self.storyboard?.instantiateViewController(withIdentifier: "CANVC")
             self.navigationController!.pushViewController(vc!, animated: true)
             break
         default:
