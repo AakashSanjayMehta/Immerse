@@ -12,6 +12,12 @@
 		5E53470D20B5BE4200EDE55E /* FieldAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53470C20B5BE4200EDE55E /* FieldAViewController.swift */; };
 		5E53470F20B5BE5C00EDE55E /* FieldBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53470E20B5BE5C00EDE55E /* FieldBViewController.swift */; };
 		5E53471120B5BE7800EDE55E /* FieldPanaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53471020B5BE7800EDE55E /* FieldPanaViewController.swift */; };
+		5E53471420B64C1200EDE55E /* Makers'LabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53471320B64C1200EDE55E /* Makers'LabViewController.swift */; };
+		5E53471620B64C2500EDE55E /* BiioTechLabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53471520B64C2500EDE55E /* BiioTechLabViewController.swift */; };
+		5E53471920B64E2200EDE55E /* blockBListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53471820B64E2200EDE55E /* blockBListViewController.swift */; };
+		5E53471C20B6506C00EDE55E /* CafePanoPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53471B20B6506C00EDE55E /* CafePanoPageViewController.swift */; };
+		5E53471E20B6508900EDE55E /* CafeAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53471D20B6508900EDE55E /* CafeAViewController.swift */; };
+		5E53472020B6509300EDE55E /* CafeBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53471F20B6509300EDE55E /* CafeBViewController.swift */; };
 		5E53DF9020AB189000153856 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53DF8F20AB189000153856 /* AppDelegate.swift */; };
 		5E53DF9220AB189000153856 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53DF9120AB189000153856 /* ViewController.swift */; };
 		5E53DF9520AB189000153856 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E53DF9320AB189000153856 /* Main.storyboard */; };
@@ -56,6 +62,12 @@
 		5E53470C20B5BE4200EDE55E /* FieldAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldAViewController.swift; sourceTree = "<group>"; };
 		5E53470E20B5BE5C00EDE55E /* FieldBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldBViewController.swift; sourceTree = "<group>"; };
 		5E53471020B5BE7800EDE55E /* FieldPanaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldPanaViewController.swift; sourceTree = "<group>"; };
+		5E53471320B64C1200EDE55E /* Makers'LabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Makers'LabViewController.swift"; sourceTree = "<group>"; };
+		5E53471520B64C2500EDE55E /* BiioTechLabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiioTechLabViewController.swift; sourceTree = "<group>"; };
+		5E53471820B64E2200EDE55E /* blockBListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blockBListViewController.swift; sourceTree = "<group>"; };
+		5E53471B20B6506C00EDE55E /* CafePanoPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafePanoPageViewController.swift; sourceTree = "<group>"; };
+		5E53471D20B6508900EDE55E /* CafeAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeAViewController.swift; sourceTree = "<group>"; };
+		5E53471F20B6509300EDE55E /* CafeBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeBViewController.swift; sourceTree = "<group>"; };
 		5E53DF8C20AB189000153856 /* Immerse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Immerse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E53DF8F20AB189000153856 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E53DF9120AB189000153856 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -148,6 +160,34 @@
 			name = "Field VC";
 			sourceTree = "<group>";
 		};
+		5E53471220B64AFE00EDE55E /* Block C Labs */ = {
+			isa = PBXGroup;
+			children = (
+				5E53471320B64C1200EDE55E /* Makers'LabViewController.swift */,
+				5E53471520B64C2500EDE55E /* BiioTechLabViewController.swift */,
+			);
+			name = "Block C Labs";
+			sourceTree = "<group>";
+		};
+		5E53471720B64E0400EDE55E /* BLockLists */ = {
+			isa = PBXGroup;
+			children = (
+				5E677F8120ABA6C200E1C46B /* blockCListViewController.swift */,
+				5E53471820B64E2200EDE55E /* blockBListViewController.swift */,
+			);
+			name = BLockLists;
+			sourceTree = "<group>";
+		};
+		5E53471A20B6504D00EDE55E /* Cafe */ = {
+			isa = PBXGroup;
+			children = (
+				5E53471B20B6506C00EDE55E /* CafePanoPageViewController.swift */,
+				5E53471D20B6508900EDE55E /* CafeAViewController.swift */,
+				5E53471F20B6509300EDE55E /* CafeBViewController.swift */,
+			);
+			name = Cafe;
+			sourceTree = "<group>";
+		};
 		5E53DF8320AB189000153856 = {
 			isa = PBXGroup;
 			children = (
@@ -173,6 +213,9 @@
 		5E53DF8E20AB189000153856 /* Immerse */ = {
 			isa = PBXGroup;
 			children = (
+				5E53471A20B6504D00EDE55E /* Cafe */,
+				5E53471720B64E0400EDE55E /* BLockLists */,
+				5E53471220B64AFE00EDE55E /* Block C Labs */,
 				5E53470B20B5BE2500EDE55E /* Field VC */,
 				5E677F8520ABBBAF00E1C46B /* INC */,
 				5E53DF8F20AB189000153856 /* AppDelegate.swift */,
@@ -182,7 +225,6 @@
 				5E53DF9B20AB189100153856 /* LaunchScreen.storyboard */,
 				5E53DF9E20AB189100153856 /* Info.plist */,
 				5E53DF9620AB189000153856 /* Immerse.xcdatamodeld */,
-				5E677F8120ABA6C200E1C46B /* blockCListViewController.swift */,
 				5E8DD4CA20B428C500EEA163 /* selectionViewController.swift */,
 			);
 			path = Immerse;
@@ -429,6 +471,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E53470D20B5BE4200EDE55E /* FieldAViewController.swift in Sources */,
+				5E53471C20B6506C00EDE55E /* CafePanoPageViewController.swift in Sources */,
+				5E53471920B64E2200EDE55E /* blockBListViewController.swift in Sources */,
 				5E53DF9220AB189000153856 /* ViewController.swift in Sources */,
 				5E53DF9820AB189000153856 /* Immerse.xcdatamodeld in Sources */,
 				5E677F8220ABA6C200E1C46B /* blockCListViewController.swift in Sources */,
@@ -438,8 +482,12 @@
 				5E677F8920ABBBCB00E1C46B /* IncBViewController.swift in Sources */,
 				5E677F8420ABB55300E1C46B /* IncPanaPhotosViewController.swift in Sources */,
 				5E53471120B5BE7800EDE55E /* FieldPanaViewController.swift in Sources */,
+				5E53472020B6509300EDE55E /* CafeBViewController.swift in Sources */,
 				5E8DD4CB20B428C500EEA163 /* selectionViewController.swift in Sources */,
+				5E53471E20B6508900EDE55E /* CafeAViewController.swift in Sources */,
+				5E53471420B64C1200EDE55E /* Makers'LabViewController.swift in Sources */,
 				5E677F8720ABBBBE00E1C46B /* IncAViewController.swift in Sources */,
+				5E53471620B64C2500EDE55E /* BiioTechLabViewController.swift in Sources */,
 				5E677F8B20ABBBD900E1C46B /* IncCViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

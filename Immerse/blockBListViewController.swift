@@ -1,52 +1,36 @@
 //
-//  blockCListViewController.swift
+//  blockBListViewController.swift
 //  Immerse
 //
-//  Created by Aakash Sanjay Mehta on 16/5/18.
+//  Created by Aakash Sanjay Mehta on 24/5/18.
 //  Copyright © 2018 Aakash Sanjay Mehta. All rights reserved.
 //
 
 import UIKit
 
-class blockCListViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-    let blockCPlace = ["SST Inc.", "Robotics @ apex", "Sec 1 and 3 clasrooms", "Biotechnology Lab", "Makers' Lab"]
+class blockBListViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    let blockBPlace = ["Cafe"]
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return blockCPlace.count
+        return blockBPlace.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell(style: UITableViewCellStyle.default, reuseIdentifier: "Cell")
-        cell.textLabel?.text = blockCPlace[indexPath.row]
+        cell.textLabel?.text = blockBPlace[indexPath.row]
         
         return (cell)
     }
+    
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         switch (indexPath.row) {
         case 0:
-            let vc = self.storyboard?.instantiateViewController(withIdentifier: "PVC")
-            self.navigationController!.pushViewController(vc!, animated: true)
-            break
-            
-        case 1:
             
             break
-        case 2:
-            break
-        case 3:
-            let vc = self.storyboard?.instantiateViewController(withIdentifier: "BLV")
-            self.navigationController!.pushViewController(vc!, animated: true)
-            break
-        case 4:
-            let vc = self.storyboard?.instantiateViewController(withIdentifier: "MLV")
-            self.navigationController!.pushViewController(vc!, animated: true)
-            break
+           
         default:
             break
         }
-        
-        
-        
     }
     
 
