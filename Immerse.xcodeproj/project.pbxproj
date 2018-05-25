@@ -15,10 +15,15 @@
 		5E53471420B64C1200EDE55E /* Makers'LabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53471320B64C1200EDE55E /* Makers'LabViewController.swift */; };
 		5E53471620B64C2500EDE55E /* BiioTechLabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53471520B64C2500EDE55E /* BiioTechLabViewController.swift */; };
 		5E53471920B64E2200EDE55E /* blockBListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53471820B64E2200EDE55E /* blockBListViewController.swift */; };
-		5E53471C20B6506C00EDE55E /* CafePanoPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53471B20B6506C00EDE55E /* CafePanoPageViewController.swift */; };
+		5E53471C20B6506C00EDE55E /* CAFEPanoPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53471B20B6506C00EDE55E /* CAFEPanoPageViewController.swift */; };
 		5E53471E20B6508900EDE55E /* CafeAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53471D20B6508900EDE55E /* CafeAViewController.swift */; };
 		5E53472020B6509300EDE55E /* CafeBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53471F20B6509300EDE55E /* CafeBViewController.swift */; };
 		5E53472220B6541C00EDE55E /* CanteenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53472120B6541C00EDE55E /* CanteenViewController.swift */; };
+		5E53472420B685F900EDE55E /* blockAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53472320B685F900EDE55E /* blockAViewController.swift */; };
+		5E53472720B6A2C300EDE55E /* PondPanoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53472620B6A2C300EDE55E /* PondPanoViewController.swift */; };
+		5E53472A20B6A45E00EDE55E /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53472920B6A45E00EDE55E /* LibraryViewController.swift */; };
+		5E53472D20B6B8DE00EDE55E /* Sec1and3AViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53472C20B6B8DE00EDE55E /* Sec1and3AViewController.swift */; };
+		5E53472F20B6BD5800EDE55E /* BlockDListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53472E20B6BD5800EDE55E /* BlockDListViewController.swift */; };
 		5E53DF9020AB189000153856 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53DF8F20AB189000153856 /* AppDelegate.swift */; };
 		5E53DF9220AB189000153856 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53DF9120AB189000153856 /* ViewController.swift */; };
 		5E53DF9520AB189000153856 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E53DF9320AB189000153856 /* Main.storyboard */; };
@@ -66,10 +71,29 @@
 		5E53471320B64C1200EDE55E /* Makers'LabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Makers'LabViewController.swift"; sourceTree = "<group>"; };
 		5E53471520B64C2500EDE55E /* BiioTechLabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiioTechLabViewController.swift; sourceTree = "<group>"; };
 		5E53471820B64E2200EDE55E /* blockBListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blockBListViewController.swift; sourceTree = "<group>"; };
-		5E53471B20B6506C00EDE55E /* CafePanoPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafePanoPageViewController.swift; sourceTree = "<group>"; };
+		5E53471B20B6506C00EDE55E /* CAFEPanoPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAFEPanoPageViewController.swift; sourceTree = "<group>"; };
 		5E53471D20B6508900EDE55E /* CafeAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeAViewController.swift; sourceTree = "<group>"; };
 		5E53471F20B6509300EDE55E /* CafeBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeBViewController.swift; sourceTree = "<group>"; };
 		5E53472120B6541C00EDE55E /* CanteenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanteenViewController.swift; sourceTree = "<group>"; };
+		5E53472320B685F900EDE55E /* blockAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blockAViewController.swift; sourceTree = "<group>"; };
+		5E53472620B6A2C300EDE55E /* PondPanoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PondPanoViewController.swift; sourceTree = "<group>"; };
+		5E53472920B6A45E00EDE55E /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		5E53472C20B6B8DE00EDE55E /* Sec1and3AViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sec1and3AViewController.swift; sourceTree = "<group>"; };
+		5E53472E20B6BD5800EDE55E /* BlockDListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockDListViewController.swift; sourceTree = "<group>"; };
+		5E53473120B84F0800EDE55E /* Atrium.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Atrium.m4a; sourceTree = "<group>"; };
+		5E53473220B84F3C00EDE55E /* Auditorium.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Auditorium.m4a; sourceTree = "<group>"; };
+		5E53473320B84F6B00EDE55E /* Cafe.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cafe.m4a; sourceTree = "<group>"; };
+		5E53473420B84F7500EDE55E /* Canteen.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Canteen.m4a; sourceTree = "<group>"; };
+		5E53473520B84F8000EDE55E /* G.O.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = G.O.m4a; sourceTree = "<group>"; };
+		5E53473620B84F8700EDE55E /* Infohub.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Infohub.m4a; sourceTree = "<group>"; };
+		5E53473720B84F9400EDE55E /* ISH.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = ISH.m4a; sourceTree = "<group>"; };
+		5E53473820B84FA500EDE55E /* Lecture Theatre.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lecture Theatre.m4a"; sourceTree = "<group>"; };
+		5E53473920B84FC800EDE55E /* Makers Lab.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Makers Lab.m4a"; sourceTree = "<group>"; };
+		5E53473A20B84FD200EDE55E /* MPH.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = MPH.m4a; sourceTree = "<group>"; };
+		5E53473B20B84FDD00EDE55E /* Rooftop Court.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rooftop Court.m4a"; sourceTree = "<group>"; };
+		5E53473C20B84FED00EDE55E /* Red Bricks.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Red Bricks.m4a"; sourceTree = "<group>"; };
+		5E53473D20B84FF300EDE55E /* Rooftop Garden.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rooftop Garden.m4a"; sourceTree = "<group>"; };
+		5E53473E20B84FF900EDE55E /* SST INC.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SST INC.m4a"; sourceTree = "<group>"; };
 		5E53DF8C20AB189000153856 /* Immerse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Immerse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E53DF8F20AB189000153856 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E53DF9120AB189000153856 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -176,6 +200,8 @@
 			children = (
 				5E677F8120ABA6C200E1C46B /* blockCListViewController.swift */,
 				5E53471820B64E2200EDE55E /* blockBListViewController.swift */,
+				5E53472320B685F900EDE55E /* blockAViewController.swift */,
+				5E53472E20B6BD5800EDE55E /* BlockDListViewController.swift */,
 			);
 			name = BLockLists;
 			sourceTree = "<group>";
@@ -183,12 +209,57 @@
 		5E53471A20B6504D00EDE55E /* Cafe and (E)Canteen */ = {
 			isa = PBXGroup;
 			children = (
-				5E53471B20B6506C00EDE55E /* CafePanoPageViewController.swift */,
+				5E53471B20B6506C00EDE55E /* CAFEPanoPageViewController.swift */,
 				5E53471D20B6508900EDE55E /* CafeAViewController.swift */,
 				5E53471F20B6509300EDE55E /* CafeBViewController.swift */,
 				5E53472120B6541C00EDE55E /* CanteenViewController.swift */,
 			);
 			name = "Cafe and (E)Canteen";
+			sourceTree = "<group>";
+		};
+		5E53472520B6A2B400EDE55E /* Pond? */ = {
+			isa = PBXGroup;
+			children = (
+				5E53472620B6A2C300EDE55E /* PondPanoViewController.swift */,
+			);
+			name = "Pond?";
+			sourceTree = "<group>";
+		};
+		5E53472820B6A45000EDE55E /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				5E53472920B6A45E00EDE55E /* LibraryViewController.swift */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		5E53472B20B6B8C200EDE55E /* Classrooms */ = {
+			isa = PBXGroup;
+			children = (
+				5E53472C20B6B8DE00EDE55E /* Sec1and3AViewController.swift */,
+			);
+			name = Classrooms;
+			sourceTree = "<group>";
+		};
+		5E53473020B7C7B800EDE55E /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				5E53473120B84F0800EDE55E /* Atrium.m4a */,
+				5E53473220B84F3C00EDE55E /* Auditorium.m4a */,
+				5E53473320B84F6B00EDE55E /* Cafe.m4a */,
+				5E53473420B84F7500EDE55E /* Canteen.m4a */,
+				5E53473520B84F8000EDE55E /* G.O.m4a */,
+				5E53473620B84F8700EDE55E /* Infohub.m4a */,
+				5E53473720B84F9400EDE55E /* ISH.m4a */,
+				5E53473820B84FA500EDE55E /* Lecture Theatre.m4a */,
+				5E53473920B84FC800EDE55E /* Makers Lab.m4a */,
+				5E53473C20B84FED00EDE55E /* Red Bricks.m4a */,
+				5E53473A20B84FD200EDE55E /* MPH.m4a */,
+				5E53473B20B84FDD00EDE55E /* Rooftop Court.m4a */,
+				5E53473D20B84FF300EDE55E /* Rooftop Garden.m4a */,
+				5E53473E20B84FF900EDE55E /* SST INC.m4a */,
+			);
+			name = Audio;
 			sourceTree = "<group>";
 		};
 		5E53DF8320AB189000153856 = {
@@ -216,6 +287,10 @@
 		5E53DF8E20AB189000153856 /* Immerse */ = {
 			isa = PBXGroup;
 			children = (
+				5E53473020B7C7B800EDE55E /* Audio */,
+				5E53472B20B6B8C200EDE55E /* Classrooms */,
+				5E53472820B6A45000EDE55E /* Library */,
+				5E53472520B6A2B400EDE55E /* Pond? */,
 				5E53471A20B6504D00EDE55E /* Cafe and (E)Canteen */,
 				5E53471720B64E0400EDE55E /* BLockLists */,
 				5E53471220B64AFE00EDE55E /* Block C Labs */,
@@ -473,20 +548,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E53472A20B6A45E00EDE55E /* LibraryViewController.swift in Sources */,
 				5E53470D20B5BE4200EDE55E /* FieldAViewController.swift in Sources */,
-				5E53471C20B6506C00EDE55E /* CafePanoPageViewController.swift in Sources */,
+				5E53471C20B6506C00EDE55E /* CAFEPanoPageViewController.swift in Sources */,
 				5E53471920B64E2200EDE55E /* blockBListViewController.swift in Sources */,
 				5E53DF9220AB189000153856 /* ViewController.swift in Sources */,
 				5E53DF9820AB189000153856 /* Immerse.xcdatamodeld in Sources */,
+				5E53472F20B6BD5800EDE55E /* BlockDListViewController.swift in Sources */,
 				5E677F8220ABA6C200E1C46B /* blockCListViewController.swift in Sources */,
+				5E53472420B685F900EDE55E /* blockAViewController.swift in Sources */,
 				5E677F8D20ABBBE400E1C46B /* IncDViewController.swift in Sources */,
 				5E53472220B6541C00EDE55E /* CanteenViewController.swift in Sources */,
+				5E53472D20B6B8DE00EDE55E /* Sec1and3AViewController.swift in Sources */,
 				5E53DF9020AB189000153856 /* AppDelegate.swift in Sources */,
 				5E53470F20B5BE5C00EDE55E /* FieldBViewController.swift in Sources */,
 				5E677F8920ABBBCB00E1C46B /* IncBViewController.swift in Sources */,
 				5E677F8420ABB55300E1C46B /* IncPanaPhotosViewController.swift in Sources */,
 				5E53471120B5BE7800EDE55E /* FieldPanaViewController.swift in Sources */,
 				5E53472020B6509300EDE55E /* CafeBViewController.swift in Sources */,
+				5E53472720B6A2C300EDE55E /* PondPanoViewController.swift in Sources */,
 				5E8DD4CB20B428C500EEA163 /* selectionViewController.swift in Sources */,
 				5E53471E20B6508900EDE55E /* CafeAViewController.swift in Sources */,
 				5E53471420B64C1200EDE55E /* Makers'LabViewController.swift in Sources */,

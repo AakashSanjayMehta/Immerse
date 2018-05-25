@@ -1,25 +1,22 @@
 //
-//  selectionViewController.swift
+//  PondPanoViewController.swift
 //  Immerse
 //
-//  Created by Aakash Sanjay Mehta on 22/5/18.
+//  Created by Aakash Sanjay Mehta on 24/5/18.
 //  Copyright © 2018 Aakash Sanjay Mehta. All rights reserved.
 //
 
 import UIKit
+import CTPanoramaView
 
-class selectionViewController: UIViewController {
-    
-    
-    @IBAction func Dpressed(_ sender: Any) {
-        let alertController = UIAlertController(title: "Still in progress", message: "This block has not been implemented yet. We apologize for the inconvenience.", preferredStyle: .alert)
-        let action1 = UIAlertAction(title: "Dismiss", style: .default, handler: nil)
-        alertController.addAction(action1)
-        self.present(alertController, animated: true, completion: nil)
-    }
+class PondPanoViewController: UIViewController {
+
+    @IBOutlet var IPPondV: CTPanoramaView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        IPPondV.controlMethod = .motion
+        IPPondV.image = UIImage(named: "Pond_1a")
+
         // Do any additional setup after loading the view.
     }
 
