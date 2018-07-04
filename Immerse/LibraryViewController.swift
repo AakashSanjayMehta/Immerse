@@ -8,15 +8,61 @@
 
 import UIKit
 import CTPanoramaView
+import AVFoundation
 
 class LibraryViewController: UIViewController {
-
+    var player:AVAudioPlayer?
     @IBOutlet var IPCanteenV: CTPanoramaView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        IPCanteenV.controlMethod = .motion
+        IPCanteenV.controlMethod = .touch
         IPCanteenV.image = UIImage(named: "Library_1a")
-        // Do any additional setup after loading the view.
+        
+        guard let audiopath =  Bundle.main.path(forResource: "Infohub", ofType: "m4a") else{
+            print("error111")
+            return
+        }
+        print(audiopath)
+        
+        try! AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
+        try! AVAudioSession.sharedInstance().setActive(true)
+        
+        try! player = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audiopath) as URL)
+        player?.prepareToPlay()
+        
+        
+        //audio
+       /* do {
+            let audiopath = URL(fileURLWithPath: Bundle.main.path(forResource: "Infohub", ofType: "m4a")!)
+            try player = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audiopath) as URL)
+            player.prepareToPlay()
+        } catch  {
+            print("Erorr")
+        }*/
+        
+        
+       
+        
+        //buttons
+        let playPause = UIBarButtonItem(barButtonSystemItem: .play, target: self, action: #selector(LibraryViewController.playingpausing(_:)))
+        navigationItem.rightBarButtonItem = playPause
+    }
+    @objc func playingpausing(_ sender:UIBarButtonItem!){
+        var new_button = UIBarButtonItem()
+        if( player?.isPlaying )! {
+            
+            player?.pause()
+            // Update the button
+            new_button = UIBarButtonItem(barButtonSystemItem: .play, target: self, action: #selector(playingpausing(_:)))
+        } else {
+            
+            player?.play();
+            // Create the pause button
+            new_button = UIBarButtonItem(barButtonSystemItem: .pause, target: self, action: #selector(playingpausing(_:)))
+        }
+        
+        navigationItem.rightBarButtonItem = new_button
+        
     }
 
     override func didReceiveMemoryWarning() {

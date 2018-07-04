@@ -1,37 +1,28 @@
 //
-//  Sec1and3AViewController.swift
+//  Web2ViewController.swift
 //  Immerse
 //
-//  Created by Aakash Sanjay Mehta on 24/5/18.
+//  Created by Aakash Sanjay Mehta on 26/5/18.
 //  Copyright © 2018 Aakash Sanjay Mehta. All rights reserved.
 //
 
 import UIKit
-import CTPanoramaView
-import AVFoundation
+import WebKit
 
-class Sec1and3AViewController: UIViewController {
+class Web2ViewController: UIViewController {
 
-    @IBOutlet var IP13aV: CTPanoramaView!
+    @IBOutlet weak var web2: WKWebView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        //initailzing the pictures
-        IP13aV.controlMethod = .motion
-        IP13aV.image = UIImage(named: "Seconeandthreeclasess_1a")
-        
-        //audio for sec 1 and 3 classrooms
-        
-        //buttons for audio
-        let playPause = UIBarButtonItem(barButtonSystemItem: .play, target: self, action: nil)
-        
-        let stop = UIBarButtonItem(barButtonSystemItem: .rewind, target: self, action: nil)
-        navigationItem.rightBarButtonItems = [stop, playPause]
+        let url = URL(string: "https://www.sst.edu.sg/milestones/")
+        let request = URLRequest(url: url!)
+        web2.load(request)
+
         // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        
         // Dispose of any resources that can be recreated.
     }
     

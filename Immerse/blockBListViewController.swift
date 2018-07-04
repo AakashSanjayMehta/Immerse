@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class blockBListViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     let blockBPlace = ["Cafe", "Pond"]
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -25,7 +26,7 @@ class blockBListViewController: UIViewController, UITableViewDelegate, UITableVi
         tableView.deselectRow(at: indexPath, animated: true)
         switch (indexPath.row) {
         case 0:
-            let vc = self.storyboard?.instantiateViewController(withIdentifier: "CAFEPAN")
+            let vc = self.storyboard?.instantiateViewController(withIdentifier: "CAFE1A")
             self.navigationController!.pushViewController(vc!, animated: true)
             break
         
@@ -41,7 +42,7 @@ class blockBListViewController: UIViewController, UITableViewDelegate, UITableVi
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
     }
 
