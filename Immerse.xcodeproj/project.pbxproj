@@ -36,6 +36,19 @@
 		5E53DFA820AB189100153856 /* ImmerseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53DFA720AB189100153856 /* ImmerseTests.swift */; };
 		5E53DFB320AB189100153856 /* ImmerseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53DFB220AB189100153856 /* ImmerseUITests.swift */; };
 		5E53DFC120AB1D0800153856 /* CTPanoramaView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E53DFC020AB1D0800153856 /* CTPanoramaView.framework */; };
+		5E572BED20ECBCCD007D0133 /* Auditorium.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5E53473220B84F3C00EDE55E /* Auditorium.m4a */; };
+		5E572BEE20ECBCD0007D0133 /* SST INC.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5E53473E20B84FF900EDE55E /* SST INC.m4a */; };
+		5E572BEF20ECBCD3007D0133 /* Rooftop Garden.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5E53473D20B84FF300EDE55E /* Rooftop Garden.m4a */; };
+		5E572BF020ECBCD6007D0133 /* Rooftop Court.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5E53473B20B84FDD00EDE55E /* Rooftop Court.m4a */; };
+		5E572BF120ECBCD9007D0133 /* MPH.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5E53473A20B84FD200EDE55E /* MPH.m4a */; };
+		5E572BF220ECBCDC007D0133 /* Red Bricks.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5E53473C20B84FED00EDE55E /* Red Bricks.m4a */; };
+		5E572BF320ECBCDF007D0133 /* Makers Lab.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5E53473920B84FC800EDE55E /* Makers Lab.m4a */; };
+		5E572BF420ECBCE1007D0133 /* ISH.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5E53473720B84F9400EDE55E /* ISH.m4a */; };
+		5E572BF520ECBCE4007D0133 /* Lecture Theatre.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5E53473820B84FA500EDE55E /* Lecture Theatre.m4a */; };
+		5E572BF620ECBCE8007D0133 /* G.O.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5E53473520B84F8000EDE55E /* G.O.m4a */; };
+		5E572BF720ECBCEA007D0133 /* Canteen.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5E53473420B84F7500EDE55E /* Canteen.m4a */; };
+		5E572BF820ECBCF5007D0133 /* Cafe.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5E53473320B84F6B00EDE55E /* Cafe.m4a */; };
+		5E572BF920ECBCFD007D0133 /* Atrium.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5E53473120B84F0800EDE55E /* Atrium.m4a */; };
 		5E5F0B2A20E2075800F9F2FB /* Infohub.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5EF24F6F20E1206C00781FAA /* Infohub.m4a */; };
 		5E677F8220ABA6C200E1C46B /* blockCListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E677F8120ABA6C200E1C46B /* blockCListViewController.swift */; };
 		5E677F8420ABB55300E1C46B /* IncPanaPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E677F8320ABB55300E1C46B /* IncPanaPhotosViewController.swift */; };
@@ -467,10 +480,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E572BF120ECBCD9007D0133 /* MPH.m4a in Resources */,
+				5E572BF220ECBCDC007D0133 /* Red Bricks.m4a in Resources */,
 				5E53DF9D20AB189100153856 /* LaunchScreen.storyboard in Resources */,
+				5E572BF620ECBCE8007D0133 /* G.O.m4a in Resources */,
+				5E572BF420ECBCE1007D0133 /* ISH.m4a in Resources */,
 				5E8DD4CD20B4552200EEA163 /* Assets.xcassets in Resources */,
 				5E5F0B2A20E2075800F9F2FB /* Infohub.m4a in Resources */,
+				5E572BF820ECBCF5007D0133 /* Cafe.m4a in Resources */,
+				5E572BEF20ECBCD3007D0133 /* Rooftop Garden.m4a in Resources */,
+				5E572BEE20ECBCD0007D0133 /* SST INC.m4a in Resources */,
+				5E572BF520ECBCE4007D0133 /* Lecture Theatre.m4a in Resources */,
 				5E53DF9520AB189000153856 /* Main.storyboard in Resources */,
+				5E572BF320ECBCDF007D0133 /* Makers Lab.m4a in Resources */,
+				5E572BF920ECBCFD007D0133 /* Atrium.m4a in Resources */,
+				5E572BF720ECBCEA007D0133 /* Canteen.m4a in Resources */,
+				5E572BED20ECBCCD007D0133 /* Auditorium.m4a in Resources */,
+				5E572BF020ECBCD6007D0133 /* Rooftop Court.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
