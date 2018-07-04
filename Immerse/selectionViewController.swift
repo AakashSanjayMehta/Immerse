@@ -7,9 +7,11 @@
 //
 
 import UIKit
+import SafariServices
 
 class selectionViewController: UIViewController {
     
+    var websiteURL = "https://www.sst.edu.sg"
     
     @IBAction func Dpressed(_ sender: Any) {
         let alertController = UIAlertController(title: "Still in progress", message: "This block has not been implemented yet. We apologize for the inconvenience.", preferredStyle: .alert)
@@ -28,7 +30,11 @@ class selectionViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    @IBAction func aboutSST(_ sender: Any) {
+        let s = SFSafariViewController(url: URL(string: websiteURL)!)
+        self.present(s, animated: true, completion: nil)
+    }
+    
     /*
     // MARK: - Navigation
 

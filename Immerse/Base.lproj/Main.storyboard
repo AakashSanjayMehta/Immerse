@@ -165,6 +165,7 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="aboutSST:" destination="s40-Qa-cyR" eventType="touchUpInside" id="cfC-cW-omD"/>
                                     <segue destination="xvz-lJ-Hey" kind="show" id="u2Q-oH-FcA"/>
                                 </connections>
                             </button>
