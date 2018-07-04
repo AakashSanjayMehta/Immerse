@@ -9,6 +9,7 @@
 import UIKit
 import WebKit
 
+// About SST
 class Web1ViewController: UIViewController {
 
     @IBOutlet weak var web1: WKWebView!

@@ -9,6 +9,7 @@
 import UIKit
 import WebKit
 
+// Vision, Mission, Values and Goals
 class Web3ViewController: UIViewController {
 
     @IBOutlet weak var web3: WKWebView!

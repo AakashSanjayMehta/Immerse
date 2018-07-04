@@ -9,6 +9,7 @@
 import UIKit
 import WebKit
 
+// Minestone
 class Web2ViewController: UIViewController {
 
     @IBOutlet weak var web2: WKWebView!
