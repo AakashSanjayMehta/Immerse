@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1D948D9485A646542E1AE52D /* Pods_ImmerseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B34536E297BAAB9C6ABF2DD3 /* Pods_ImmerseTests.framework */; };
+		4202336720ECC13A00800155 /* Infohub.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4202336620ECC13A00800155 /* Infohub.m4a */; };
 		59F49FEDFDC0C001A7E7B3AB /* Pods_Immerse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10467C47D94BF3EDC2CCE081 /* Pods_Immerse.framework */; };
 		5E53470D20B5BE4200EDE55E /* FieldAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53470C20B5BE4200EDE55E /* FieldAViewController.swift */; };
 		5E53470F20B5BE5C00EDE55E /* FieldBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53470E20B5BE5C00EDE55E /* FieldBViewController.swift */; };
@@ -49,7 +50,6 @@
 		5E572BF720ECBCEA007D0133 /* Canteen.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5E53473420B84F7500EDE55E /* Canteen.m4a */; };
 		5E572BF820ECBCF5007D0133 /* Cafe.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5E53473320B84F6B00EDE55E /* Cafe.m4a */; };
 		5E572BF920ECBCFD007D0133 /* Atrium.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5E53473120B84F0800EDE55E /* Atrium.m4a */; };
-		5E5F0B2A20E2075800F9F2FB /* Infohub.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5EF24F6F20E1206C00781FAA /* Infohub.m4a */; };
 		5E677F8220ABA6C200E1C46B /* blockCListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E677F8120ABA6C200E1C46B /* blockCListViewController.swift */; };
 		5E677F8420ABB55300E1C46B /* IncPanaPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E677F8320ABB55300E1C46B /* IncPanaPhotosViewController.swift */; };
 		5E677F8720ABBBBE00E1C46B /* IncAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E677F8620ABBBBE00E1C46B /* IncAViewController.swift */; };
@@ -82,6 +82,7 @@
 		084F61F872D3FCE213D1DF73 /* Pods-ImmerseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImmerseUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImmerseUITests/Pods-ImmerseUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		10467C47D94BF3EDC2CCE081 /* Pods_Immerse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Immerse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3595C1A65257165159A151D2 /* Pods-Immerse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Immerse.release.xcconfig"; path = "Pods/Target Support Files/Pods-Immerse/Pods-Immerse.release.xcconfig"; sourceTree = "<group>"; };
+		4202336620ECC13A00800155 /* Infohub.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Infohub.m4a; sourceTree = "<group>"; };
 		475A348933277792B3FFBE08 /* Pods-ImmerseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImmerseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImmerseTests/Pods-ImmerseTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5E53470C20B5BE4200EDE55E /* FieldAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldAViewController.swift; sourceTree = "<group>"; };
 		5E53470E20B5BE5C00EDE55E /* FieldBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldBViewController.swift; sourceTree = "<group>"; };
@@ -137,7 +138,6 @@
 		5E677F8C20ABBBE400E1C46B /* IncDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncDViewController.swift; sourceTree = "<group>"; };
 		5E8DD4CA20B428C500EEA163 /* selectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectionViewController.swift; sourceTree = "<group>"; };
 		5E8DD4CC20B4552100EEA163 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5EF24F6F20E1206C00781FAA /* Infohub.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = Infohub.m4a; path = "/Users/mehtaaakashsanjay/First File/c0de/APPS/Immerse/Immerse/Immerse/Infohub.m4a"; sourceTree = "<absolute>"; };
 		7998BB7F669E039691728286 /* Pods-ImmerseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImmerseUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImmerseUITests/Pods-ImmerseUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7FF3A90422D3630B76C48E75 /* Pods-ImmerseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImmerseTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImmerseTests/Pods-ImmerseTests.release.xcconfig"; sourceTree = "<group>"; };
 		8DBDC37A051EE11B2260F251 /* Pods-Immerse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Immerse.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Immerse/Pods-Immerse.debug.xcconfig"; sourceTree = "<group>"; };
@@ -266,7 +266,7 @@
 		5E53473020B7C7B800EDE55E /* Audio */ = {
 			isa = PBXGroup;
 			children = (
-				5EF24F6F20E1206C00781FAA /* Infohub.m4a */,
+				4202336620ECC13A00800155 /* Infohub.m4a */,
 				5E53473120B84F0800EDE55E /* Atrium.m4a */,
 				5E53473220B84F3C00EDE55E /* Auditorium.m4a */,
 				5E53473320B84F6B00EDE55E /* Cafe.m4a */,
@@ -486,7 +486,6 @@
 				5E572BF620ECBCE8007D0133 /* G.O.m4a in Resources */,
 				5E572BF420ECBCE1007D0133 /* ISH.m4a in Resources */,
 				5E8DD4CD20B4552200EEA163 /* Assets.xcassets in Resources */,
-				5E5F0B2A20E2075800F9F2FB /* Infohub.m4a in Resources */,
 				5E572BF820ECBCF5007D0133 /* Cafe.m4a in Resources */,
 				5E572BEF20ECBCD3007D0133 /* Rooftop Garden.m4a in Resources */,
 				5E572BEE20ECBCD0007D0133 /* SST INC.m4a in Resources */,
@@ -496,6 +495,7 @@
 				5E572BF920ECBCFD007D0133 /* Atrium.m4a in Resources */,
 				5E572BF720ECBCEA007D0133 /* Canteen.m4a in Resources */,
 				5E572BED20ECBCCD007D0133 /* Auditorium.m4a in Resources */,
+				4202336720ECC13A00800155 /* Infohub.m4a in Resources */,
 				5E572BF020ECBCD6007D0133 /* Rooftop Court.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

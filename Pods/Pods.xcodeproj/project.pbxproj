@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -52,7 +52,7 @@
 		076619D3BAF72830D3500ACCC5C59C91 /* CTPanoramaView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CTPanoramaView.swift; path = Source/CTPanoramaView.swift; sourceTree = "<group>"; };
 		0D2705FA165B36F8E82383B9EDF85559 /* Pods-Immerse-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Immerse-frameworks.sh"; sourceTree = "<group>"; };
 		0F11B8F45882563DC6AF68BE9F54C6A4 /* Pods-ImmerseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImmerseTests.debug.xcconfig"; sourceTree = "<group>"; };
-		17CC3479C571007F723B0C607E15306D /* Pods_ImmerseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImmerseUITests.framework; path = "Pods-ImmerseUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17CC3479C571007F723B0C607E15306D /* Pods_ImmerseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImmerseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		258A0AD9B716D621D3D66C231C52B174 /* Pods-ImmerseUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImmerseUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		26EBA1AA092C25C8689E4C763D9F759D /* Pods-ImmerseTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ImmerseTests.modulemap"; sourceTree = "<group>"; };
 		2E1253E94816226294DB222440C2CD2C /* Pods-ImmerseUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImmerseUITests-umbrella.h"; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 		49D2123A735868072B01F3BD1F1D3C1A /* Pods-Immerse-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Immerse-resources.sh"; sourceTree = "<group>"; };
 		4E721009EE5370581CCE07199C01A3A9 /* Pods-ImmerseUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImmerseUITests-frameworks.sh"; sourceTree = "<group>"; };
 		57644CE5A399B3B7123F7A5B6A6A3100 /* Pods-ImmerseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImmerseUITests.release.xcconfig"; sourceTree = "<group>"; };
-		6BDD699B4E42FF640C0A43A20A34496F /* Pods_ImmerseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImmerseTests.framework; path = "Pods-ImmerseTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BDD699B4E42FF640C0A43A20A34496F /* Pods_ImmerseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImmerseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		782674162109527EE52D87098DFD8926 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		794F4DEC00D3D314B3381DBD6E0A27D7 /* CTPanoramaView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTPanoramaView-prefix.pch"; sourceTree = "<group>"; };
 		7AC168DB5905A735E4979C690E07FAEE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -69,7 +69,7 @@
 		834CB4E0CE18BDF75A9F6D99DE8B6301 /* Pods-Immerse-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Immerse-dummy.m"; sourceTree = "<group>"; };
 		8E849651644C243F7488C7D51B94A4EF /* Pods-Immerse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Immerse.release.xcconfig"; sourceTree = "<group>"; };
 		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0705F5A1D07EBF4C56E815C5FE1E2BA /* Pods-ImmerseTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImmerseTests-umbrella.h"; sourceTree = "<group>"; };
 		A6C3638561A6B9DF0ECE539473D9FFD4 /* CTPieSliceView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CTPieSliceView.swift; path = Source/CTPieSliceView.swift; sourceTree = "<group>"; };
 		AC752D9147502A100CC184261AB9030B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -81,9 +81,9 @@
 		D27095F857A3A2BBDAE3811C95C77C17 /* Pods-Immerse-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Immerse-umbrella.h"; sourceTree = "<group>"; };
 		D5389D8FFD1A28604950A6C73A15C30A /* Pods-Immerse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Immerse.debug.xcconfig"; sourceTree = "<group>"; };
 		DC81C6C9799807ED8929DB189CEB3097 /* Pods-ImmerseTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImmerseTests-dummy.m"; sourceTree = "<group>"; };
-		E2DB9A66461F30A012EFCC3F05B9CD36 /* Pods_Immerse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Immerse.framework; path = "Pods-Immerse.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2DB9A66461F30A012EFCC3F05B9CD36 /* Pods_Immerse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Immerse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECAFD9A438601FD162A985A646CF6080 /* CTPanoramaView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTPanoramaView-umbrella.h"; sourceTree = "<group>"; };
-		EDA61855781DC42A7C40355689B92C09 /* CTPanoramaView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CTPanoramaView.framework; path = CTPanoramaView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDA61855781DC42A7C40355689B92C09 /* CTPanoramaView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTPanoramaView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF15AF461CED7C9E5CA775146F586D94 /* Pods-ImmerseTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImmerseTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F097076BB1A5AD5AEA5389D540EC03D8 /* CTPanoramaView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CTPanoramaView.modulemap; sourceTree = "<group>"; };
 		F4AEB9CE2EE1ECD4D5932B986EF0D2A8 /* Pods-Immerse-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Immerse-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -140,7 +140,6 @@
 				A6C3638561A6B9DF0ECE539473D9FFD4 /* CTPieSliceView.swift */,
 				7DA01585C1889B0E4AAD118277EAF778 /* Support Files */,
 			);
-			name = CTPanoramaView;
 			path = CTPanoramaView;
 			sourceTree = "<group>";
 		};
@@ -385,7 +384,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1000;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -484,11 +483,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ImmerseTests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ImmerseTests/Pods-ImmerseTests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -521,11 +516,7 @@
 				INFOPLIST_FILE = "Target Support Files/CTPanoramaView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CTPanoramaView/CTPanoramaView.modulemap";
 				PRODUCT_MODULE_NAME = CTPanoramaView;
 				PRODUCT_NAME = CTPanoramaView;
@@ -559,11 +550,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-Immerse/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Immerse/Pods-Immerse.modulemap";
 				OTHER_LDFLAGS = "";
@@ -598,11 +585,7 @@
 				INFOPLIST_FILE = "Target Support Files/CTPanoramaView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CTPanoramaView/CTPanoramaView.modulemap";
 				PRODUCT_MODULE_NAME = CTPanoramaView;
 				PRODUCT_NAME = CTPanoramaView;
@@ -635,11 +618,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ImmerseUITests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ImmerseUITests/Pods-ImmerseUITests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -773,6 +752,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
@@ -795,11 +775,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-Immerse/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Immerse/Pods-Immerse.modulemap";
 				OTHER_LDFLAGS = "";
@@ -835,11 +811,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ImmerseTests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ImmerseTests/Pods-ImmerseTests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -874,11 +846,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ImmerseUITests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ImmerseUITests/Pods-ImmerseUITests.modulemap";
 				OTHER_LDFLAGS = "";

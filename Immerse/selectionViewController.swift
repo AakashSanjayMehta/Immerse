@@ -30,7 +30,18 @@ class selectionViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func aboutSST(_ sender: Any) {
+    @IBAction func website_link(_ sender: Any) {
+        switch ((sender as AnyObject).tag) {
+            // About SST
+            case 0: websiteURL = "https://www.sst.edu.sg/our-school/about-sst/"
+            // Milestones
+            case 1: websiteURL = "https://www.sst.edu.sg/milestones/"
+            // Vision, Mission, Values and goals
+            case 2: websiteURL = "https://www.sst.edu.sg/our-school/vision-mission-values-goals/"
+            // The SST Experience
+            case 3: websiteURL = "https://www.sst.edu.sg/our-school/the-sst-experience/"
+            default: break
+        }
         let s = SFSafariViewController(url: URL(string: websiteURL)!)
         self.present(s, animated: true, completion: nil)
     }
