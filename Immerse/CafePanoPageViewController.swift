@@ -7,8 +7,9 @@
 //
 
 import UIKit
-
+import AVFoundation
 class CafePanoPageViewController: UIPageViewController, UIPageViewControllerDataSource, UIPageViewControllerDelegate {
+    var player:AVAudioPlayer?
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
         guard let viewControllerIndex = pages.index(of: viewController) else { return nil }
         
@@ -54,6 +55,18 @@ class CafePanoPageViewController: UIPageViewController, UIPageViewControllerData
         {
             setViewControllers([firstVC], direction: .forward, animated: true, completion: nil)
         }
+        
+        guard let audiopath =  Bundle.main.path(forResource: "Cafe", ofType: "m4a") else{
+            print("error111")
+            return
+        }
+        print(audiopath)
+        
+        try! AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
+        try! AVAudioSession.sharedInstance().setActive(true)
+        
+        try! player = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audiopath) as URL)
+        player?.prepareToPlay()
         // Do any additional setup after loading the view.
     }
 

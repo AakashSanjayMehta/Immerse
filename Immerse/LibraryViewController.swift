@@ -15,7 +15,7 @@ class LibraryViewController: UIViewController {
     @IBOutlet var IPCanteenV: CTPanoramaView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        IPCanteenV.controlMethod = .touch
+        IPCanteenV.controlMethod = .motion
         IPCanteenV.image = UIImage(named: "Library_1a")
         
         guard let audiopath =  Bundle.main.path(forResource: "Infohub", ofType: "m4a") else{
@@ -32,7 +32,7 @@ class LibraryViewController: UIViewController {
         
         
         //audio
-       /* do {
+       /* do {x
             let audiopath = URL(fileURLWithPath: Bundle.main.path(forResource: "Infohub", ofType: "m4a")!)
             try player = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audiopath) as URL)
             player.prepareToPlay()

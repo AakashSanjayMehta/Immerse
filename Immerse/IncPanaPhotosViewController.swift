@@ -7,8 +7,10 @@
 //
 
 import UIKit
+import AVFoundation
 
 class PanaPhotosViewController: UIPageViewController, UIPageViewControllerDataSource, UIPageViewControllerDelegate {
+    var player: AVAudioPlayer!
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
         guard let viewControllerIndex = pages.index(of: viewController) else { return nil }
         
@@ -59,6 +61,18 @@ class PanaPhotosViewController: UIPageViewController, UIPageViewControllerDataSo
         {
             setViewControllers([firstVC], direction: .forward, animated: true, completion: nil)
         }
+        
+        guard let audiopath =  Bundle.main.path(forResource: "SST INC", ofType: "m4a") else{
+            print("error111")
+            return
+        }
+        print(audiopath)
+        
+        try! AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
+        try! AVAudioSession.sharedInstance().setActive(true)
+        
+        try! player = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audiopath) as URL)
+        player?.prepareToPlay()
     }
 
     override func didReceiveMemoryWarning() {
