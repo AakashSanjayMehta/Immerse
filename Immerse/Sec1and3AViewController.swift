@@ -22,10 +22,7 @@ class Sec1and3AViewController: UIViewController {
         //audio for sec 1 and 3 classrooms
         
         //buttons for audio
-        let playPause = UIBarButtonItem(barButtonSystemItem: .play, target: self, action: nil)
         
-        let stop = UIBarButtonItem(barButtonSystemItem: .rewind, target: self, action: nil)
-        navigationItem.rightBarButtonItems = [stop, playPause]
         // Do any additional setup after loading the view.
     }
 
