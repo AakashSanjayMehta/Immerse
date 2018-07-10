@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var start_button: UIButton!
     @IBOutlet weak var Help_button: UIButton!
     @IBOutlet weak var Credits_button: UIButton!
+    @IBOutlet weak var AR_button: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,9 +23,11 @@ class ViewController: UIViewController {
         start_button.clipsToBounds = true
         Help_button.clipsToBounds = true
         Credits_button.clipsToBounds = true
+        AR_button.clipsToBounds = true
         start_button.layer.cornerRadius = 10
         Help_button.layer.cornerRadius = 10
         Credits_button.layer.cornerRadius = 10
+        AR_button.layer.cornerRadius = 10
         
         // AppUtility.lockOrientation(.all)
     }
