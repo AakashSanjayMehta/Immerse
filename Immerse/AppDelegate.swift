@@ -99,3 +99,28 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+// setup Orientation lock
+struct AppUtility {
+    
+    static func lockOrientation(_ orientation: UIInterfaceOrientationMask) {
+        
+        if let delegate = UIApplication.shared.delegate as? AppDelegate {
+            delegate.orientationLock = orientation
+        }
+    } // end static func
+    
+    /// OPTIONAL Added method to adjust lock and rotate to the desired orientation
+    static func lockOrientation(_ orientation: UIInterfaceOrientationMask, andRotateTo rotateOrientation:UIInterfaceOrientation) {
+        
+        self.lockOrientation(orientation)
+        
+        UIDevice.current.setValue(rotateOrientation.rawValue, forKey: "orientation")
+    } // end static func
+    
+} // end struct
+
+/*
+ Ussage:
+ AppUtility.lockOrientation(.landscapeLeft, andRotateTo: .landscapeLeft)
+ AppUtility.lockOrientation(.all)
+ */
