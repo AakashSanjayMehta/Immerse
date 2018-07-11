@@ -11,12 +11,35 @@ import AVFoundation
 
 class PanaPhotosViewController: UIPageViewController, UIPageViewControllerDataSource, UIPageViewControllerDelegate {
     var player: AVAudioPlayer!
+    
+    // page control start
+    var pageControl = UIPageControl()
+    func configurePageControl() {
+        // The total number of pages that are available is based on how many available colors we have.
+        pageControl = UIPageControl(frame: CGRect(x: 0,y: UIScreen.main.bounds.maxY - 50,width: UIScreen.main.bounds.width,height: 50))
+        self.pageControl.numberOfPages = pages.count
+        self.pageControl.currentPage = 0
+        self.pageControl.tintColor = UIColor.gray
+        self.pageControl.pageIndicatorTintColor = UIColor.gray
+        self.pageControl.currentPageIndicatorTintColor = UIColor.white
+        self.view.addSubview(pageControl)
+    }
+    
+    func pageViewController(_ pageViewController: UIPageViewController, didFinishAnimating finished: Bool, previousViewControllers: [UIViewController], transitionCompleted completed: Bool) {
+        let pageContentViewController = pageViewController.viewControllers![0]
+        self.pageControl.currentPage = pages.index(of: pageContentViewController)!
+    }
+    // page control end
+    
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
         guard let viewControllerIndex = pages.index(of: viewController) else { return nil }
         
         let previousIndex = viewControllerIndex - 1
         
-        guard previousIndex >= 0          else { return pages.last }
+        guard previousIndex >= 0 else {
+            // return pages.last
+            return nil
+        }
         
         guard pages.count > previousIndex else { return nil        }
         
@@ -26,9 +49,12 @@ class PanaPhotosViewController: UIPageViewController, UIPageViewControllerDataSo
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController? {
         guard let viewControllerIndex = pages.index(of: viewController) else { return nil }
         
-        let previousIndex = viewControllerIndex - 1
+        let previousIndex = viewControllerIndex + 1
         
-        guard previousIndex >= 0          else { return pages.last }
+        guard previousIndex >= 0 else {
+            // return pages.last
+            return nil
+        }
         
         guard pages.count > previousIndex else { return nil        }
         
@@ -76,6 +102,8 @@ class PanaPhotosViewController: UIPageViewController, UIPageViewControllerDataSo
         
         let playPause = UIBarButtonItem(barButtonSystemItem: .play, target: self, action: #selector(PanaPhotosViewController.playingpausing(_:)))
         navigationItem.rightBarButtonItem = playPause
+        
+        configurePageControl()
     }
     
     @objc func playingpausing(_ sender:UIBarButtonItem!){

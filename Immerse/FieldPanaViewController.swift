@@ -30,8 +30,6 @@ class FieldPanaViewController: UIPageViewController, UIPageViewControllerDelegat
         let pageContentViewController = pageViewController.viewControllers![0]
         self.pageControl.currentPage = pages.index(of: pageContentViewController)!
     }
-    
-    
     // page control end
     
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {

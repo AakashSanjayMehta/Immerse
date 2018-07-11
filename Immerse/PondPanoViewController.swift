@@ -11,15 +11,14 @@ import CTPanoramaView
 import AVFoundation
 
 class PondPanoViewController: UIViewController {
+    
     var player:AVAudioPlayer?
     @IBOutlet var IPPondV: CTPanoramaView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        IPPondV.controlMethod = .motion
-        IPPondV.image = UIImage(named: "Pond_1a")
         
         /////WRONG AUDIO
-        
         guard let audiopath =  Bundle.main.path(forResource: "Infohub", ofType: "m4a") else{
             print("error111")
             return
@@ -34,6 +33,11 @@ class PondPanoViewController: UIViewController {
         
         let playPause = UIBarButtonItem(barButtonSystemItem: .play, target: self, action: #selector(LibraryViewController.playingpausing(_:)))
         navigationItem.rightBarButtonItem = playPause
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        IPPondV.controlMethod = .motion
+        IPPondV.image = UIImage(named: "Pond_1a")
     }
     
     @objc func playingpausing(_ sender:UIBarButtonItem!){
