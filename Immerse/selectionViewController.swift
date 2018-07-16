@@ -13,6 +13,7 @@ class selectionViewController: UIViewController {
     
     var websiteURL = "https://www.sst.edu.sg"
     
+    @IBOutlet weak var Map: UIImageView!
     @IBOutlet weak var About_SST: UIButton!
     @IBOutlet weak var Milestone: UIButton!
     @IBOutlet weak var V_M_V_G: UIButton!
@@ -27,10 +28,12 @@ class selectionViewController: UIViewController {
         Milestone.clipsToBounds = true
         V_M_V_G.clipsToBounds = true
         SST_Experience.clipsToBounds = true
+        Map.clipsToBounds = true
         About_SST.layer.cornerRadius = 10
         Milestone.layer.cornerRadius = 10
         V_M_V_G.layer.cornerRadius = 10
         SST_Experience.layer.cornerRadius = 10
+        Map.layer.cornerRadius = 10
     }
 
     override func didReceiveMemoryWarning() {

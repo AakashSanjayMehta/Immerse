@@ -245,6 +245,7 @@
                     <navigationItem key="navigationItem" id="C6M-Df-bqP"/>
                     <connections>
                         <outlet property="About_SST" destination="4IW-Ib-t97" id="ub0-sd-h2V"/>
+                        <outlet property="Map" destination="tBi-jY-Q1d" id="jCK-ah-xOx"/>
                         <outlet property="Milestone" destination="XBF-xe-aNs" id="9bQ-Lw-htO"/>
                         <outlet property="SST_Experience" destination="17T-d9-4cC" id="7H8-n9-nb7"/>
                         <outlet property="V_M_V_G" destination="skx-Vf-6bb" id="1gL-KD-DpF"/>
