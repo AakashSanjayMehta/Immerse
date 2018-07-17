@@ -10,15 +10,13 @@ import UIKit
 import CTPanoramaView
 
 class IncAViewController: UIViewController {
+    
     @IBOutlet weak var IPaV: CTPanoramaView!
     override func viewDidLoad() {
         super.viewDidLoad()
         IPaV.controlMethod = .motion
         IPaV.image = UIImage(named: "Inc_1a")
 
-        
-        
-        
         // Do any additional setup after loading the view.
     }
 

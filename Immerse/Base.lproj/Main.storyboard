@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gxm-fI-7Ux">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14295.6" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gxm-fI-7Ux">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14270.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -382,12 +381,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XF9-u3-Obk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1936" y="4320"/>
+            <point key="canvasLocation" x="66" y="2105"/>
         </scene>
-        <!--Library View Controller-->
+        <!--LibraryA View Controller-->
         <scene sceneID="6fR-eC-rtD">
             <objects>
-                <viewController storyboardIdentifier="LIBVIEW" useStoryboardIdentifierAsRestorationIdentifier="YES" id="I6N-KZ-urd" customClass="LibraryViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LIB1A" useStoryboardIdentifierAsRestorationIdentifier="YES" id="I6N-KZ-urd" customClass="LibraryAViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zPo-H3-6Ir" customClass="CTPanoramaView" customModule="CTPanoramaView">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -400,7 +399,33 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ol5-M3-2e7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3188" y="4341"/>
+            <point key="canvasLocation" x="-414" y="1166"/>
+        </scene>
+        <!--LibraryB View Controller-->
+        <scene sceneID="u2w-qN-WLS">
+            <objects>
+                <viewController storyboardIdentifier="LIB1B" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Czt-RZ-POa" customClass="LibraryBViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vZW-IO-NU7" customClass="CTPanoramaView" customModule="CTPanoramaView">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="G8D-IN-SN4"/>
+                    </view>
+                    <connections>
+                        <outlet property="IPCanteenV" destination="vZW-IO-NU7" id="I9k-kz-nse"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jub-Po-qXh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="292" y="1165"/>
+        </scene>
+        <!--Library Pana View Controller-->
+        <scene sceneID="2sp-fd-OBd">
+            <objects>
+                <viewController storyboardIdentifier="LIBVIEW" useStoryboardIdentifierAsRestorationIdentifier="YES" id="5oL-Va-CyX" customClass="LibraryPanaViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PUq-FL-6Cv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="986" y="1165"/>
         </scene>
         <!--Cafe Pano Page View Controller-->
         <scene sceneID="OR8-ot-4kw">
@@ -446,6 +471,7 @@
         <!--Makers Lab View Controller-->
         <scene sceneID="6pH-jh-KH1">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h0I-te-fhy" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="MLV" useStoryboardIdentifierAsRestorationIdentifier="YES" id="AAA-JZ-hVx" customClass="Makers_LabViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController">
                     <button key="view" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="RAP-RQ-is8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -453,7 +479,6 @@
                         <state key="normal" title="Button"/>
                     </button>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="h0I-te-fhy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1491" y="2230"/>
         </scene>
@@ -644,7 +669,7 @@
     <resources>
         <image name="AR" width="227" height="121"/>
         <image name="Home_1" width="1024" height="683"/>
-        <image name="Map_1a" width="960" height="655"/>
+        <image name="Map_1a" width="230.39999389648438" height="157.19999694824219"/>
         <image name="SSTexperience" width="1000" height="667"/>
         <image name="aboutSST" width="320" height="158"/>
         <image name="milestones" width="300" height="227"/>
