@@ -42,7 +42,7 @@ class blockCListViewController: UIViewController, UITableViewDelegate, UITableVi
     /*
      Animating the Cell
     */
-    public var tableCellShown = [Bool](repeating: false, count: blockCPlace.count)
+    var tableCellShown = [Bool](repeating: false, count: blockCPlace.count)
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
         
         if (tableCellShown[indexPath.row]) == false{
