@@ -420,12 +420,12 @@
             <point key="canvasLocation" x="292" y="1165"/>
         </scene>
         <!--Library Pana View Controller-->
-        <scene sceneID="2sp-fd-OBd">
+        <scene sceneID="XoR-aZ-71N">
             <objects>
-                <viewController storyboardIdentifier="LIBVIEW" useStoryboardIdentifierAsRestorationIdentifier="YES" id="5oL-Va-CyX" customClass="LibraryPanaViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="PUq-FL-6Cv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <pageViewController storyboardIdentifier="LIBVIEW" autoresizesArchivedViewToFullSize="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="0mT-Ub-0gq" customClass="LibraryPanaViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kS5-Sf-yjy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="986" y="1165"/>
+            <point key="canvasLocation" x="1078" y="1165"/>
         </scene>
         <!--Cafe Pano Page View Controller-->
         <scene sceneID="OR8-ot-4kw">
@@ -471,7 +471,6 @@
         <!--Makers Lab View Controller-->
         <scene sceneID="6pH-jh-KH1">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="h0I-te-fhy" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="MLV" useStoryboardIdentifierAsRestorationIdentifier="YES" id="AAA-JZ-hVx" customClass="Makers_LabViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController">
                     <button key="view" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="RAP-RQ-is8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -479,6 +478,7 @@
                         <state key="normal" title="Button"/>
                     </button>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h0I-te-fhy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1491" y="2230"/>
         </scene>
