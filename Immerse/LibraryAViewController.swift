@@ -1,23 +1,22 @@
 //
-//  IncBViewController.swift
+//  LibraryViewController.swift
 //  Immerse
 //
-//  Created by Aakash Sanjay Mehta on 16/5/18.
+//  Created by Aakash Sanjay Mehta on 24/5/18.
 //  Copyright © 2018 Aakash Sanjay Mehta. All rights reserved.
 //
 
 import UIKit
 import CTPanoramaView
 
-class IncBViewController: UIViewController {
+class LibraryAViewController: UIViewController {
 
-    @IBOutlet weak var IPbV: CTPanoramaView!
+    @IBOutlet var IPCanteenV: CTPanoramaView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        IPbV.controlMethod = .motion
-        IPbV.image = UIImage(named: "Inc_1b")
-
-        // Do any additional setup after loading the view.
+        IPCanteenV.controlMethod = .motion
+        IPCanteenV.image = UIImage(named: "Library_1a")
     }
 
     override func didReceiveMemoryWarning() {

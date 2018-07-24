@@ -31,7 +31,7 @@ class PondPanoViewController: UIViewController {
         try! player = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audiopath) as URL)
         player?.prepareToPlay()
         
-        let playPause = UIBarButtonItem(barButtonSystemItem: .play, target: self, action: #selector(LibraryViewController.playingpausing(_:)))
+        let playPause = UIBarButtonItem(barButtonSystemItem: .play, target: self, action: #selector(LibraryPanaViewController.playingpausing(_:)))
         navigationItem.rightBarButtonItem = playPause
     }
     

@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		1D948D9485A646542E1AE52D /* Pods_ImmerseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B34536E297BAAB9C6ABF2DD3 /* Pods_ImmerseTests.framework */; };
 		4202336720ECC13A00800155 /* Infohub.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4202336620ECC13A00800155 /* Infohub.m4a */; };
+		42783C5C20FE02E100E0EAF9 /* LibraryPanaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42783C5B20FE02E100E0EAF9 /* LibraryPanaViewController.swift */; };
+		42783C5E20FE040F00E0EAF9 /* LibraryBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42783C5D20FE040E00E0EAF9 /* LibraryBViewController.swift */; };
 		59F49FEDFDC0C001A7E7B3AB /* Pods_Immerse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10467C47D94BF3EDC2CCE081 /* Pods_Immerse.framework */; };
 		5E53470D20B5BE4200EDE55E /* FieldAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53470C20B5BE4200EDE55E /* FieldAViewController.swift */; };
 		5E53470F20B5BE5C00EDE55E /* FieldBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53470E20B5BE5C00EDE55E /* FieldBViewController.swift */; };
@@ -22,7 +24,7 @@
 		5E53472220B6541C00EDE55E /* CanteenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53472120B6541C00EDE55E /* CanteenViewController.swift */; };
 		5E53472420B685F900EDE55E /* blockAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53472320B685F900EDE55E /* blockAViewController.swift */; };
 		5E53472720B6A2C300EDE55E /* PondPanoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53472620B6A2C300EDE55E /* PondPanoViewController.swift */; };
-		5E53472A20B6A45E00EDE55E /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53472920B6A45E00EDE55E /* LibraryViewController.swift */; };
+		5E53472A20B6A45E00EDE55E /* LibraryAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53472920B6A45E00EDE55E /* LibraryAViewController.swift */; };
 		5E53472D20B6B8DE00EDE55E /* Sec1and3AViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53472C20B6B8DE00EDE55E /* Sec1and3AViewController.swift */; };
 		5E53472F20B6BD5800EDE55E /* BlockDListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53472E20B6BD5800EDE55E /* BlockDListViewController.swift */; };
 		5E53DF9020AB189000153856 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53DF8F20AB189000153856 /* AppDelegate.swift */; };
@@ -79,6 +81,8 @@
 		10467C47D94BF3EDC2CCE081 /* Pods_Immerse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Immerse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3595C1A65257165159A151D2 /* Pods-Immerse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Immerse.release.xcconfig"; path = "Pods/Target Support Files/Pods-Immerse/Pods-Immerse.release.xcconfig"; sourceTree = "<group>"; };
 		4202336620ECC13A00800155 /* Infohub.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Infohub.m4a; sourceTree = "<group>"; };
+		42783C5B20FE02E100E0EAF9 /* LibraryPanaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryPanaViewController.swift; sourceTree = "<group>"; };
+		42783C5D20FE040E00E0EAF9 /* LibraryBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryBViewController.swift; sourceTree = "<group>"; };
 		475A348933277792B3FFBE08 /* Pods-ImmerseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImmerseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImmerseTests/Pods-ImmerseTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5E53470C20B5BE4200EDE55E /* FieldAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldAViewController.swift; sourceTree = "<group>"; };
 		5E53470E20B5BE5C00EDE55E /* FieldBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldBViewController.swift; sourceTree = "<group>"; };
@@ -92,7 +96,7 @@
 		5E53472120B6541C00EDE55E /* CanteenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanteenViewController.swift; sourceTree = "<group>"; };
 		5E53472320B685F900EDE55E /* blockAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blockAViewController.swift; sourceTree = "<group>"; };
 		5E53472620B6A2C300EDE55E /* PondPanoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PondPanoViewController.swift; sourceTree = "<group>"; };
-		5E53472920B6A45E00EDE55E /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		5E53472920B6A45E00EDE55E /* LibraryAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryAViewController.swift; sourceTree = "<group>"; };
 		5E53472C20B6B8DE00EDE55E /* Sec1and3AViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sec1and3AViewController.swift; sourceTree = "<group>"; };
 		5E53472E20B6BD5800EDE55E /* BlockDListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockDListViewController.swift; sourceTree = "<group>"; };
 		5E53473120B84F0800EDE55E /* Atrium.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Atrium.m4a; sourceTree = "<group>"; };
@@ -242,7 +246,9 @@
 		5E53472820B6A45000EDE55E /* Library */ = {
 			isa = PBXGroup;
 			children = (
-				5E53472920B6A45E00EDE55E /* LibraryViewController.swift */,
+				42783C5B20FE02E100E0EAF9 /* LibraryPanaViewController.swift */,
+				5E53472920B6A45E00EDE55E /* LibraryAViewController.swift */,
+				42783C5D20FE040E00E0EAF9 /* LibraryBViewController.swift */,
 			);
 			name = Library;
 			sourceTree = "<group>";
@@ -576,14 +582,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E53472A20B6A45E00EDE55E /* LibraryViewController.swift in Sources */,
+				5E53472A20B6A45E00EDE55E /* LibraryAViewController.swift in Sources */,
 				5E53470D20B5BE4200EDE55E /* FieldAViewController.swift in Sources */,
 				5E53471C20B6506C00EDE55E /* CAFEPanoPageViewController.swift in Sources */,
 				5E53471920B64E2200EDE55E /* blockBListViewController.swift in Sources */,
+				42783C5E20FE040F00E0EAF9 /* LibraryBViewController.swift in Sources */,
 				5E53DF9220AB189000153856 /* ViewController.swift in Sources */,
 				5E53DF9820AB189000153856 /* Immerse.xcdatamodeld in Sources */,
 				5E53472F20B6BD5800EDE55E /* BlockDListViewController.swift in Sources */,
 				5E677F8220ABA6C200E1C46B /* blockCListViewController.swift in Sources */,
+				42783C5C20FE02E100E0EAF9 /* LibraryPanaViewController.swift in Sources */,
 				5E53472420B685F900EDE55E /* blockAViewController.swift in Sources */,
 				5E677F8D20ABBBE400E1C46B /* IncDViewController.swift in Sources */,
 				5E53472220B6541C00EDE55E /* CanteenViewController.swift in Sources */,
