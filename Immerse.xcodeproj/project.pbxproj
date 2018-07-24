@@ -11,6 +11,7 @@
 		4202336720ECC13A00800155 /* Infohub.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4202336620ECC13A00800155 /* Infohub.m4a */; };
 		42783C5C20FE02E100E0EAF9 /* LibraryPanaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42783C5B20FE02E100E0EAF9 /* LibraryPanaViewController.swift */; };
 		42783C5E20FE040F00E0EAF9 /* LibraryBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42783C5D20FE040E00E0EAF9 /* LibraryBViewController.swift */; };
+		42F652E62106DAFC00F6200E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42F652E52106DAFB00F6200E /* Main.storyboard */; };
 		59F49FEDFDC0C001A7E7B3AB /* Pods_Immerse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10467C47D94BF3EDC2CCE081 /* Pods_Immerse.framework */; };
 		5E53470D20B5BE4200EDE55E /* FieldAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53470C20B5BE4200EDE55E /* FieldAViewController.swift */; };
 		5E53470F20B5BE5C00EDE55E /* FieldBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53470E20B5BE5C00EDE55E /* FieldBViewController.swift */; };
@@ -29,7 +30,6 @@
 		5E53472F20B6BD5800EDE55E /* BlockDListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53472E20B6BD5800EDE55E /* BlockDListViewController.swift */; };
 		5E53DF9020AB189000153856 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53DF8F20AB189000153856 /* AppDelegate.swift */; };
 		5E53DF9220AB189000153856 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53DF9120AB189000153856 /* ViewController.swift */; };
-		5E53DF9520AB189000153856 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E53DF9320AB189000153856 /* Main.storyboard */; };
 		5E53DF9820AB189000153856 /* Immerse.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5E53DF9620AB189000153856 /* Immerse.xcdatamodeld */; };
 		5E53DF9D20AB189100153856 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E53DF9B20AB189100153856 /* LaunchScreen.storyboard */; };
 		5E53DFA820AB189100153856 /* ImmerseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53DFA720AB189100153856 /* ImmerseTests.swift */; };
@@ -83,6 +83,7 @@
 		4202336620ECC13A00800155 /* Infohub.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Infohub.m4a; sourceTree = "<group>"; };
 		42783C5B20FE02E100E0EAF9 /* LibraryPanaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryPanaViewController.swift; sourceTree = "<group>"; };
 		42783C5D20FE040E00E0EAF9 /* LibraryBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryBViewController.swift; sourceTree = "<group>"; };
+		42F652E52106DAFB00F6200E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		475A348933277792B3FFBE08 /* Pods-ImmerseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImmerseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImmerseTests/Pods-ImmerseTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5E53470C20B5BE4200EDE55E /* FieldAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldAViewController.swift; sourceTree = "<group>"; };
 		5E53470E20B5BE5C00EDE55E /* FieldBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldBViewController.swift; sourceTree = "<group>"; };
@@ -115,7 +116,6 @@
 		5E53DF8C20AB189000153856 /* Immerse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Immerse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E53DF8F20AB189000153856 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E53DF9120AB189000153856 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5E53DF9420AB189000153856 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5E53DF9720AB189000153856 /* Immerse.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Immerse.xcdatamodel; sourceTree = "<group>"; };
 		5E53DF9C20AB189100153856 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E53DF9E20AB189100153856 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -316,9 +316,9 @@
 				5E53471220B64AFE00EDE55E /* Block C Labs */,
 				5E53470B20B5BE2500EDE55E /* Field VC */,
 				5E677F8520ABBBAF00E1C46B /* INC */,
+				42F652E52106DAFB00F6200E /* Main.storyboard */,
 				5E53DF8F20AB189000153856 /* AppDelegate.swift */,
 				5E53DF9120AB189000153856 /* ViewController.swift */,
-				5E53DF9320AB189000153856 /* Main.storyboard */,
 				5E8DD4CC20B4552100EEA163 /* Assets.xcassets */,
 				5E53DF9B20AB189100153856 /* LaunchScreen.storyboard */,
 				5E53DF9E20AB189100153856 /* Info.plist */,
@@ -472,11 +472,11 @@
 				5E572BF620ECBCE8007D0133 /* G.O.m4a in Resources */,
 				5E572BF420ECBCE1007D0133 /* ISH.m4a in Resources */,
 				5E8DD4CD20B4552200EEA163 /* Assets.xcassets in Resources */,
+				42F652E62106DAFC00F6200E /* Main.storyboard in Resources */,
 				5E572BF820ECBCF5007D0133 /* Cafe.m4a in Resources */,
 				5E572BEF20ECBCD3007D0133 /* Rooftop Garden.m4a in Resources */,
 				5E572BEE20ECBCD0007D0133 /* SST INC.m4a in Resources */,
 				5E572BF520ECBCE4007D0133 /* Lecture Theatre.m4a in Resources */,
-				5E53DF9520AB189000153856 /* Main.storyboard in Resources */,
 				5E572BF320ECBCDF007D0133 /* Makers Lab.m4a in Resources */,
 				5E572BF920ECBCFD007D0133 /* Atrium.m4a in Resources */,
 				5E572BF720ECBCEA007D0133 /* Canteen.m4a in Resources */,
@@ -644,14 +644,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5E53DF9320AB189000153856 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5E53DF9420AB189000153856 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5E53DF9B20AB189100153856 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
