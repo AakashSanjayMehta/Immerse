@@ -28,20 +28,20 @@ class blockCListViewController: UIViewController, UITableViewDelegate, UITableVi
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return blockCPlace.count
     }
-    
+
     /*
      Cell text is allocated to each cell based on the index of BlockCPlace
     */
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell(style: UITableViewCellStyle.default, reuseIdentifier: "Cell")
-        cell.textLabel?.text = blockCPlace[indexPath.row]
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! blockCTableViewCell
+        cell.Preview_Image.image = UIImage(named: /*blockCPlace[indexPath.row]*/"SST_Inc")
         
         return (cell)
     }
     
     /*
      Animating the Cell
-    */
+ 
     var tableCellShown = [Bool](repeating: false, count: blockCPlace.count)
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
         
@@ -56,8 +56,7 @@ class blockCListViewController: UIViewController, UITableViewDelegate, UITableVi
                 tableCellShown[indexPath.row] = true
         }
     }
-    
-    
+    */
     
     
     
@@ -110,7 +109,7 @@ class blockCListViewController: UIViewController, UITableViewDelegate, UITableVi
      The height of the cell will get big
     */
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 485
+        return 328
     }
 
     override func viewDidLoad() {
