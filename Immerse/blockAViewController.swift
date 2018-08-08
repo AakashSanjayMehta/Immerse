@@ -11,6 +11,7 @@ import UIKit
 let blockAPlace = ["Library", "General Office", "Eletronic Labs"]
 class blockAViewController: UIViewController, UITableViewDelegate, UITableViewDataSource  {
     
+    @IBOutlet weak var TabItemA: UITabBarItem!
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return blockAPlace.count
     }
@@ -64,7 +65,7 @@ class blockAViewController: UIViewController, UITableViewDelegate, UITableViewDa
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
     }
 
