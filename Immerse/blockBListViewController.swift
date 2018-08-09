@@ -16,8 +16,8 @@ class blockBListViewController: UIViewController, UITableViewDelegate, UITableVi
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell(style: UITableViewCellStyle.default, reuseIdentifier: "Cell")
-        cell.textLabel?.text = blockBPlace[indexPath.row]
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! blockBTableViewCell
+        cell.Preview_Image.image = UIImage(named: /*blockCPlace[indexPath.row]*/"SST_Inc")
         
         return (cell)
     }
@@ -39,6 +39,14 @@ class blockBListViewController: UIViewController, UITableViewDelegate, UITableVi
         }
     }
     
+    /*
+     The height of the cell will get big
+     */
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 328
+    }
+
+/*
     public var tableCellShown = [Bool](repeating: false, count: blockBPlace.count)
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
         
@@ -53,7 +61,7 @@ class blockBListViewController: UIViewController, UITableViewDelegate, UITableVi
             tableCellShown[indexPath.row] = true
         }
     }
-    
+*/
 
     override func viewDidLoad() {
         super.viewDidLoad()

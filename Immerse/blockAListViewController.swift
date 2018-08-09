@@ -9,16 +9,17 @@
 import UIKit
 
 let blockAPlace = ["Library", "General Office", "Eletronic Labs"]
-class blockAViewController: UIViewController, UITableViewDelegate, UITableViewDataSource  {
-    
-    @IBOutlet weak var TabItemA: UITabBarItem!
+
+class blockAListViewController: UIViewController, UITableViewDelegate, UITableViewDataSource  {
+
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return blockAPlace.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell(style: UITableViewCellStyle.default, reuseIdentifier: "Cell")
-        cell.textLabel?.text = blockAPlace[indexPath.row]
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! blockATableViewCell
+        cell.Preview_Image.image = UIImage(named: /*blockCPlace[indexPath.row]*/"SST_Inc")
         
         return (cell)
     }
@@ -47,6 +48,15 @@ class blockAViewController: UIViewController, UITableViewDelegate, UITableViewDa
             break
         }
     }
+    
+    /*
+     The height of the cell will get big
+     */
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 328
+    }
+    
+    /*
     var tableCellShown = [Bool](repeating: false, count: blockCPlace.count)
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
         
@@ -61,7 +71,7 @@ class blockAViewController: UIViewController, UITableViewDelegate, UITableViewDa
             tableCellShown[indexPath.row] = true
         }
     }
-    
+    */
 
     override func viewDidLoad() {
         super.viewDidLoad()

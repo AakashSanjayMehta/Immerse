@@ -8,7 +8,63 @@
 
 import UIKit
 
-class BlockDListViewController: UIViewController {
+class BlockDListViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    
+    public let blockDPlace = ["Field"]
+    
+    /*
+     Returns the number of items in the list blockDPlace
+     */
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return blockDPlace.count
+    }
+    
+    /*
+     Cell text is allocated to each cell based on the index of BlockCPlace
+     */
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! blockDTableViewCell
+        cell.Preview_Image.image = UIImage(named: /*blockCPlace[indexPath.row]*/"SST_Inc")
+        
+        return (cell)
+    }
+    
+    /*
+     Animating the Cell
+     
+     var tableCellShown = [Bool](repeating: false, count: blockCPlace.count)
+     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+     
+     if (tableCellShown[indexPath.row]) == false{
+     let rotationTransform = CATransform3DTranslate(CATransform3DIdentity, -500, 10, 0)
+     cell.layer.transform = rotationTransform
+     
+     UIView.animate(withDuration: 1.0) {
+     cell.layer.transform = CATransform3DIdentity
+     }
+     
+     tableCellShown[indexPath.row] = true
+     }
+     }
+     */
+    
+    
+    
+    
+    /*
+     When a cell is selected (Based on Number) it will move on to the next vc
+     */
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+    }
+    
+    /*
+     The height of the cell will get big
+     */
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 328
+    }
+
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -13,14 +13,7 @@ import UIKit
  */
 public let blockCPlace = ["SST Inc.", "Robotics @ apex", "Sec 1 and 3 clasrooms", "Biotechnology Lab", "Makers' Lab", "Canteen"]
 
-
-class viewcell: UITableViewCell {
-    
-}
-
 class blockCListViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-    
-    
     
     /*
      Returns the number of items in the list blockCPlace
@@ -33,6 +26,7 @@ class blockCListViewController: UIViewController, UITableViewDelegate, UITableVi
      Cell text is allocated to each cell based on the index of BlockCPlace
     */
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! blockCTableViewCell
         cell.Preview_Image.image = UIImage(named: /*blockCPlace[indexPath.row]*/"SST_Inc")
         
