@@ -55,6 +55,8 @@ class BlockDListViewController: UIViewController, UITableViewDelegate, UITableVi
      When a cell is selected (Based on Number) it will move on to the next vc
      */
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        UserDefaults.standard.set(blockDPlace[indexPath.row], forKey: "place name")
+        
         
     }
     

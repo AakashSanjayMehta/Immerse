@@ -15,6 +15,7 @@
 		42A8C814211C19860024D923 /* blockBTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A8C813211C19860024D923 /* blockBTableViewCell.swift */; };
 		42A8C816211C1ED40024D923 /* blockATableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A8C815211C1ED40024D923 /* blockATableViewCell.swift */; };
 		42A8C818211C1FD10024D923 /* blockDTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A8C817211C1FD10024D923 /* blockDTableViewCell.swift */; };
+		42E711B4211DC78000A22BE0 /* PlaceInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E711B3211DC78000A22BE0 /* PlaceInfoViewController.swift */; };
 		42F652E62106DAFC00F6200E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42F652E52106DAFB00F6200E /* Main.storyboard */; };
 		59F49FEDFDC0C001A7E7B3AB /* Pods_Immerse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10467C47D94BF3EDC2CCE081 /* Pods_Immerse.framework */; };
 		5E53470D20B5BE4200EDE55E /* FieldAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53470C20B5BE4200EDE55E /* FieldAViewController.swift */; };
@@ -91,6 +92,7 @@
 		42A8C813211C19860024D923 /* blockBTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blockBTableViewCell.swift; sourceTree = "<group>"; };
 		42A8C815211C1ED40024D923 /* blockATableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blockATableViewCell.swift; sourceTree = "<group>"; };
 		42A8C817211C1FD10024D923 /* blockDTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blockDTableViewCell.swift; sourceTree = "<group>"; };
+		42E711B3211DC78000A22BE0 /* PlaceInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceInfoViewController.swift; sourceTree = "<group>"; };
 		42F652E52106DAFB00F6200E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		475A348933277792B3FFBE08 /* Pods-ImmerseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImmerseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImmerseTests/Pods-ImmerseTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5E53470C20B5BE4200EDE55E /* FieldAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldAViewController.swift; sourceTree = "<group>"; };
@@ -336,6 +338,7 @@
 				5E53DF9E20AB189100153856 /* Info.plist */,
 				5E53DF9620AB189000153856 /* Immerse.xcdatamodeld */,
 				5E8DD4CA20B428C500EEA163 /* selectionViewController.swift */,
+				42E711B3211DC78000A22BE0 /* PlaceInfoViewController.swift */,
 			);
 			path = Immerse;
 			sourceTree = "<group>";
@@ -621,6 +624,7 @@
 				5E53472720B6A2C300EDE55E /* PondPanoViewController.swift in Sources */,
 				5E8DD4CB20B428C500EEA163 /* selectionViewController.swift in Sources */,
 				5E53471E20B6508900EDE55E /* CafeAViewController.swift in Sources */,
+				42E711B4211DC78000A22BE0 /* PlaceInfoViewController.swift in Sources */,
 				5E53471420B64C1200EDE55E /* Makers'LabViewController.swift in Sources */,
 				5E677F8720ABBBBE00E1C46B /* IncAViewController.swift in Sources */,
 				5E53471620B64C2500EDE55E /* BiioTechLabViewController.swift in Sources */,
