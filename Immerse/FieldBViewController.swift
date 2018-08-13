@@ -12,10 +12,14 @@ import CTPanoramaView
 class FieldBViewController: UIViewController {
 
     @IBOutlet var FieldBPv: CTPanoramaView!
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    
+    override func viewWillAppear(_ animated: Bool) {
         FieldBPv.controlMethod = .motion
         FieldBPv.image = UIImage(named: "Field_1b")
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }

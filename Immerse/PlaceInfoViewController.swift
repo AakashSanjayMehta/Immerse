@@ -10,8 +10,11 @@ import UIKit
 
 class PlaceInfoViewController: UIViewController {
 
-    @IBOutlet weak var Place_name: UILabel!
+    var place: String?
+    
+    @IBOutlet weak var Place_name: UITextView!
     @IBOutlet weak var Place_image: UIImageView!
+    @IBOutlet weak var Place_description: UITextView!
     @IBOutlet weak var view360_btn: UIButton!
     @IBOutlet weak var back_btn: UIButton!
     
@@ -31,12 +34,28 @@ class PlaceInfoViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         
+        back_btn.clipsToBounds = true
+        view360_btn.clipsToBounds = true
+        
         view360_btn.layer.cornerRadius = 20
         back_btn.layer.cornerRadius = back_btn.frame.width / 2
+
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
         
         // changing to correct place name
         if UserDefaults.standard.string(forKey: "place name") != nil {
-            Place_name.text = UserDefaults.standard.string(forKey: "place name")!
+            place = UserDefaults.standard.string(forKey: "place name")!
+        }
+        
+        switch place {
+        case "Field":
+            Place_name.text = place
+            Place_image.image = UIImage(named: "Field_1a")
+            Place_description.text = place
+            
+        default: break
         }
     }
 
