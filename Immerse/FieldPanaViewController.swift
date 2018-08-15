@@ -62,6 +62,11 @@ class FieldPanaViewController: UIPageViewController, UIPageViewControllerDelegat
         return pages[previousIndex]
     }
     
+    // dismiss button
+    @objc func dismiss_btn(sender: UIButton!) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
     fileprivate lazy var pages: [UIViewController] = {
         return [
             self.getViewController(withIdentifier: "FIELD1A"),
@@ -86,6 +91,7 @@ class FieldPanaViewController: UIPageViewController, UIPageViewControllerDelegat
             setViewControllers([firstVC], direction: .forward, animated: true, completion: nil)
         }
         
+        /*
         // Setup audio
         guard let audiopath =  Bundle.main.path(forResource: "Red Bricks", ofType: "m4a") else{
             print("error111")
@@ -98,7 +104,15 @@ class FieldPanaViewController: UIPageViewController, UIPageViewControllerDelegat
         
         try! player = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audiopath) as URL)
         player?.prepareToPlay()
-
+        */
+        
+        let button = UIButton(frame: CGRect(x: 100, y: 100, width: 100, height: 50))
+        button.backgroundColor = .green
+        button.setTitle("dismiss", for: .normal)
+        button.addTarget(self, action: #selector(dismiss_btn), for: .touchUpInside)
+        
+        self.view.addSubview(button)
+        
         // adding page control
         configurePageControl()
     }

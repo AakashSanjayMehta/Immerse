@@ -23,8 +23,10 @@ class BlockDListViewController: UIViewController, UITableViewDelegate, UITableVi
      Cell text is allocated to each cell based on the index of BlockCPlace
      */
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! blockDTableViewCell
         cell.Preview_Image.image = UIImage(named: /*blockCPlace[indexPath.row]*/"SST_Inc")
+
         
         return (cell)
     }
@@ -55,6 +57,8 @@ class BlockDListViewController: UIViewController, UITableViewDelegate, UITableVi
      When a cell is selected (Based on Number) it will move on to the next vc
      */
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        UserDefaults.standard.set(blockDPlace[indexPath.row], forKey: "place name")
         
     }
     

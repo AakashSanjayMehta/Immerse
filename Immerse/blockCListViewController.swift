@@ -11,7 +11,7 @@ import UIKit
 /*
  blockCPlace is a list of the places recorded in this app, that is in SST block C
  */
-public let blockCPlace = ["SST Inc.", "Robotics @ apex", "Sec 1 and 3 clasrooms", "Biotechnology Lab", "Makers' Lab", "Canteen"]
+public let blockCPlace = ["SST_Inc", "Robotics@apex", "S1S3_clasrooms", "Biotech_Lab", "Makers'_Lab", "Canteen"]
 
 class blockCListViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
