@@ -12,13 +12,28 @@ import CTPanoramaView
 class BiioTechLabViewController: UIViewController {
 
     @IBOutlet var IpBioV: CTPanoramaView!
+    
+    // dismiss button
+    @objc func dismiss_btn(sender: UIButton!) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         IpBioV.controlMethod = .motion
         IpBioV.image = UIImage(named: "BiotechLab_1a")
         
-
-        // Do any additional setup after loading the view.
+        // Init dissmiss button
+        let button = UIButton(frame: CGRect(x: 16, y: 26, width: 50, height: 50))
+        button.backgroundColor = .white
+        button.alpha = 0.5
+        button.layer.cornerRadius = 25
+        button.setImage(UIImage(named: "cross"), for: UIControlState.normal)
+        button.addTarget(self, action: #selector(dismiss_btn), for: .touchUpInside)
+        
+        self.view.addSubview(button)
+        
     }
 
     override func didReceiveMemoryWarning() {

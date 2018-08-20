@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Xbf-uC-vaq">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.3.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Xbf-uC-vaq">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,7 +13,7 @@
         <!--Pana Photos View Controller-->
         <scene sceneID="x6C-nD-VD8">
             <objects>
-                <pageViewController storyboardIdentifier="PVC" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="xIy-OJ-wcN" customClass="PanaPhotosViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController"/>
+                <pageViewController storyboardIdentifier="Inc" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="xIy-OJ-wcN" customClass="PanaPhotosViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RdH-7s-UPM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2217" y="-584"/>
@@ -65,7 +65,7 @@
         <!--Pond Pano View Controller-->
         <scene sceneID="RMH-TF-oZA">
             <objects>
-                <viewController storyboardIdentifier="PONDV" useStoryboardIdentifierAsRestorationIdentifier="YES" id="SIx-JB-WFU" customClass="PondPanoViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Pond" useStoryboardIdentifierAsRestorationIdentifier="YES" id="SIx-JB-WFU" customClass="PondPanoViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4bI-OB-9f7" customClass="CTPanoramaView" customModule="CTPanoramaView">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -83,7 +83,7 @@
         <!--Canteen View Controller-->
         <scene sceneID="jNm-sC-d3j">
             <objects>
-                <viewController storyboardIdentifier="CANVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="eJ2-R3-FKR" customClass="CanteenViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Canteen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="eJ2-R3-FKR" customClass="CanteenViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ojL-l8-Ndz" customClass="CTPanoramaView" customModule="CTPanoramaView">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -101,7 +101,7 @@
         <!--Sec 1and3A View Controller-->
         <scene sceneID="OFs-IM-nIE">
             <objects>
-                <viewController storyboardIdentifier="13A" id="ctT-nw-HFu" customClass="Sec1and3AViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Classrooms" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ctT-nw-HFu" customClass="Sec1and3AViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="luQ-J3-7iM" customClass="CTPanoramaView" customModule="CTPanoramaView">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -155,7 +155,7 @@
         <!--Library Pana View Controller-->
         <scene sceneID="XoR-aZ-71N">
             <objects>
-                <pageViewController storyboardIdentifier="LIBVIEW" autoresizesArchivedViewToFullSize="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="0mT-Ub-0gq" customClass="LibraryPanaViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController"/>
+                <pageViewController storyboardIdentifier="Library" autoresizesArchivedViewToFullSize="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="0mT-Ub-0gq" customClass="LibraryPanaViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kS5-Sf-yjy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1078" y="1165"/>
@@ -163,7 +163,7 @@
         <!--Cafe Pano Page View Controller-->
         <scene sceneID="OR8-ot-4kw">
             <objects>
-                <pageViewController storyboardIdentifier="CAFEPAN" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="s1T-wh-Lpb" customClass="CafePanoPageViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController"/>
+                <pageViewController storyboardIdentifier="Cafe" autoresizesArchivedViewToFullSize="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="s1T-wh-Lpb" customClass="CafePanoPageViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ecN-bX-w8M" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4388" y="2231"/>
@@ -204,7 +204,17 @@
         <!--Makers Lab View Controller-->
         <scene sceneID="6pH-jh-KH1">
             <objects>
-                <viewController storyboardIdentifier="MLV" useStoryboardIdentifierAsRestorationIdentifier="YES" id="AAA-JZ-hVx" customClass="Makers_LabViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController"/>
+                <viewController storyboardIdentifier="Makers_Lab" useStoryboardIdentifierAsRestorationIdentifier="YES" id="AAA-JZ-hVx" customClass="Makers_LabViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ptu-35-MsJ" customClass="CTPanoramaView" customModule="CTPanoramaView">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="tEt-We-ZDG"/>
+                    </view>
+                    <connections>
+                        <outlet property="IPmakersLabV" destination="Ptu-35-MsJ" id="NOf-Di-caL"/>
+                    </connections>
+                </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h0I-te-fhy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1491" y="2230"/>
@@ -212,7 +222,7 @@
         <!--Biio Tech Lab View Controller-->
         <scene sceneID="rQq-G3-3p0">
             <objects>
-                <viewController storyboardIdentifier="BLV" useStoryboardIdentifierAsRestorationIdentifier="YES" id="21f-w3-43Z" customClass="BiioTechLabViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Biotech" useStoryboardIdentifierAsRestorationIdentifier="YES" id="21f-w3-43Z" customClass="BiioTechLabViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bbj-QC-uLH" customClass="CTPanoramaView" customModule="CTPanoramaView">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -255,7 +265,7 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="Preview_Image" destination="Wem-GZ-Mae" id="02A-dK-zCl"/>
-                                            <segue destination="eDI-xd-4M1" kind="presentation" id="xyr-7Y-rDp"/>
+                                            <segue destination="eDI-xd-4M1" kind="presentation" modalTransitionStyle="crossDissolve" id="xyr-7Y-rDp"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -266,12 +276,12 @@
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gS2-Xq-s6s">
                                 <rect key="frame" x="319" y="20" width="40" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="HELP"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zoB-Md-0wn">
                                 <rect key="frame" x="263" y="20" width="40" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="AR"/>
                                 <connections>
                                     <segue destination="CXb-08-bpc" kind="show" id="zPb-fo-Bm9"/>
@@ -279,7 +289,7 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="IMMERSE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CQG-mt-Xdg">
                                 <rect key="frame" x="16" y="20" width="239" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="53"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -322,7 +332,7 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="Preview_Image" destination="wNX-tP-70r" id="Am1-eU-hgH"/>
-                                            <segue destination="eDI-xd-4M1" kind="presentation" id="HHq-lX-aRK"/>
+                                            <segue destination="eDI-xd-4M1" kind="presentation" modalTransitionStyle="crossDissolve" id="HHq-lX-aRK"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -333,12 +343,12 @@
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D3K-oK-nuP">
                                 <rect key="frame" x="319" y="20" width="40" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="HELP"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BRi-RR-bjf">
                                 <rect key="frame" x="263" y="20" width="40" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="AR"/>
                                 <connections>
                                     <segue destination="CXb-08-bpc" kind="show" id="gHs-cH-OI7"/>
@@ -346,7 +356,7 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="IMMERSE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ceh-Pn-bgR">
                                 <rect key="frame" x="16" y="20" width="239" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="53"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -383,7 +393,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MFk-2K-vi1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2990" y="-3146"/>
+            <point key="canvasLocation" x="3014" y="-3146"/>
         </scene>
         <!--Block C-->
         <scene sceneID="f75-w0-idg">
@@ -413,7 +423,7 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="Preview_Image" destination="vrr-lj-Ba0" id="6Cj-WM-f89"/>
-                                            <segue destination="eDI-xd-4M1" kind="presentation" id="1c2-U4-xud"/>
+                                            <segue destination="eDI-xd-4M1" kind="presentation" modalTransitionStyle="crossDissolve" id="1c2-U4-xud"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -424,12 +434,12 @@
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="krY-M6-gsh">
                                 <rect key="frame" x="319" y="20" width="40" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="HELP"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dQ3-pd-uIK">
                                 <rect key="frame" x="263" y="20" width="40" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="AR"/>
                                 <connections>
                                     <segue destination="CXb-08-bpc" kind="show" id="z6i-ko-7lh"/>
@@ -437,7 +447,7 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="IMMERSE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Nr-1R-81y">
                                 <rect key="frame" x="16" y="20" width="239" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="53"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -492,9 +502,9 @@
                                                 <action selector="view360_button:" destination="eDI-xd-4M1" eventType="touchUpInside" id="e6m-Wu-PV7"/>
                                             </connections>
                                         </button>
-                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" directionalLockEnabled="YES" alwaysBounceHorizontal="YES" showsVerticalScrollIndicator="NO" bouncesZoom="NO" editable="NO" text="LOL" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l4u-qh-ih1">
+                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" directionalLockEnabled="YES" alwaysBounceVertical="YES" bouncesZoom="NO" editable="NO" text="LOL" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l4u-qh-ih1">
                                             <rect key="frame" x="16" y="8" width="235" height="51"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                             <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -503,10 +513,10 @@
                                 </view>
                                 <blurEffect style="light"/>
                             </visualEffectView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ALf-UC-gbm">
-                                <rect key="frame" x="16" y="20" width="50" height="50"/>
+                            <button opaque="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ALf-UC-gbm">
+                                <rect key="frame" x="16" y="26" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" image="cross"/>
                                 <connections>
                                     <action selector="back_button:" destination="eDI-xd-4M1" eventType="touchUpInside" id="CKK-Jf-KEd"/>
@@ -526,7 +536,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kQj-kN-cUW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2951.1999999999998" y="-2101.7991004497753"/>
+            <point key="canvasLocation" x="3015" y="-1069"/>
         </scene>
         <!--Block D-->
         <scene sceneID="t9k-99-zRh">
@@ -567,12 +577,12 @@
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aNE-yF-MA1">
                                 <rect key="frame" x="319" y="20" width="40" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="HELP"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yik-Ob-hNi">
                                 <rect key="frame" x="263" y="20" width="40" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <state key="normal" title="AR"/>
                                 <connections>
@@ -581,7 +591,7 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="IMMERSE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bQo-gy-0hy">
                                 <rect key="frame" x="16" y="20" width="239" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="53"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>

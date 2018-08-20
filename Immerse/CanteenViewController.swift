@@ -12,12 +12,29 @@ import AVFoundation
 
 //NOT PART OF CAFE PAGE PANO
 class CanteenViewController: UIViewController {
+    
     @IBOutlet var IPCanteenV: CTPanoramaView!
     var player:AVAudioPlayer?
+    
+    // dismiss button
+    @objc func dismiss_btn(sender: UIButton!) {
+        self.dismiss(animated: true, completion: nil)
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
         IPCanteenV.controlMethod = .motion
         IPCanteenV.image = UIImage(named: "Canteen_1a")
+        
+        // Init dissmiss button
+        let button = UIButton(frame: CGRect(x: 16, y: 26, width: 50, height: 50))
+        button.backgroundColor = .white
+        button.alpha = 0.5
+        button.layer.cornerRadius = 25
+        button.setImage(UIImage(named: "cross"), for: UIControlState.normal)
+        button.addTarget(self, action: #selector(dismiss_btn), for: .touchUpInside)
+        
+        self.view.addSubview(button)
 
         guard let audiopath =  Bundle.main.path(forResource: "Infohub", ofType: "m4a") else{
             print("error111")

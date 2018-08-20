@@ -62,7 +62,6 @@
 		5E677F8920ABBBCB00E1C46B /* IncBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E677F8820ABBBCB00E1C46B /* IncBViewController.swift */; };
 		5E677F8B20ABBBD900E1C46B /* IncCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E677F8A20ABBBD900E1C46B /* IncCViewController.swift */; };
 		5E677F8D20ABBBE400E1C46B /* IncDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E677F8C20ABBBE400E1C46B /* IncDViewController.swift */; };
-		5E8DD4CB20B428C500EEA163 /* selectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8DD4CA20B428C500EEA163 /* selectionViewController.swift */; };
 		5E8DD4CD20B4552200EEA163 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E8DD4CC20B4552100EEA163 /* Assets.xcassets */; };
 		77FDB7C26CEB2932DB07F33E /* Pods_ImmerseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A045DFE373F9DCCDB51B5100 /* Pods_ImmerseUITests.framework */; };
 /* End PBXBuildFile section */
@@ -148,7 +147,6 @@
 		5E677F8820ABBBCB00E1C46B /* IncBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncBViewController.swift; sourceTree = "<group>"; };
 		5E677F8A20ABBBD900E1C46B /* IncCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncCViewController.swift; sourceTree = "<group>"; };
 		5E677F8C20ABBBE400E1C46B /* IncDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncDViewController.swift; sourceTree = "<group>"; };
-		5E8DD4CA20B428C500EEA163 /* selectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectionViewController.swift; sourceTree = "<group>"; };
 		5E8DD4CC20B4552100EEA163 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7998BB7F669E039691728286 /* Pods-ImmerseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImmerseUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImmerseUITests/Pods-ImmerseUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7FF3A90422D3630B76C48E75 /* Pods-ImmerseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImmerseTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImmerseTests/Pods-ImmerseTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -263,12 +261,12 @@
 			name = "Cafe and (E)Canteen";
 			sourceTree = "<group>";
 		};
-		5E53472520B6A2B400EDE55E /* Pond? */ = {
+		5E53472520B6A2B400EDE55E /* Pond */ = {
 			isa = PBXGroup;
 			children = (
 				5E53472620B6A2C300EDE55E /* PondPanoViewController.swift */,
 			);
-			name = "Pond?";
+			name = Pond;
 			sourceTree = "<group>";
 		};
 		5E53472820B6A45000EDE55E /* Library */ = {
@@ -339,7 +337,7 @@
 				5E53473020B7C7B800EDE55E /* Audio */,
 				5E53472B20B6B8C200EDE55E /* Classrooms */,
 				5E53472820B6A45000EDE55E /* Library */,
-				5E53472520B6A2B400EDE55E /* Pond? */,
+				5E53472520B6A2B400EDE55E /* Pond */,
 				5E53471A20B6504D00EDE55E /* Cafe and (E)Canteen */,
 				5E53471720B64E0400EDE55E /* BLockLists */,
 				5E53471220B64AFE00EDE55E /* Block C Labs */,
@@ -348,12 +346,11 @@
 				42F652E52106DAFB00F6200E /* Main.storyboard */,
 				5E53DF8F20AB189000153856 /* AppDelegate.swift */,
 				5E53DF9120AB189000153856 /* ViewController.swift */,
+				42E711B3211DC78000A22BE0 /* PlaceInfoViewController.swift */,
 				5E8DD4CC20B4552100EEA163 /* Assets.xcassets */,
 				5E53DF9B20AB189100153856 /* LaunchScreen.storyboard */,
 				5E53DF9E20AB189100153856 /* Info.plist */,
 				5E53DF9620AB189000153856 /* Immerse.xcdatamodeld */,
-				5E8DD4CA20B428C500EEA163 /* selectionViewController.swift */,
-				42E711B3211DC78000A22BE0 /* PlaceInfoViewController.swift */,
 				5E053571212A4EB40072DAF1 /* ARAssets.scnassets */,
 				5E053573212A508C0072DAF1 /* Writeups.rtf */,
 			);
@@ -642,7 +639,6 @@
 				5E53472020B6509300EDE55E /* CafeBViewController.swift in Sources */,
 				42A8C818211C1FD10024D923 /* blockDTableViewCell.swift in Sources */,
 				5E53472720B6A2C300EDE55E /* PondPanoViewController.swift in Sources */,
-				5E8DD4CB20B428C500EEA163 /* selectionViewController.swift in Sources */,
 				5E53471E20B6508900EDE55E /* CafeAViewController.swift in Sources */,
 				42E711B4211DC78000A22BE0 /* PlaceInfoViewController.swift in Sources */,
 				5E53471420B64C1200EDE55E /* Makers'LabViewController.swift in Sources */,
@@ -816,7 +812,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9FW2E872YM;
+				DEVELOPMENT_TEAM = 7K6ZTDFM48;
 				INFOPLIST_FILE = Immerse/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -837,7 +833,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9FW2E872YM;
+				DEVELOPMENT_TEAM = 7K6ZTDFM48;
 				INFOPLIST_FILE = Immerse/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (

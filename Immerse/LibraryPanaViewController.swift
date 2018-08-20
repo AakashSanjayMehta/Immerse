@@ -77,7 +77,10 @@ class LibraryPanaViewController: UIPageViewController, UIPageViewControllerDataS
         return UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: identifier)
     }
     
-    
+    // dismiss button
+    @objc func dismiss_btn(sender: UIButton!) {
+        self.dismiss(animated: true, completion: nil)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -87,6 +90,16 @@ class LibraryPanaViewController: UIPageViewController, UIPageViewControllerDataS
         {
             setViewControllers([firstVC], direction: .forward, animated: true, completion: nil)
         }
+        
+        // Init dissmiss button
+        let button = UIButton(frame: CGRect(x: 16, y: 26, width: 50, height: 50))
+        button.backgroundColor = .white
+        button.alpha = 0.5
+        button.layer.cornerRadius = 25
+        button.setImage(UIImage(named: "cross"), for: UIControlState.normal)
+        button.addTarget(self, action: #selector(dismiss_btn), for: .touchUpInside)
+        
+        self.view.addSubview(button)
         
         guard let audiopath =  Bundle.main.path(forResource: "Infohub", ofType: "m4a") else{
             print("error111")

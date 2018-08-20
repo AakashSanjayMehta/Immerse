@@ -59,43 +59,8 @@ class blockCListViewController: UIViewController, UITableViewDelegate, UITableVi
      When a cell is selected (Based on Number) it will move on to the next vc
     */
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        tableView.deselectRow(at: indexPath, animated: true)
-        switch (indexPath.row) {
-        case 0:
-            let vc = self.storyboard?.instantiateViewController(withIdentifier: "PVC")
-            self.navigationController!.pushViewController(vc!, animated: true)
-            break
-            
-        case 1:
-            let alertController = UIAlertController(title: "Still in progress", message: "This image has not been implemented yet. We apologize for the inconvenience.", preferredStyle: .alert)
-            let action1 = UIAlertAction(title: "Dismiss", style: .default, handler: nil)
-            alertController.addAction(action1)
-            self.present(alertController, animated: true, completion: nil)
-            break
-            
-        case 2:
-            let vc = self.storyboard?.instantiateViewController(withIdentifier: "13A")
-            self.navigationController!.pushViewController(vc!, animated: true)
-            break
-            
-        case 3:
-            let vc = self.storyboard?.instantiateViewController(withIdentifier: "BLV")
-            self.navigationController!.pushViewController(vc!, animated: true)
-            break
-            
-        case 4:
-            let vc = self.storyboard?.instantiateViewController(withIdentifier: "MLV")
-            self.navigationController!.pushViewController(vc!, animated: true)
-            break
-            
-        case 5:
-            let vc = self.storyboard?.instantiateViewController(withIdentifier: "CANVC")
-            self.navigationController!.pushViewController(vc!, animated: true)
-            break
-            
-        default:
-            break
-        }
+        
+        UserDefaults.standard.set(blockCPlace[indexPath.row], forKey: "place name")
         
     }
     

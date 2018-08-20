@@ -25,28 +25,9 @@ class blockAListViewController: UIViewController, UITableViewDelegate, UITableVi
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        tableView.deselectRow(at: indexPath, animated: true)
-        switch (indexPath.row) {
-        case 0:
-            let vc = self.storyboard?.instantiateViewController(withIdentifier: "LIBVIEW")
-            self.navigationController!.pushViewController(vc!, animated: true)
-            break
-        case 1:
-            let alertController = UIAlertController(title: "Still in progress", message: "This image has not been implemented yet. We apologize for the inconvenience.", preferredStyle: .alert)
-            let action1 = UIAlertAction(title: "Dismiss", style: .default, handler: nil)
-            alertController.addAction(action1)
-            self.present(alertController, animated: true, completion: nil)
-            break
-        case 2:
-            let alertController = UIAlertController(title: "Still in progress", message: "This image has not been implemented yet. We apologize for the inconvenience.", preferredStyle: .alert)
-            let action1 = UIAlertAction(title: "Dismiss", style: .default, handler: nil)
-            alertController.addAction(action1)
-            self.present(alertController, animated: true, completion: nil)
-            break
-            
-        default:
-            break
-        }
+        
+        UserDefaults.standard.set(blockAPlace[indexPath.row], forKey: "place name")
+        
     }
     
     /*
