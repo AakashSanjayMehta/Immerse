@@ -18,6 +18,9 @@
 		42E711B4211DC78000A22BE0 /* PlaceInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E711B3211DC78000A22BE0 /* PlaceInfoViewController.swift */; };
 		42F652E62106DAFC00F6200E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42F652E52106DAFB00F6200E /* Main.storyboard */; };
 		59F49FEDFDC0C001A7E7B3AB /* Pods_Immerse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10467C47D94BF3EDC2CCE081 /* Pods_Immerse.framework */; };
+		5E053570212A4E2A0072DAF1 /* ArViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E05356F212A4E2A0072DAF1 /* ArViewController.swift */; };
+		5E053572212A4EB40072DAF1 /* ARAssets.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E053571212A4EB40072DAF1 /* ARAssets.scnassets */; };
+		5E053574212A508C0072DAF1 /* Writeups.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5E053573212A508C0072DAF1 /* Writeups.rtf */; };
 		5E53470D20B5BE4200EDE55E /* FieldAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53470C20B5BE4200EDE55E /* FieldAViewController.swift */; };
 		5E53470F20B5BE5C00EDE55E /* FieldBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53470E20B5BE5C00EDE55E /* FieldBViewController.swift */; };
 		5E53471120B5BE7800EDE55E /* FieldPanaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53471020B5BE7800EDE55E /* FieldPanaViewController.swift */; };
@@ -95,6 +98,9 @@
 		42E711B3211DC78000A22BE0 /* PlaceInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceInfoViewController.swift; sourceTree = "<group>"; };
 		42F652E52106DAFB00F6200E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		475A348933277792B3FFBE08 /* Pods-ImmerseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImmerseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImmerseTests/Pods-ImmerseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5E05356F212A4E2A0072DAF1 /* ArViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArViewController.swift; sourceTree = "<group>"; };
+		5E053571212A4EB40072DAF1 /* ARAssets.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = ARAssets.scnassets; sourceTree = "<group>"; };
+		5E053573212A508C0072DAF1 /* Writeups.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Writeups.rtf; sourceTree = "<group>"; };
 		5E53470C20B5BE4200EDE55E /* FieldAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldAViewController.swift; sourceTree = "<group>"; };
 		5E53470E20B5BE5C00EDE55E /* FieldBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldBViewController.swift; sourceTree = "<group>"; };
 		5E53471020B5BE7800EDE55E /* FieldPanaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldPanaViewController.swift; sourceTree = "<group>"; };
@@ -202,6 +208,14 @@
 				A045DFE373F9DCCDB51B5100 /* Pods_ImmerseUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E05356E212A4DAD0072DAF1 /* AR */ = {
+			isa = PBXGroup;
+			children = (
+				5E05356F212A4E2A0072DAF1 /* ArViewController.swift */,
+			);
+			path = AR;
 			sourceTree = "<group>";
 		};
 		5E53470B20B5BE2500EDE55E /* Field VC */ = {
@@ -321,6 +335,7 @@
 		5E53DF8E20AB189000153856 /* Immerse */ = {
 			isa = PBXGroup;
 			children = (
+				5E05356E212A4DAD0072DAF1 /* AR */,
 				5E53473020B7C7B800EDE55E /* Audio */,
 				5E53472B20B6B8C200EDE55E /* Classrooms */,
 				5E53472820B6A45000EDE55E /* Library */,
@@ -339,6 +354,8 @@
 				5E53DF9620AB189000153856 /* Immerse.xcdatamodeld */,
 				5E8DD4CA20B428C500EEA163 /* selectionViewController.swift */,
 				42E711B3211DC78000A22BE0 /* PlaceInfoViewController.swift */,
+				5E053571212A4EB40072DAF1 /* ARAssets.scnassets */,
+				5E053573212A508C0072DAF1 /* Writeups.rtf */,
 			);
 			path = Immerse;
 			sourceTree = "<group>";
@@ -493,11 +510,13 @@
 				5E572BEE20ECBCD0007D0133 /* SST INC.m4a in Resources */,
 				5E572BF520ECBCE4007D0133 /* Lecture Theatre.m4a in Resources */,
 				5E572BF320ECBCDF007D0133 /* Makers Lab.m4a in Resources */,
+				5E053574212A508C0072DAF1 /* Writeups.rtf in Resources */,
 				5E572BF920ECBCFD007D0133 /* Atrium.m4a in Resources */,
 				5E572BF720ECBCEA007D0133 /* Canteen.m4a in Resources */,
 				5E572BED20ECBCCD007D0133 /* Auditorium.m4a in Resources */,
 				4202336720ECC13A00800155 /* Infohub.m4a in Resources */,
 				5E572BF020ECBCD6007D0133 /* Rooftop Court.m4a in Resources */,
+				5E053572212A4EB40072DAF1 /* ARAssets.scnassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -611,6 +630,7 @@
 				42A8C814211C19860024D923 /* blockBTableViewCell.swift in Sources */,
 				42783C5C20FE02E100E0EAF9 /* LibraryPanaViewController.swift in Sources */,
 				5E53472420B685F900EDE55E /* blockAListViewController.swift in Sources */,
+				5E053570212A4E2A0072DAF1 /* ArViewController.swift in Sources */,
 				5E677F8D20ABBBE400E1C46B /* IncDViewController.swift in Sources */,
 				5E53472220B6541C00EDE55E /* CanteenViewController.swift in Sources */,
 				5E53472D20B6B8DE00EDE55E /* Sec1and3AViewController.swift in Sources */,
@@ -796,16 +816,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7K6ZTDFM48;
+				DEVELOPMENT_TEAM = 9FW2E872YM;
 				INFOPLIST_FILE = Immerse/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.sstinc.Immerse;
+				PRODUCT_BUNDLE_IDENTIFIER = org.sstinc.immerse.2018;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -816,16 +837,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7K6ZTDFM48;
+				DEVELOPMENT_TEAM = 9FW2E872YM;
 				INFOPLIST_FILE = Immerse/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.sstinc.Immerse;
+				PRODUCT_BUNDLE_IDENTIFIER = org.sstinc.immerse.2018;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
