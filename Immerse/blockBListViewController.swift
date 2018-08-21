@@ -23,20 +23,9 @@ class blockBListViewController: UIViewController, UITableViewDelegate, UITableVi
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        tableView.deselectRow(at: indexPath, animated: true)
-        switch (indexPath.row) {
-        case 0:
-            let vc = self.storyboard?.instantiateViewController(withIdentifier: "CAFE1A")
-            self.navigationController!.pushViewController(vc!, animated: true)
-            break
         
-        case 1:
-            let vc = self.storyboard?.instantiateViewController(withIdentifier: "PONDV")
-            self.navigationController!.pushViewController(vc!, animated: true)
-            break
-        default:
-            break
-        }
+        UserDefaults.standard.set(blockBPlace[indexPath.row], forKey: "place name")
+        
     }
     
     /*

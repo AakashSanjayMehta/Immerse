@@ -11,6 +11,7 @@ import UIKit
 class PlaceInfoViewController: UIViewController {
 
     var place: String?
+    var view360_identifier: String?
     
     @IBOutlet weak var Place_name: UITextView!
     @IBOutlet weak var Place_image: UIImageView!
@@ -20,7 +21,7 @@ class PlaceInfoViewController: UIViewController {
     
     @IBAction func view360_button(_ sender: Any) {
         
-        let vc = self.storyboard?.instantiateViewController(withIdentifier: "Field")
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: view360_identifier!)
         self.present(vc!, animated: true, completion: nil)
         
     }
@@ -47,15 +48,88 @@ class PlaceInfoViewController: UIViewController {
         // changing to correct place name
         if UserDefaults.standard.string(forKey: "place name") != nil {
             place = UserDefaults.standard.string(forKey: "place name")!
-        }
         
-        switch place {
-        case "Field":
-            Place_name.text = place
-            Place_image.image = UIImage(named: "Field_1a")
-            Place_description.text = place
+            switch place {
             
-        default: break
+            // Block A
+            case "Library":
+                Place_name.text = "Library"
+                Place_image.image = UIImage(named: "Library_1a")
+                Place_description.text = "EMPTY HOLDER"
+                view360_identifier = "Library"
+                
+            case "General_Office": // NOT DONE
+                Place_name.text = "General Office (NOT DONE)"
+                Place_image.image = UIImage(named: "")
+                Place_description.text = "EMPTY HOLDER"
+                view360_identifier = ""
+            
+            case "Eletronic_Labs": // NOT DONE
+                Place_name.text = "Eletronic Labs (NOT DONE)"
+                Place_image.image = UIImage(named: "")
+                Place_description.text = "EMPTY HOLDER"
+                view360_identifier = ""
+            
+            // Block B
+            case "Cafe":
+                Place_name.text = "Good News Cafe"
+                Place_image.image = UIImage(named: "Cafe_1a")
+                Place_description.text = "EMPTY HOLDER"
+                view360_identifier = "Cafe"
+                
+            case "Pond":
+                Place_name.text = "School Pond"
+                Place_image.image = UIImage(named: "Pond_1a")
+                Place_description.text = "EMPTY HOLDER"
+                view360_identifier = "Pond"
+                
+            // Block C
+            case "SST_Inc":
+                Place_name.text = "SST Inc."
+                Place_image.image = UIImage(named: "Inc_1b")
+                Place_description.text = "EMPTY HOLDER"
+                view360_identifier = "Inc"
+                
+            case "Robotics@apex": // NOT DONE
+                Place_name.text = "Robotics @ APEX (NOT DONE)"
+                Place_image.image = UIImage(named: "")
+                Place_description.text = "EMPTY HOLDER"
+                view360_identifier = ""
+                
+            case "S1S3_clasrooms":
+                Place_name.text = "Level 4 clasrooms"
+                Place_image.image = UIImage(named: "L4Class_1a")
+                Place_description.text = "EMPTY HOLDER"
+                view360_identifier = "Classrooms"
+                
+            case "Biotech_Lab":
+                Place_name.text = "Biotech Lab"
+                Place_image.image = UIImage(named: "Field_1a")
+                Place_description.text = "EMPTY HOLDER"
+                view360_identifier = "Biotech"
+                
+            case "Makers'_Lab":
+                Place_name.text = "Makers' Lab"
+                Place_image.image = UIImage(named: "MakerLab_1a")
+                Place_description.text = "EMPTY HOLDER"
+                view360_identifier = "Makers_Lab"
+                
+            case "Canteen":
+                Place_name.text = "Canteen"
+                Place_image.image = UIImage(named: "Canteen_1a")
+                Place_description.text = "EMPTY HOLDER"
+                view360_identifier = "Canteen"
+                
+            // Block D
+            case "Field":
+                Place_name.text = "School Field"
+                Place_image.image = UIImage(named: "Field_1a")
+                Place_description.text = "EMPTY HOLDER"
+                view360_identifier = "Field"
+            
+            default: break
+                
+            }
         }
     }
 

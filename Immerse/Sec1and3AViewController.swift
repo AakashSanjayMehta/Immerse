@@ -13,17 +13,34 @@ import AVFoundation
 class Sec1and3AViewController: UIViewController {
 
     @IBOutlet var IP13aV: CTPanoramaView!
+    
+    // dismiss button
+    @objc func dismiss_btn(sender: UIButton!) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         //initailzing the pictures
         IP13aV.controlMethod = .motion
-        IP13aV.image = UIImage(named: "Seconeandthreeclasess_1a")
+        IP13aV.image = UIImage(named: "L4Class_1a")
+        
+        // Init dissmiss button
+        let button = UIButton(frame: CGRect(x: 16, y: 26, width: 50, height: 50))
+        button.backgroundColor = .white
+        button.alpha = 0.5
+        button.layer.cornerRadius = 25
+        button.setImage(UIImage(named: "cross"), for: UIControlState.normal)
+        button.addTarget(self, action: #selector(dismiss_btn), for: .touchUpInside)
+        
+        self.view.addSubview(button)
         
         //audio for sec 1 and 3 classrooms
         
         //buttons for audio
         
-        // Do any additional setup after loading the view.
+        
     }
 
     override func didReceiveMemoryWarning() {

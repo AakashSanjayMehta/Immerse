@@ -62,11 +62,6 @@ class FieldPanaViewController: UIPageViewController, UIPageViewControllerDelegat
         return pages[previousIndex]
     }
     
-    // dismiss button
-    @objc func dismiss_btn(sender: UIButton!) {
-        self.dismiss(animated: true, completion: nil)
-    }
-    
     fileprivate lazy var pages: [UIViewController] = {
         return [
             self.getViewController(withIdentifier: "FIELD1A"),
@@ -78,6 +73,12 @@ class FieldPanaViewController: UIPageViewController, UIPageViewControllerDelegat
     fileprivate func getViewController(withIdentifier identifier: String) -> UIViewController
     {
         return UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: identifier)
+    }
+    
+    
+    // dismiss button
+    @objc func dismiss_btn(sender: UIButton!) {
+        self.dismiss(animated: true, completion: nil)
     }
 
     override func viewDidLoad() {
@@ -106,9 +107,12 @@ class FieldPanaViewController: UIPageViewController, UIPageViewControllerDelegat
         player?.prepareToPlay()
         */
         
-        let button = UIButton(frame: CGRect(x: 100, y: 100, width: 100, height: 50))
-        button.backgroundColor = .green
-        button.setTitle("dismiss", for: .normal)
+        // Init dissmiss button
+        let button = UIButton(frame: CGRect(x: 16, y: 26, width: 50, height: 50))
+        button.backgroundColor = .white
+        button.alpha = 0.5
+        button.layer.cornerRadius = 25
+        button.setImage(UIImage(named: "cross"), for: UIControlState.normal)
         button.addTarget(self, action: #selector(dismiss_btn), for: .touchUpInside)
         
         self.view.addSubview(button)

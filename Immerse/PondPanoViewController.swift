@@ -15,8 +15,23 @@ class PondPanoViewController: UIViewController {
     var player:AVAudioPlayer?
     @IBOutlet var IPPondV: CTPanoramaView!
     
+    // dismiss button
+    @objc func dismiss_btn(sender: UIButton!) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // Init dissmiss button
+        let button = UIButton(frame: CGRect(x: 16, y: 26, width: 50, height: 50))
+        button.backgroundColor = .white
+        button.alpha = 0.5
+        button.layer.cornerRadius = 25
+        button.setImage(UIImage(named: "cross"), for: UIControlState.normal)
+        button.addTarget(self, action: #selector(dismiss_btn), for: .touchUpInside)
+        
+        self.view.addSubview(button)
         
         /////WRONG AUDIO
         guard let audiopath =  Bundle.main.path(forResource: "Infohub", ofType: "m4a") else{
