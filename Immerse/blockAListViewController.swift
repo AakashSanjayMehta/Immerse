@@ -19,7 +19,27 @@ class blockAListViewController: UIViewController, UITableViewDelegate, UITableVi
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! blockATableViewCell
-        cell.Preview_Image.image = UIImage(named: /*blockCPlace[indexPath.row]*/"SST_Inc")
+        
+        switch blockAPlace[indexPath.row] {
+            
+        case "Library":
+            cell.Preview_Image.image = UIImage(named: "Library_1a")
+            cell.place_name.text = "   Library"
+            
+        case "General_Office": // NOT DONE
+            cell.Preview_Image.image = UIImage(named: "")
+            cell.place_name.text = "   General Office"
+            
+        case "Eletronic_Labs":
+            cell.Preview_Image.image = UIImage(named: "")
+            cell.place_name.text = "   Eletronic Labs"
+            
+        default:
+            break
+        }
+        
+        cell.Preview_Image.layer.cornerRadius = 25
+        cell.place_name.layer.cornerRadius = 20
         
         return (cell)
     }
@@ -27,6 +47,8 @@ class blockAListViewController: UIViewController, UITableViewDelegate, UITableVi
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         UserDefaults.standard.set(blockAPlace[indexPath.row], forKey: "place name")
+        
+        tableView.deselectRow(at: indexPath, animated: true)
         
     }
     

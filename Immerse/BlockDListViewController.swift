@@ -25,8 +25,19 @@ class BlockDListViewController: UIViewController, UITableViewDelegate, UITableVi
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! blockDTableViewCell
-        cell.Preview_Image.image = UIImage(named: /*blockCPlace[indexPath.row]*/"SST_Inc")
+        
+        switch blockDPlace[indexPath.row] {
+            
+        case "Field":
+            cell.Preview_Image.image = UIImage(named: "Field_1a")
+            cell.place_name.text = "   Field"
 
+        default:
+            break
+        }
+        
+        cell.Preview_Image.layer.cornerRadius = 25
+        cell.place_name.layer.cornerRadius = 20
         
         return (cell)
     }
@@ -60,6 +71,7 @@ class BlockDListViewController: UIViewController, UITableViewDelegate, UITableVi
         
         UserDefaults.standard.set(blockDPlace[indexPath.row], forKey: "place name")
         
+        tableView.deselectRow(at: indexPath, animated: true)
     }
     
     /*

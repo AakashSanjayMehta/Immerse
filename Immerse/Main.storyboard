@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Xbf-uC-vaq">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.3.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Xbf-uC-vaq">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -257,14 +257,23 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="328"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wem-GZ-Mae">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wem-GZ-Mae">
                                                     <rect key="frame" x="15" y="11" width="345" height="306"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
                                                 </imageView>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kcm-0e-lVC">
+                                                    <rect key="frame" x="26" y="245" width="323" height="60"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" red="0.894528985" green="0.94902664420000005" blue="0.99678415060000003" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="26"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="Preview_Image" destination="Wem-GZ-Mae" id="02A-dK-zCl"/>
+                                            <outlet property="place_name" destination="Kcm-0e-lVC" id="wet-sC-Y4J"/>
                                             <segue destination="eDI-xd-4M1" kind="presentation" modalTransitionStyle="crossDissolve" id="xyr-7Y-rDp"/>
                                         </connections>
                                     </tableViewCell>
@@ -321,14 +330,23 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="328"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SST_Inc" translatesAutoresizingMaskIntoConstraints="NO" id="wNX-tP-70r">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wNX-tP-70r">
                                                     <rect key="frame" x="15" y="11" width="345" height="306"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
                                                 </imageView>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gEP-Yy-Ixy">
+                                                    <rect key="frame" x="26" y="245" width="323" height="60"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" red="0.894528985" green="0.94902664420000005" blue="0.99678415060000003" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="26"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="Preview_Image" destination="wNX-tP-70r" id="Am1-eU-hgH"/>
+                                            <outlet property="place_name" destination="gEP-Yy-Ixy" id="uve-YG-f1A"/>
                                             <segue destination="eDI-xd-4M1" kind="presentation" modalTransitionStyle="crossDissolve" id="HHq-lX-aRK"/>
                                         </connections>
                                     </tableViewCell>
@@ -375,7 +393,7 @@
                         <subviews>
                             <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5As-Os-H3E">
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </arscnView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -424,14 +442,23 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="328"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SST_Inc" translatesAutoresizingMaskIntoConstraints="NO" id="vrr-lj-Ba0">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vrr-lj-Ba0">
                                                     <rect key="frame" x="15" y="11" width="345" height="306"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
                                                 </imageView>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lOM-MN-Cqd">
+                                                    <rect key="frame" x="26" y="245" width="323" height="60"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" red="0.89452898502349854" green="0.94902664422988892" blue="0.99678415060043335" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="26"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="Preview_Image" destination="vrr-lj-Ba0" id="6Cj-WM-f89"/>
+                                            <outlet property="place_name" destination="lOM-MN-Cqd" id="RQH-dx-R8V"/>
                                             <segue destination="eDI-xd-4M1" kind="presentation" modalTransitionStyle="crossDissolve" id="1c2-U4-xud"/>
                                         </connections>
                                     </tableViewCell>
@@ -481,7 +508,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="306"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="DHL-Oi-dIB">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="DHL-Oi-dIB">
                                 <rect key="frame" x="16" y="314" width="343" height="333"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -508,7 +535,7 @@
                                                 <action selector="view360_button:" destination="eDI-xd-4M1" eventType="touchUpInside" id="e6m-Wu-PV7"/>
                                             </connections>
                                         </button>
-                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" directionalLockEnabled="YES" alwaysBounceVertical="YES" bouncesZoom="NO" editable="NO" text="LOL" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l4u-qh-ih1">
+                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceHorizontal="YES" bouncesZoom="NO" editable="NO" text="LOL" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l4u-qh-ih1">
                                             <rect key="frame" x="16" y="8" width="235" height="51"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -564,14 +591,23 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="328"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Llg-Sr-8zJ">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Llg-Sr-8zJ">
                                                     <rect key="frame" x="15" y="11" width="345" height="306"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
                                                 </imageView>
+                                                <label clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pM2-H6-Jl9">
+                                                    <rect key="frame" x="26" y="245" width="323" height="60"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+                                                    <color key="backgroundColor" red="0.894528985" green="0.94902664420000005" blue="0.99678415060000003" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="26"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="Preview_Image" destination="Llg-Sr-8zJ" id="WTP-dQ-5eF"/>
+                                            <outlet property="place_name" destination="pM2-H6-Jl9" id="y0a-RR-h6f"/>
                                             <segue destination="eDI-xd-4M1" kind="presentation" modalTransitionStyle="crossDissolve" id="4Xa-Li-bhg"/>
                                         </connections>
                                     </tableViewCell>
@@ -748,7 +784,6 @@
     </scenes>
     <resources>
         <image name="Canteen_1a" width="6912" height="3456"/>
-        <image name="SST_Inc" width="509" height="452"/>
         <image name="blockPIC.001" width="25" height="25"/>
         <image name="blockPIC.002" width="25" height="25"/>
         <image name="blockPIC.003" width="25" height="25"/>

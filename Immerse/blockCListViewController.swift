@@ -28,7 +28,39 @@ class blockCListViewController: UIViewController, UITableViewDelegate, UITableVi
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! blockCTableViewCell
-        cell.Preview_Image.image = UIImage(named: /*blockCPlace[indexPath.row]*/"SST_Inc")
+        
+        switch blockCPlace[indexPath.row] {
+            
+        case "SST_Inc":
+            cell.Preview_Image.image = UIImage(named: "Inc_1a")
+            cell.place_name.text = "   SST Inc."
+            
+        case "Robotics@apex": // NOT DONE
+            cell.Preview_Image.image = UIImage(named: "")
+            cell.place_name.text = "   Robotics @ apex"
+            
+        case "S1S3_clasrooms":
+            cell.Preview_Image.image = UIImage(named: "L4Class_1a")
+            cell.place_name.text = "   Level 4 Clasrooms"
+            
+        case "Biotech_Lab":
+            cell.Preview_Image.image = UIImage(named: "BiotechLab_1a")
+            cell.place_name.text = "   Biotech Lab"
+            
+        case "Makers'_Lab":
+            cell.Preview_Image.image = UIImage(named: "MakerLab_1a")
+            cell.place_name.text = "   Makers' Lab"
+            
+        case "Canteen":
+            cell.Preview_Image.image = UIImage(named: "Canteen_1a")
+            cell.place_name.text = "   Canteen"
+            
+        default:
+            break
+        }
+        
+        cell.Preview_Image.layer.cornerRadius = 25
+        cell.place_name.layer.cornerRadius = 20
         
         return (cell)
     }
@@ -61,6 +93,8 @@ class blockCListViewController: UIViewController, UITableViewDelegate, UITableVi
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         UserDefaults.standard.set(blockCPlace[indexPath.row], forKey: "place name")
+        
+        tableView.deselectRow(at: indexPath, animated: true)
         
     }
     
