@@ -15,6 +15,7 @@
 		42A8C814211C19860024D923 /* blockBTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A8C813211C19860024D923 /* blockBTableViewCell.swift */; };
 		42A8C816211C1ED40024D923 /* blockATableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A8C815211C1ED40024D923 /* blockATableViewCell.swift */; };
 		42A8C818211C1FD10024D923 /* blockDTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A8C817211C1FD10024D923 /* blockDTableViewCell.swift */; };
+		42E43FB8212FD4F000676896 /* HelpPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E43FB7212FD4F000676896 /* HelpPageViewController.swift */; };
 		42E711B4211DC78000A22BE0 /* PlaceInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E711B3211DC78000A22BE0 /* PlaceInfoViewController.swift */; };
 		42F652E62106DAFC00F6200E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42F652E52106DAFB00F6200E /* Main.storyboard */; };
 		59F49FEDFDC0C001A7E7B3AB /* Pods_Immerse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10467C47D94BF3EDC2CCE081 /* Pods_Immerse.framework */; };
@@ -94,6 +95,7 @@
 		42A8C813211C19860024D923 /* blockBTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blockBTableViewCell.swift; sourceTree = "<group>"; };
 		42A8C815211C1ED40024D923 /* blockATableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blockATableViewCell.swift; sourceTree = "<group>"; };
 		42A8C817211C1FD10024D923 /* blockDTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blockDTableViewCell.swift; sourceTree = "<group>"; };
+		42E43FB7212FD4F000676896 /* HelpPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpPageViewController.swift; sourceTree = "<group>"; };
 		42E711B3211DC78000A22BE0 /* PlaceInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceInfoViewController.swift; sourceTree = "<group>"; };
 		42F652E52106DAFB00F6200E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		475A348933277792B3FFBE08 /* Pods-ImmerseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImmerseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImmerseTests/Pods-ImmerseTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -195,6 +197,14 @@
 				7998BB7F669E039691728286 /* Pods-ImmerseUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		42E43FB6212FD4B700676896 /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				42E43FB7212FD4F000676896 /* HelpPageViewController.swift */,
+			);
+			name = Help;
 			sourceTree = "<group>";
 		};
 		55A8D47F6A0781DE28BDFDEC /* Frameworks */ = {
@@ -333,7 +343,7 @@
 		5E53DF8E20AB189000153856 /* Immerse */ = {
 			isa = PBXGroup;
 			children = (
-				5EE657BF212FD2F300060558 /* HELP PAGE VIEW */,
+				42E43FB6212FD4B700676896 /* Help */,
 				5E05356E212A4DAD0072DAF1 /* AR */,
 				5E53473020B7C7B800EDE55E /* Audio */,
 				5E53472B20B6B8C200EDE55E /* Classrooms */,
@@ -386,13 +396,6 @@
 				5E677F8C20ABBBE400E1C46B /* IncDViewController.swift */,
 			);
 			name = INC;
-			sourceTree = "<group>";
-		};
-		5EE657BF212FD2F300060558 /* HELP PAGE VIEW */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "HELP PAGE VIEW";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -642,6 +645,7 @@
 				5E53DF9020AB189000153856 /* AppDelegate.swift in Sources */,
 				5E53470F20B5BE5C00EDE55E /* FieldBViewController.swift in Sources */,
 				5E677F8920ABBBCB00E1C46B /* IncBViewController.swift in Sources */,
+				42E43FB8212FD4F000676896 /* HelpPageViewController.swift in Sources */,
 				5E677F8420ABB55300E1C46B /* IncPanaPhotosViewController.swift in Sources */,
 				5E53471120B5BE7800EDE55E /* FieldPanaViewController.swift in Sources */,
 				5E53472020B6509300EDE55E /* CafeBViewController.swift in Sources */,
