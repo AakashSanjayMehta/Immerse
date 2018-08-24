@@ -18,7 +18,6 @@
 		42E711B4211DC78000A22BE0 /* PlaceInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E711B3211DC78000A22BE0 /* PlaceInfoViewController.swift */; };
 		42F652E62106DAFC00F6200E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42F652E52106DAFB00F6200E /* Main.storyboard */; };
 		59F49FEDFDC0C001A7E7B3AB /* Pods_Immerse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10467C47D94BF3EDC2CCE081 /* Pods_Immerse.framework */; };
-		5E053570212A4E2A0072DAF1 /* ArViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E05356F212A4E2A0072DAF1 /* ArViewController.swift */; };
 		5E053572212A4EB40072DAF1 /* ARAssets.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E053571212A4EB40072DAF1 /* ARAssets.scnassets */; };
 		5E053574212A508C0072DAF1 /* Writeups.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5E053573212A508C0072DAF1 /* Writeups.rtf */; };
 		5E53470D20B5BE4200EDE55E /* FieldAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53470C20B5BE4200EDE55E /* FieldAViewController.swift */; };
@@ -63,6 +62,7 @@
 		5E677F8B20ABBBD900E1C46B /* IncCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E677F8A20ABBBD900E1C46B /* IncCViewController.swift */; };
 		5E677F8D20ABBBE400E1C46B /* IncDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E677F8C20ABBBE400E1C46B /* IncDViewController.swift */; };
 		5E8DD4CD20B4552200EEA163 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E8DD4CC20B4552100EEA163 /* Assets.xcassets */; };
+		5EE657BD212FBCD800060558 /* ARControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE657BC212FBCD800060558 /* ARControllerViewController.swift */; };
 		77FDB7C26CEB2932DB07F33E /* Pods_ImmerseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A045DFE373F9DCCDB51B5100 /* Pods_ImmerseUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -97,7 +97,6 @@
 		42E711B3211DC78000A22BE0 /* PlaceInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceInfoViewController.swift; sourceTree = "<group>"; };
 		42F652E52106DAFB00F6200E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		475A348933277792B3FFBE08 /* Pods-ImmerseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImmerseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImmerseTests/Pods-ImmerseTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5E05356F212A4E2A0072DAF1 /* ArViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArViewController.swift; sourceTree = "<group>"; };
 		5E053571212A4EB40072DAF1 /* ARAssets.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = ARAssets.scnassets; sourceTree = "<group>"; };
 		5E053573212A508C0072DAF1 /* Writeups.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Writeups.rtf; sourceTree = "<group>"; };
 		5E53470C20B5BE4200EDE55E /* FieldAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldAViewController.swift; sourceTree = "<group>"; };
@@ -148,6 +147,7 @@
 		5E677F8A20ABBBD900E1C46B /* IncCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncCViewController.swift; sourceTree = "<group>"; };
 		5E677F8C20ABBBE400E1C46B /* IncDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncDViewController.swift; sourceTree = "<group>"; };
 		5E8DD4CC20B4552100EEA163 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EE657BC212FBCD800060558 /* ARControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARControllerViewController.swift; sourceTree = "<group>"; };
 		7998BB7F669E039691728286 /* Pods-ImmerseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImmerseUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImmerseUITests/Pods-ImmerseUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7FF3A90422D3630B76C48E75 /* Pods-ImmerseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImmerseTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImmerseTests/Pods-ImmerseTests.release.xcconfig"; sourceTree = "<group>"; };
 		8DBDC37A051EE11B2260F251 /* Pods-Immerse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Immerse.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Immerse/Pods-Immerse.debug.xcconfig"; sourceTree = "<group>"; };
@@ -211,7 +211,7 @@
 		5E05356E212A4DAD0072DAF1 /* AR */ = {
 			isa = PBXGroup;
 			children = (
-				5E05356F212A4E2A0072DAF1 /* ArViewController.swift */,
+				5EE657BC212FBCD800060558 /* ARControllerViewController.swift */,
 			);
 			path = AR;
 			sourceTree = "<group>";
@@ -333,6 +333,7 @@
 		5E53DF8E20AB189000153856 /* Immerse */ = {
 			isa = PBXGroup;
 			children = (
+				5EE657BF212FD2F300060558 /* HELP PAGE VIEW */,
 				5E05356E212A4DAD0072DAF1 /* AR */,
 				5E53473020B7C7B800EDE55E /* Audio */,
 				5E53472B20B6B8C200EDE55E /* Classrooms */,
@@ -385,6 +386,13 @@
 				5E677F8C20ABBBE400E1C46B /* IncDViewController.swift */,
 			);
 			name = INC;
+			sourceTree = "<group>";
+		};
+		5EE657BF212FD2F300060558 /* HELP PAGE VIEW */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "HELP PAGE VIEW";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -615,6 +623,7 @@
 			files = (
 				5E53472A20B6A45E00EDE55E /* LibraryAViewController.swift in Sources */,
 				5E53470D20B5BE4200EDE55E /* FieldAViewController.swift in Sources */,
+				5EE657BD212FBCD800060558 /* ARControllerViewController.swift in Sources */,
 				5E53471C20B6506C00EDE55E /* CAFEPanoPageViewController.swift in Sources */,
 				42A8C816211C1ED40024D923 /* blockATableViewCell.swift in Sources */,
 				5E53471920B64E2200EDE55E /* blockBListViewController.swift in Sources */,
@@ -627,7 +636,6 @@
 				42A8C814211C19860024D923 /* blockBTableViewCell.swift in Sources */,
 				42783C5C20FE02E100E0EAF9 /* LibraryPanaViewController.swift in Sources */,
 				5E53472420B685F900EDE55E /* blockAListViewController.swift in Sources */,
-				5E053570212A4E2A0072DAF1 /* ArViewController.swift in Sources */,
 				5E677F8D20ABBBE400E1C46B /* IncDViewController.swift in Sources */,
 				5E53472220B6541C00EDE55E /* CanteenViewController.swift in Sources */,
 				5E53472D20B6B8DE00EDE55E /* Sec1and3AViewController.swift in Sources */,

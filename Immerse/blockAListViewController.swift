@@ -87,7 +87,11 @@ class blockAListViewController: UIViewController, UITableViewDelegate, UITableVi
         // Dispose of any resources that can be recreated.
     }
     
-
+    @IBAction func toAR(_ sender: Any) {
+        let vc = self.storyboard!.instantiateViewController(withIdentifier: "ARSkewl")
+        self.present(vc, animated: true, completion: nil)
+    }
+    
     /*
     // MARK: - Navigation
 
