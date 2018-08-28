@@ -72,8 +72,8 @@ class ARControllerViewController: UIViewController, ARSCNViewDelegate {
         
         // add the wolf to pos of the plane node
         if wolfNode == nil {
-            if let wolfScene = SCNScene(named: "art.scnassets/IMMERSE_3D_SCH_MODEL_COLORED.scn") {
-                wolfNode = wolfScene.rootNode.childNode(withName: "IMMERSE 3D SCH MODEL.COLORED", recursively: true)
+            if let wolfScene = SCNScene(named: "ARAssets.scnassets/ImmerseModel1.scn") {
+                wolfNode = wolfScene.rootNode.childNode(withName: "model1", recursively: true)
                 wolfNode.position = pos
                 
                 sceneView.scene.rootNode.addChildNode(wolfNode)

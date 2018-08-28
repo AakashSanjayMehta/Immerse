@@ -21,6 +21,7 @@
 		59F49FEDFDC0C001A7E7B3AB /* Pods_Immerse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10467C47D94BF3EDC2CCE081 /* Pods_Immerse.framework */; };
 		5E053572212A4EB40072DAF1 /* ARAssets.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E053571212A4EB40072DAF1 /* ARAssets.scnassets */; };
 		5E053574212A508C0072DAF1 /* Writeups.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5E053573212A508C0072DAF1 /* Writeups.rtf */; };
+		5E0BD8332133F09500088BAE /* InitialStartupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0BD8322133F09500088BAE /* InitialStartupViewController.swift */; };
 		5E53470D20B5BE4200EDE55E /* FieldAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53470C20B5BE4200EDE55E /* FieldAViewController.swift */; };
 		5E53470F20B5BE5C00EDE55E /* FieldBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53470E20B5BE5C00EDE55E /* FieldBViewController.swift */; };
 		5E53471120B5BE7800EDE55E /* FieldPanaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53471020B5BE7800EDE55E /* FieldPanaViewController.swift */; };
@@ -101,6 +102,7 @@
 		475A348933277792B3FFBE08 /* Pods-ImmerseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImmerseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImmerseTests/Pods-ImmerseTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5E053571212A4EB40072DAF1 /* ARAssets.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = ARAssets.scnassets; sourceTree = "<group>"; };
 		5E053573212A508C0072DAF1 /* Writeups.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Writeups.rtf; sourceTree = "<group>"; };
+		5E0BD8322133F09500088BAE /* InitialStartupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialStartupViewController.swift; sourceTree = "<group>"; };
 		5E53470C20B5BE4200EDE55E /* FieldAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldAViewController.swift; sourceTree = "<group>"; };
 		5E53470E20B5BE5C00EDE55E /* FieldBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldBViewController.swift; sourceTree = "<group>"; };
 		5E53471020B5BE7800EDE55E /* FieldPanaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldPanaViewController.swift; sourceTree = "<group>"; };
@@ -364,6 +366,7 @@
 				5E53DF9620AB189000153856 /* Immerse.xcdatamodeld */,
 				5E053571212A4EB40072DAF1 /* ARAssets.scnassets */,
 				5E053573212A508C0072DAF1 /* Writeups.rtf */,
+				5E0BD8322133F09500088BAE /* InitialStartupViewController.swift */,
 			);
 			path = Immerse;
 			sourceTree = "<group>";
@@ -655,6 +658,7 @@
 				42E711B4211DC78000A22BE0 /* PlaceInfoViewController.swift in Sources */,
 				5E53471420B64C1200EDE55E /* Makers'LabViewController.swift in Sources */,
 				5E677F8720ABBBBE00E1C46B /* IncAViewController.swift in Sources */,
+				5E0BD8332133F09500088BAE /* InitialStartupViewController.swift in Sources */,
 				5E53471620B64C2500EDE55E /* BiioTechLabViewController.swift in Sources */,
 				5E677F8B20ABBBD900E1C46B /* IncCViewController.swift in Sources */,
 			);
