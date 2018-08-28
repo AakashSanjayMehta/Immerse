@@ -395,6 +395,30 @@
             </objects>
             <point key="canvasLocation" x="1710" y="-3147"/>
         </scene>
+        <!--Controller View Controller-->
+        <scene sceneID="9g5-bW-EMB">
+            <objects>
+                <viewController id="WmC-dS-5yJ" customClass="ARControllerViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YKJ-TP-ZcA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NvN-GL-CW4">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </arscnView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="E22-SS-hJh"/>
+                    </view>
+                    <connections>
+                        <outlet property="sceneView" destination="NvN-GL-CW4" id="nMZ-p4-ciZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tB7-Rf-jlj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2860" y="-3400.7496251874068"/>
+        </scene>
         <!--Help-->
         <scene sceneID="AHD-dq-nUs">
             <objects>
