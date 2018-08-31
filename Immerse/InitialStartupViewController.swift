@@ -12,14 +12,6 @@ class InitialStartupViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let launchedBefore = UserDefaults.standard.bool(forKey: "launchedBefore")
-        if launchedBefore  {
-            print("Not first launch.")
-            let vc = self.storyboard!.instantiateViewController(withIdentifier: "NextX"); self.navigationController!.pushViewController(vc, animated: true)
-        } else {
-            print("First launch, setting UserDefault.")
-            UserDefaults.standard.set(true, forKey: "launchedBefore")
-        }
 
         // Do any additional setup after loading the view.
     }
