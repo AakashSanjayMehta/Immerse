@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.3.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lyB-Ng-TAZ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lyB-Ng-TAZ">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -712,10 +712,10 @@
             </objects>
             <point key="canvasLocation" x="1709.5999999999999" y="-1069.1154422788607"/>
         </scene>
-        <!--View Controller-->
+        <!--Initial Startup View Controller-->
         <scene sceneID="Xqi-kt-wbY">
             <objects>
-                <viewController id="lyB-Ng-TAZ" sceneMemberID="viewController">
+                <viewController id="lyB-Ng-TAZ" customClass="InitialStartupViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FNf-5G-hvr">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -736,28 +736,6 @@
                                 <rect key="frame" x="89" y="135" width="196" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TaU-p3-7v3">
-                                <rect key="frame" x="53" y="515" width="270" height="68"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" id="wOZ-DM-WI3">
-                                    <rect key="frame" x="0.0" y="0.0" width="270" height="68"/>
-                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                    <subviews>
-                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5sL-bR-hNm">
-                                            <rect key="frame" x="-7" y="-6" width="284" height="74"/>
-                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" name="WalkwayBold" family="Walkway Bold" pointSize="35"/>
-                                            <state key="normal" title="Start Tour">
-                                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            </state>
-                                            <connections>
-                                                <segue destination="Xbf-uC-vaq" kind="presentation" modalTransitionStyle="crossDissolve" id="JKT-Wo-TOq"/>
-                                            </connections>
-                                        </button>
-                                    </subviews>
-                                </view>
-                                <blurEffect style="regular"/>
-                            </visualEffectView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="IMMERSE." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zcL-bU-aLM">
                                 <rect key="frame" x="11" y="89" width="352" height="67"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
@@ -765,9 +743,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Immersing yourself into a new reality" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tcC-Od-Ed8">
-                                <rect key="frame" x="43" y="159" width="302" height="86"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="17" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tcC-Od-Ed8">
+                                <rect key="frame" x="16" y="159" width="343" height="405"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <string key="text">Hi There, we are Neon Cherry Co from SST inc.
+Welcome to Immerse! 
+Immerse is a virtual tour of School of Science and Technology, Singapore which aims to provide you - our audience, our unique experiences in this school. As we tour you around our school, we hope to bring you to a perspective of an SST student and what they can experience here in SST. So without further ado, get ready to immerse yourself in our perspective.</string>
                                 <fontDescription key="fontDescription" name="MankSans" family="MankSans" pointSize="19"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -779,6 +760,28 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TaU-p3-7v3">
+                                <rect key="frame" x="52" y="572" width="270" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" id="wOZ-DM-WI3">
+                                    <rect key="frame" x="0.0" y="0.0" width="270" height="68"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5sL-bR-hNm">
+                                            <rect key="frame" x="-7" y="-6" width="284" height="74"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" name="WalkwayBold" family="Walkway Bold" pointSize="35"/>
+                                            <state key="normal" title="Start">
+                                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </state>
+                                            <connections>
+                                                <segue destination="Xbf-uC-vaq" kind="presentation" modalTransitionStyle="crossDissolve" id="JKT-Wo-TOq"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                </view>
+                                <blurEffect style="regular"/>
+                            </visualEffectView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="x1X-xF-1sR"/>
@@ -786,12 +789,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eSW-X2-ki2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-726" y="-2293"/>
+            <point key="canvasLocation" x="-727.20000000000005" y="-2293.4032983508246"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="keR-ta-RhW">
             <objects>
-                <tabBarController id="Xbf-uC-vaq" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="NEXTX" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Xbf-uC-vaq" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="S03-ag-0ow">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -940,7 +943,7 @@
         <image name="helping3" width="1080" height="1920"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="4Xa-Li-bhg"/>
-        <segue reference="MCU-iu-yX0"/>
+        <segue reference="HHq-lX-aRK"/>
+        <segue reference="r3g-Rx-IqD"/>
     </inferredMetricsTieBreakers>
 </document>
