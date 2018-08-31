@@ -8,6 +8,7 @@
 
 import UIKit
 import ARKit
+var scenecounter:Int = 0
 
 class ARControllerViewController: UIViewController, ARSCNViewDelegate {
 
@@ -18,6 +19,7 @@ class ARControllerViewController: UIViewController, ARSCNViewDelegate {
     var anchors = [ARAnchor]()
 
     var sceneLight:SCNLight!
+    var overheadLabel: UILabel!
     
     
     override func viewDidLoad() {
@@ -25,12 +27,9 @@ class ARControllerViewController: UIViewController, ARSCNViewDelegate {
         
         // Set the view's delegate
         sceneView.delegate = self
-        
         // Show statistics such as fps and timing information
-        sceneView.showsStatistics = true
-        
+        sceneView.showsStatistics = false
         sceneView.autoenablesDefaultLighting = false
-        
         let scene = SCNScene()
         
         // Set the scene to the view
@@ -43,7 +42,9 @@ class ARControllerViewController: UIViewController, ARSCNViewDelegate {
         lightNode.light = sceneLight
         lightNode.position = SCNVector3(x:0, y:10, z:2)
         
-        sceneView.scene.rootNode.addChildNode(lightNode)
+//        sceneView.scene.rootNode.addChildNode(lightNode)
+        
+        
         
     }
     
@@ -70,6 +71,7 @@ class ARControllerViewController: UIViewController, ARSCNViewDelegate {
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         let touch = touches.first
         let location = touch?.location(in: sceneView)
+        
         
         addNodeAtLocation(location: location!)
         
@@ -131,14 +133,17 @@ class ARControllerViewController: UIViewController, ARSCNViewDelegate {
         }
     }
     
+    
+    // MARK: - The marking of the plane thing
     func updateMaterial() {
         let material = self.planeGeometry.materials.first!
-        
+//        planeGeometry = SCNPlane(width: CGFloat(planeAnchor.extent.x), height: CGFloat(planeAnchor.extent.z))
+//        planeGeometry.firstMaterial?.diffuse.contents = UIColor.white.withAlphaComponent(0.5)
         material.diffuse.contentsTransform = SCNMatrix4MakeScale(Float(self.planeGeometry.width), Float(self.planeGeometry.height), 1)
     }
     
     
-    
+    // MARK: - Adding Node at the location
     func addNodeAtLocation (location:CGPoint) {
         guard anchors.count > 0 else {print("anchros are not created yet"); return}
         
@@ -151,7 +156,8 @@ class ARControllerViewController: UIViewController, ARSCNViewDelegate {
             schoolNode?.rotation.y = -90
             schoolNode?.rotation.x = 90
             schoolNode?.position = newLocation
-            schoolNode?.scale = SCNVector3(x: 0.5, y: 0.5, z: 0.5)
+            schoolNode?.scale = SCNVector3(x: 0.0005, y: 0.0005, z: 0.0005)
+            
             
             sceneView.scene.rootNode.addChildNode(schoolNode!)
         }
