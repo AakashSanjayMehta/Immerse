@@ -295,7 +295,7 @@
                                 </connections>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gS2-Xq-s6s">
-                                <rect key="frame" x="319" y="20" width="40" height="40"/>
+                                <rect key="frame" x="312" y="20" width="47" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="HELP" image="help"/>
                                 <connections>
@@ -310,10 +310,10 @@
                                     <action selector="toARB:" destination="r2b-cl-7Zd" eventType="touchUpInside" id="7qA-SD-lNx"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="IMMERSE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CQG-mt-Xdg">
-                                <rect key="frame" x="16" y="20" width="239" height="43"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="IMMERSE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kga-oV-Q0i">
+                                <rect key="frame" x="16" y="20" width="287" height="47"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="WalkwayExpandBlack" family="Walkway Expand Black" pointSize="36"/>
+                                <fontDescription key="fontDescription" name="WalkwayExpandBlack" family="Walkway Expand Black" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -374,7 +374,7 @@
                                 </connections>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D3K-oK-nuP">
-                                <rect key="frame" x="319" y="20" width="40" height="40"/>
+                                <rect key="frame" x="312" y="20" width="47" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="HELP" image="help"/>
                                 <connections>
@@ -390,9 +390,9 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="IMMERSE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lDW-mb-Z4L">
-                                <rect key="frame" x="16" y="20" width="239" height="43"/>
+                                <rect key="frame" x="16" y="20" width="287" height="47"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="WalkwayExpandBlack" family="Walkway Expand Black" pointSize="36"/>
+                                <fontDescription key="fontDescription" name="WalkwayExpandBlack" family="Walkway Expand Black" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -404,7 +404,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aHa-Bx-wbJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1710" y="-3147"/>
+            <point key="canvasLocation" x="1709.5999999999999" y="-3147.0764617691157"/>
         </scene>
         <!--Help-->
         <scene sceneID="AHD-dq-nUs">
@@ -523,14 +523,6 @@
                                     <outlet property="delegate" destination="RzF-FO-Axg" id="Ohr-bP-uTg"/>
                                 </connections>
                             </tableView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="krY-M6-gsh">
-                                <rect key="frame" x="319" y="20" width="40" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="HELP" image="help"/>
-                                <connections>
-                                    <segue destination="YOQ-4z-KXk" kind="presentation" id="xtN-RB-3pm"/>
-                                </connections>
-                            </button>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dQ3-pd-uIK">
                                 <rect key="frame" x="263" y="20" width="40" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
@@ -539,13 +531,21 @@
                                     <action selector="toARC:" destination="RzF-FO-Axg" eventType="touchUpInside" id="bWI-1H-SIh"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="IMMERSE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WPE-XB-ad2">
-                                <rect key="frame" x="16" y="20" width="239" height="43"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="IMMERSE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3vU-9d-vXe">
+                                <rect key="frame" x="16" y="20" width="287" height="47"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="WalkwayExpandBlack" family="Walkway Expand Black" pointSize="36"/>
+                                <fontDescription key="fontDescription" name="WalkwayExpandBlack" family="Walkway Expand Black" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="krY-M6-gsh">
+                                <rect key="frame" x="312" y="20" width="47" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="HELP" image="help"/>
+                                <connections>
+                                    <segue destination="YOQ-4z-KXk" kind="presentation" id="xtN-RB-3pm"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Jkj-1N-ZMr"/>
@@ -678,14 +678,6 @@
                                     <outlet property="delegate" destination="uPN-Dl-fn4" id="hKk-dN-rOU"/>
                                 </connections>
                             </tableView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aNE-yF-MA1">
-                                <rect key="frame" x="319" y="20" width="40" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="HELP" image="help"/>
-                                <connections>
-                                    <segue destination="YOQ-4z-KXk" kind="presentation" id="MCU-iu-yX0"/>
-                                </connections>
-                            </button>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yik-Ob-hNi">
                                 <rect key="frame" x="263" y="20" width="40" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
@@ -694,13 +686,21 @@
                                     <action selector="toARD:" destination="uPN-Dl-fn4" eventType="touchUpInside" id="6PQ-Wq-W0A"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="IMMERSE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0qc-Al-fO9">
-                                <rect key="frame" x="16" y="20" width="239" height="43"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="IMMERSE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bwn-Mm-Uq8">
+                                <rect key="frame" x="16" y="20" width="287" height="47"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="WalkwayExpandBlack" family="Walkway Expand Black" pointSize="36"/>
+                                <fontDescription key="fontDescription" name="WalkwayExpandBlack" family="Walkway Expand Black" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aNE-yF-MA1">
+                                <rect key="frame" x="312" y="20" width="47" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="HELP" image="help"/>
+                                <connections>
+                                    <segue destination="YOQ-4z-KXk" kind="presentation" id="MCU-iu-yX0"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="VnU-Eo-fxf"/>
@@ -765,7 +765,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Immersing yourself into a new reality" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tcC-Od-Ed8">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Immersing yourself into a new reality" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tcC-Od-Ed8">
                                 <rect key="frame" x="43" y="159" width="302" height="86"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="MankSans" family="MankSans" pointSize="19"/>
@@ -786,7 +786,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eSW-X2-ki2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-834.39999999999998" y="-2338.3808095952027"/>
+            <point key="canvasLocation" x="-726" y="-2293"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="keR-ta-RhW">
@@ -923,172 +923,24 @@
             </objects>
             <point key="canvasLocation" x="-725" y="106"/>
         </scene>
-        <!--Initiial View Controller-->
-        <scene sceneID="Opa-6z-QNE">
-            <objects>
-                <viewController id="icr-bF-a8g" customClass="InitiialViewController" customModule="Immerse__" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="0hO-Q9-cT8">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background.png" translatesAutoresizingMaskIntoConstraints="NO" id="mK3-G1-UOJ">
-                                <rect key="frame" x="-38" y="-24" width="451" height="715"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Welcome to" textAlignment="center" minimumFontSize="107" translatesAutoresizingMaskIntoConstraints="NO" id="BfB-Wz-m6I">
-                                <rect key="frame" x="36" y="45" width="303" height="68"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <rect key="contentStretch" x="0.0" y="0.69999999999999996" width="1" height="1"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="2"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="deco line.png" translatesAutoresizingMaskIntoConstraints="NO" id="kkI-Yh-Zig">
-                                <rect key="frame" x="89" y="135" width="196" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="F1B-D7-KeS">
-                                <rect key="frame" x="53" y="515" width="270" height="68"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" id="Xro-Ij-dm2">
-                                    <rect key="frame" x="0.0" y="0.0" width="270" height="68"/>
-                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                    <subviews>
-                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N3J-fr-l6J">
-                                            <rect key="frame" x="-7" y="-6" width="284" height="74"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" name="WalkwayBold" family="Walkway Bold" pointSize="35"/>
-                                            <state key="normal" title="Start Tour">
-                                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            </state>
-                                        </button>
-                                    </subviews>
-                                </view>
-                                <blurEffect style="regular"/>
-                            </visualEffectView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="IMMERSE." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eIf-r0-d77">
-                                <rect key="frame" x="61" y="90" width="267" height="67"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="WalkwayExpandBlack" family="Walkway Expand Black" pointSize="45"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fLP-cQ-hFJ">
-                                <rect key="frame" x="73" y="37" width="232" height="67"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="MankSans" family="MankSans" pointSize="45"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Immersing yourself into a new reality" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CeP-0P-cJK">
-                                <rect key="frame" x="43" y="159" width="302" height="49"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="MankSans" family="MankSans" pointSize="19"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <viewLayoutGuide key="safeArea" id="Rxu-bE-sz2"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="n4z-Ih-mOW" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-2734" y="0.0"/>
-        </scene>
-        <!--Initiial View Controller-->
-        <scene sceneID="ozZ-Dx-aWr">
-            <objects>
-                <viewController id="iKB-kY-dmC" customClass="InitiialViewController" customModule="Immerse__" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="z1n-S7-28q">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background.png" translatesAutoresizingMaskIntoConstraints="NO" id="nSD-oZ-Rc2">
-                                <rect key="frame" x="-38" y="-24" width="451" height="715"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Welcome to" textAlignment="center" minimumFontSize="107" translatesAutoresizingMaskIntoConstraints="NO" id="f84-iI-wtU">
-                                <rect key="frame" x="36" y="45" width="303" height="68"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <rect key="contentStretch" x="0.0" y="0.69999999999999996" width="1" height="1"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="2"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="deco line.png" translatesAutoresizingMaskIntoConstraints="NO" id="LwV-fn-z6x">
-                                <rect key="frame" x="89" y="135" width="196" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EsU-re-B0X">
-                                <rect key="frame" x="53" y="515" width="270" height="68"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" id="1zr-3p-K76">
-                                    <rect key="frame" x="0.0" y="0.0" width="270" height="68"/>
-                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                    <subviews>
-                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="00n-dY-T8T">
-                                            <rect key="frame" x="-7" y="-6" width="284" height="74"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" name="WalkwayBold" family="Walkway Bold" pointSize="35"/>
-                                            <state key="normal" title="Start Tour">
-                                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            </state>
-                                        </button>
-                                    </subviews>
-                                </view>
-                                <blurEffect style="regular"/>
-                            </visualEffectView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="IMMERSE." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uAz-Bb-Sab">
-                                <rect key="frame" x="61" y="90" width="267" height="67"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="WalkwayExpandBlack" family="Walkway Expand Black" pointSize="45"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qvn-1A-oyo">
-                                <rect key="frame" x="73" y="37" width="232" height="67"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="MankSans" family="MankSans" pointSize="45"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Immersing yourself into a new reality" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oT1-Oz-AHo">
-                                <rect key="frame" x="43" y="159" width="302" height="49"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="MankSans" family="MankSans" pointSize="19"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <viewLayoutGuide key="safeArea" id="Spz-rL-fPg"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="jwC-b3-Fvc" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-2734" y="0.0"/>
-        </scene>
     </scenes>
     <resources>
         <image name="ARKIT" width="1920" height="1920"/>
         <image name="Canteen_1a" width="6912" height="3456"/>
         <image name="background" width="1308" height="1764"/>
-        <image name="background.png" width="16" height="16"/>
         <image name="blockPIC.001" width="25" height="25"/>
         <image name="blockPIC.002" width="25" height="25"/>
         <image name="blockPIC.003" width="25" height="25"/>
         <image name="blockPIC.004" width="25" height="25"/>
         <image name="cross" width="512" height="512"/>
         <image name="deco line" width="720" height="96"/>
-        <image name="deco line.png" width="16" height="16"/>
         <image name="help" width="50" height="50"/>
         <image name="helping1" width="1080" height="1920"/>
         <image name="helping2" width="1080" height="1920"/>
         <image name="helping3" width="1080" height="1920"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="HHq-lX-aRK"/>
-        <segue reference="r3g-Rx-IqD"/>
+        <segue reference="4Xa-Li-bhg"/>
+        <segue reference="MCU-iu-yX0"/>
     </inferredMetricsTieBreakers>
 </document>
