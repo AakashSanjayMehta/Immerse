@@ -27,7 +27,7 @@ class Sec1and3AViewController: UIViewController {
         IP13aV.image = UIImage(named: "L4Class_1a")
         
         // Init dissmiss button
-        let button = UIButton(frame: CGRect(x: 16, y: 26, width: 50, height: 50))
+        let button = UIButton(frame: CGRect(x: 16, y: 32, width: 50, height: 50))
         button.backgroundColor = .white
         button.alpha = 0.5
         button.layer.cornerRadius = 25

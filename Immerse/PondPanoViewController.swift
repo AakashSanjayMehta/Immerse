@@ -24,7 +24,7 @@ class PondPanoViewController: UIViewController {
         super.viewDidLoad()
         
         // Init dissmiss button
-        let button = UIButton(frame: CGRect(x: 16, y: 26, width: 50, height: 50))
+        let button = UIButton(frame: CGRect(x: 16, y: 32, width: 50, height: 50))
         button.backgroundColor = .white
         button.alpha = 0.5
         button.layer.cornerRadius = 25

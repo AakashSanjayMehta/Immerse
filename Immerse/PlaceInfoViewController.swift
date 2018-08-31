@@ -108,7 +108,7 @@ class PlaceInfoViewController: UIViewController {
                 
             case "Biotech_Lab":
                 Place_name.text = "Biotech Lab"
-                Place_image.image = UIImage(named: "Field_1a")
+                Place_image.image = UIImage(named: "BiotechLab_1a")
                 Place_description.text =
                 "This is where one of our Applied Subjects, Biotechnology is conducted. These labs have special equipments that are not found in other labs. Biotechnology students will be able to learn more about cell culture technology, microbial technology and recombinant DNA technology through experiments and practicals conducted in this lab."
                 view360_identifier = "Biotech"
