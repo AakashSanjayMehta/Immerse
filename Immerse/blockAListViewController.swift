@@ -8,7 +8,7 @@
 
 import UIKit
 
-let blockAPlace = ["Library", "General_Office", "Eletronic_Labs"]
+let blockAPlace = ["Library"/*, "General_Office", "Eletronic_Labs"*/]
 
 class blockAListViewController: UIViewController, UITableViewDelegate, UITableViewDataSource  {
 
