@@ -1,38 +1,33 @@
 //
-//  IncCViewController.swift
+//  AboutAfterViewController.swift
 //  Immerse
 //
-//  Created by Aakash Sanjay Mehta on 16/5/18.
+//  Created by Qin Guan on 9/6/18.
 //  Copyright © 2018 Aakash Sanjay Mehta. All rights reserved.
 //
 
 import UIKit
-import CTPanoramaView
 
-class IncCViewController: UIViewController {
+class AboutAfter: UIViewController {
 
-    @IBOutlet weak var IPcV: CTPanoramaView!
+    @IBOutlet var startButton: UIVisualEffectView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        IPcV.controlMethod = .motion
-        IPcV.image = UIImage(named: "Inc_1c")
-
         // Do any additional setup after loading the view.
+        setupViews()
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    fileprivate func setupViews() {
+        startButton.layer.cornerRadius = 20
     }
-
 
     /*
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
+        // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
     }
     */

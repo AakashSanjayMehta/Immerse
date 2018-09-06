@@ -10,8 +10,8 @@ import UIKit
 
 class blockATableViewCell: UITableViewCell {
 
-    @IBOutlet weak var Preview_Image: UIImageView!
-    @IBOutlet weak var place_name: UILabel!
+    @IBOutlet var Preview_Image: UIImageView!
+    @IBOutlet var place_name: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

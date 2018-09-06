@@ -9,43 +9,44 @@
 import UIKit
 
 let blockBPlace = ["Cafe", "Pond"]
+
 class blockBListViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-    
+
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return blockBPlace.count
     }
-    
+
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! blockBTableViewCell
-        
+
         switch blockBPlace[indexPath.row] {
-            
+
         case "Cafe":
             cell.Preview_Image.image = UIImage(named: "Cafe_1a")
             cell.place_name.text = "   Cafe"
-            
+
         case "Pond":
             cell.Preview_Image.image = UIImage(named: "Pond_1a")
             cell.place_name.text = "   Pond"
-            
+
         default:
             break
         }
-        
+
         cell.Preview_Image.layer.cornerRadius = 25
         cell.place_name.layer.cornerRadius = 20
-        
+
         return (cell)
     }
-    
+
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
+
         UserDefaults.standard.set(blockBPlace[indexPath.row], forKey: "place name")
-        
+
         tableView.deselectRow(at: indexPath, animated: true)
-        
+
     }
-    
+
     /*
      The height of the cell will get big
      */
@@ -72,7 +73,7 @@ class blockBListViewController: UIViewController, UITableViewDelegate, UITableVi
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         // Do any additional setup after loading the view.
     }
 
@@ -80,11 +81,12 @@ class blockBListViewController: UIViewController, UITableViewDelegate, UITableVi
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+
     @IBAction func toARB(_ sender: Any) {
         let vc = self.storyboard!.instantiateViewController(withIdentifier: "ARSkewl")
         self.present(vc, animated: true, completion: nil)
     }
-    
+
 
     /*
     // MARK: - Navigation

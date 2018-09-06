@@ -1,5 +1,5 @@
 //
-//  BiioTechLabViewController.swift
+//  BioTechLabViewController.swift
 //  Immerse
 //
 //  Created by Aakash Sanjay Mehta on 24/5/18.
@@ -9,21 +9,21 @@
 import UIKit
 import CTPanoramaView
 
-class BiioTechLabViewController: UIViewController {
+class BioTechLabViewController: UIViewController {
 
     @IBOutlet var IpBioV: CTPanoramaView!
-    
-    // dismiss button
-    @objc func dismiss_btn(sender: UIButton!) {
-        self.dismiss(animated: true, completion: nil)
-    }
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
+        setupViews()
+
+    }
+
+    fileprivate func setupViews() {
         IpBioV.controlMethod = .motion
         IpBioV.image = UIImage(named: "BiotechLab_1a")
-        
+
         // Init dissmiss button
         let button = UIButton(frame: CGRect(x: 16, y: 32, width: 50, height: 50))
         button.backgroundColor = .white
@@ -31,16 +31,20 @@ class BiioTechLabViewController: UIViewController {
         button.layer.cornerRadius = 25
         button.setImage(UIImage(named: "cross"), for: UIControlState.normal)
         button.addTarget(self, action: #selector(dismiss_btn), for: .touchUpInside)
-        
+
         self.view.addSubview(button)
-        
+    }
+
+    // dismiss button
+    @objc func dismiss_btn(sender: UIButton!) {
+        self.dismiss(animated: true, completion: nil)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+
 
     /*
     // MARK: - Navigation

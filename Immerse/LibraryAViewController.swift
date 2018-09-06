@@ -12,7 +12,7 @@ import CTPanoramaView
 class LibraryAViewController: UIViewController {
 
     @IBOutlet var IPCanteenV: CTPanoramaView!
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         IPCanteenV.controlMethod = .motion
@@ -23,7 +23,7 @@ class LibraryAViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+
 
     /*
     // MARK: - Navigation

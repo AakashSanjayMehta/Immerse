@@ -9,19 +9,19 @@
 import UIKit
 
 class blockCTableViewCell: UITableViewCell {
-    
+
     @IBOutlet weak var Preview_Image: UIImageView!
     @IBOutlet weak var place_name: UILabel!
-    
+
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
-    
+
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-        
+
         // Configure the view for the selected state
     }
-    
+
 }

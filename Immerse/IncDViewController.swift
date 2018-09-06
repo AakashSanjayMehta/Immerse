@@ -12,6 +12,7 @@ import CTPanoramaView
 class IncDViewController: UIViewController {
 
     @IBOutlet weak var IPdV: CTPanoramaView!
+
     override func viewDidLoad() {
         super.viewDidLoad()
         IPdV.controlMethod = .motion
@@ -24,7 +25,7 @@ class IncDViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+
 
     /*
     // MARK: - Navigation
