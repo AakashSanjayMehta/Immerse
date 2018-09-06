@@ -38,7 +38,7 @@ class PlaceInfoViewController: UIViewController {
         back_btn.clipsToBounds = true
         view360_btn.clipsToBounds = true
         
-        view360_btn.layer.cornerRadius = 20
+        view360_btn.layer.cornerRadius = view360_btn.frame.height / 2.3
         back_btn.layer.cornerRadius = back_btn.frame.width / 2
 
     }

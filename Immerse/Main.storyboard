@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Xbf-uC-vaq">
-    <device id="retina5_5" orientation="portrait">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.3.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Xbf-uC-vaq">
+    <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -43,7 +42,7 @@
             <objects>
                 <viewController storyboardIdentifier="FIELD1A" useStoryboardIdentifierAsRestorationIdentifier="YES" id="2A4-xF-f02" customClass="FieldAViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="B7i-WZ-ajj" customClass="CTPanoramaView" customModule="CTPanoramaView">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="wS7-U3-BoS"/>
@@ -61,7 +60,7 @@
             <objects>
                 <viewController storyboardIdentifier="FIELD1B" useStoryboardIdentifierAsRestorationIdentifier="YES" id="4uw-bi-wzq" customClass="FieldBViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="AJQ-AO-n7G" customClass="CTPanoramaView" customModule="CTPanoramaView">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="LQK-JS-hxO"/>
@@ -79,7 +78,7 @@
             <objects>
                 <viewController storyboardIdentifier="Pond" useStoryboardIdentifierAsRestorationIdentifier="YES" id="SIx-JB-WFU" customClass="PondPanoViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4bI-OB-9f7" customClass="CTPanoramaView" customModule="CTPanoramaView">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="x08-D4-J5V"/>
@@ -97,7 +96,7 @@
             <objects>
                 <viewController storyboardIdentifier="Canteen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="eJ2-R3-FKR" customClass="CanteenViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ojL-l8-Ndz" customClass="CTPanoramaView" customModule="CTPanoramaView">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="reD-hc-LtT"/>
@@ -115,7 +114,7 @@
             <objects>
                 <viewController storyboardIdentifier="Classrooms" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ctT-nw-HFu" customClass="Sec1and3AViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="luQ-J3-7iM" customClass="CTPanoramaView" customModule="CTPanoramaView">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="ZMl-eS-5Y8"/>
@@ -133,7 +132,7 @@
             <objects>
                 <viewController storyboardIdentifier="LIB1A" useStoryboardIdentifierAsRestorationIdentifier="YES" id="I6N-KZ-urd" customClass="LibraryAViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zPo-H3-6Ir" customClass="CTPanoramaView" customModule="CTPanoramaView">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="HIE-ii-EPk"/>
@@ -151,7 +150,7 @@
             <objects>
                 <viewController storyboardIdentifier="LIB1B" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Czt-RZ-POa" customClass="LibraryBViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vZW-IO-NU7" customClass="CTPanoramaView" customModule="CTPanoramaView">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="G8D-IN-SN4"/>
@@ -185,7 +184,7 @@
             <objects>
                 <viewController storyboardIdentifier="CAFE1A" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Ayb-fD-09B" customClass="CafeAViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pJq-XX-T9G" customClass="CTPanoramaView" customModule="CTPanoramaView">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="yFm-ik-V1R"/>
@@ -203,7 +202,7 @@
             <objects>
                 <viewController storyboardIdentifier="CAFE1B" useStoryboardIdentifierAsRestorationIdentifier="YES" id="FTP-qO-6Ij" customClass="CafeBViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="G6E-1c-9u8" customClass="CTPanoramaView" customModule="CTPanoramaView">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="EFd-SQ-592"/>
@@ -218,7 +217,7 @@
             <objects>
                 <viewController storyboardIdentifier="Makers_Lab" useStoryboardIdentifierAsRestorationIdentifier="YES" id="AAA-JZ-hVx" customClass="Makers_LabViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ptu-35-MsJ" customClass="CTPanoramaView" customModule="CTPanoramaView">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="tEt-We-ZDG"/>
@@ -236,7 +235,7 @@
             <objects>
                 <viewController storyboardIdentifier="Biotech" useStoryboardIdentifierAsRestorationIdentifier="YES" id="21f-w3-43Z" customClass="BiioTechLabViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bbj-QC-uLH" customClass="CTPanoramaView" customModule="CTPanoramaView">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="lXG-UX-Gvu"/>
@@ -254,26 +253,26 @@
             <objects>
                 <viewController title="Block B" id="r2b-cl-7Zd" customClass="blockBListViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jhy-SL-VXh">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="buD-G4-4Wo">
-                                <rect key="frame" x="0.0" y="116" width="414" height="571"/>
+                                <rect key="frame" x="0.0" y="116" width="375" height="502"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="328" id="eCb-gf-yQX" customClass="blockBTableViewCell" customModule="Immerse" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="328"/>
+                                        <rect key="frame" x="0.0" y="28" width="375" height="328"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="eCb-gf-yQX" id="MMY-Lw-UU5">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="328"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="328"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wem-GZ-Mae">
-                                                    <rect key="frame" x="17" y="11" width="380" height="306"/>
+                                                    <rect key="frame" x="15" y="11" width="345" height="306"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
                                                 </imageView>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kcm-0e-lVC">
-                                                    <rect key="frame" x="26" y="245" width="362" height="60"/>
+                                                    <rect key="frame" x="26" y="245" width="323" height="60"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
                                                     <color key="backgroundColor" red="0.894528985" green="0.94902664420000005" blue="0.99678415060000003" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="26"/>
@@ -326,26 +325,26 @@
             <objects>
                 <viewController title="Block A" id="Q0v-dt-7Jn" customClass="blockAListViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FXa-Wu-Ber">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="pZh-Jb-bSv">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="687"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="328" id="440-Z8-1bg" customClass="blockATableViewCell" customModule="Immerse" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="328"/>
+                                        <rect key="frame" x="0.0" y="28" width="375" height="328"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="440-Z8-1bg" id="imE-MI-T7T">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="328"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="328"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wNX-tP-70r">
-                                                    <rect key="frame" x="17" y="11" width="380" height="306"/>
+                                                    <rect key="frame" x="15" y="11" width="345" height="306"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
                                                 </imageView>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gEP-Yy-Ixy">
-                                                    <rect key="frame" x="26" y="245" width="362" height="60"/>
+                                                    <rect key="frame" x="26" y="245" width="323" height="60"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
                                                     <color key="backgroundColor" red="0.894528985" green="0.94902664420000005" blue="0.99678415060000003" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="26"/>
@@ -406,11 +405,11 @@
             <objects>
                 <viewController storyboardIdentifier="Help_1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="uAQ-hr-DJ1" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xc1-qn-YRj">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="helping1" translatesAutoresizingMaskIntoConstraints="NO" id="73F-dV-40m">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -432,11 +431,11 @@
             <objects>
                 <viewController storyboardIdentifier="Help_3" useStoryboardIdentifierAsRestorationIdentifier="YES" id="9fR-HJ-brd" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rv9-5u-Kfu">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="helping3" translatesAutoresizingMaskIntoConstraints="NO" id="wHZ-Ck-5DA">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -458,11 +457,11 @@
             <objects>
                 <viewController storyboardIdentifier="Help_2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BpD-hE-ML9" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4OC-yl-TEk">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="helping2" translatesAutoresizingMaskIntoConstraints="NO" id="edp-WR-Dqp">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -484,26 +483,26 @@
             <objects>
                 <viewController title="Block C" id="RzF-FO-Axg" customClass="blockCListViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Qzn-LU-s0m">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="acs-4N-EAI">
-                                <rect key="frame" x="0.0" y="116" width="414" height="571"/>
+                                <rect key="frame" x="0.0" y="116" width="375" height="502"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="328" id="3kj-uR-Y6L" customClass="blockCTableViewCell" customModule="Immerse" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="328"/>
+                                        <rect key="frame" x="0.0" y="28" width="375" height="328"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3kj-uR-Y6L" id="U4I-We-M03">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="328"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="328"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vrr-lj-Ba0">
-                                                    <rect key="frame" x="17" y="11" width="380" height="306"/>
+                                                    <rect key="frame" x="15" y="11" width="345" height="306"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
                                                 </imageView>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lOM-MN-Cqd">
-                                                    <rect key="frame" x="26" y="245" width="362" height="60"/>
+                                                    <rect key="frame" x="26" y="245" width="323" height="60"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
                                                     <color key="backgroundColor" red="0.89452898502349854" green="0.94902664422988892" blue="0.99678415060043335" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="26"/>
@@ -557,15 +556,15 @@
             <objects>
                 <viewController id="eDI-xd-4M1" customClass="PlaceInfoViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uum-Pg-ex8">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Canteen_1a" translatesAutoresizingMaskIntoConstraints="NO" id="kyP-Qs-w6Q">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="338"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="306"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="DHL-Oi-dIB">
-                                <rect key="frame" x="16" y="347" width="382" height="369"/>
+                                <rect key="frame" x="16" y="314" width="343" height="333"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">This is the canteen This is the canteen This is the canteen This is the canteen This is the canteen This is the canteen This is the canteen This is the canteen This is the canteen This is the canteen This is the canteen This is the canteen This is the canteen This is the canteen This is the canteen This is the canteen This is the canteen This is the canteen This is the canteen This is the canteen This is the canteen This is the canteen This is the canteen This is the canteen This is the canteen This is the canteen This is the canteen This is the canteen This is the canteen This is the canteen This is the canteen This is the canteen This is the canteen This is the canteen </string>
@@ -573,14 +572,14 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RgE-KW-I6N">
-                                <rect key="frame" x="0.0" y="264" width="414" height="74"/>
+                                <rect key="frame" x="0.0" y="239" width="375" height="67"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" id="Xd3-wB-wCB">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="74"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="67"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8cr-7F-DJz">
-                                            <rect key="frame" x="287" y="14" width="113" height="47"/>
+                                            <rect key="frame" x="259" y="12" width="102" height="43"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
@@ -592,7 +591,7 @@
                                             </connections>
                                         </button>
                                         <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceHorizontal="YES" bouncesZoom="NO" editable="NO" text="LOL" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l4u-qh-ih1">
-                                            <rect key="frame" x="16" y="9" width="261" height="56"/>
+                                            <rect key="frame" x="16" y="8" width="235" height="51"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
@@ -632,27 +631,27 @@
             <objects>
                 <viewController title="Block D" id="uPN-Dl-fn4" customClass="BlockDListViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CmN-pv-sqb">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="TlB-07-Tyu">
-                                <rect key="frame" x="0.0" y="92" width="414" height="595"/>
+                                <rect key="frame" x="0.0" y="92" width="375" height="526"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="328" id="hbv-it-Tyx" customClass="blockDTableViewCell" customModule="Immerse" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="328"/>
+                                        <rect key="frame" x="0.0" y="28" width="375" height="328"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hbv-it-Tyx" id="a2E-yp-ta4">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="328"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="328"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Llg-Sr-8zJ">
-                                                    <rect key="frame" x="17" y="11" width="380" height="306"/>
+                                                    <rect key="frame" x="15" y="11" width="345" height="306"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
                                                 </imageView>
                                                 <label clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pM2-H6-Jl9">
-                                                    <rect key="frame" x="26" y="245" width="362" height="60"/>
+                                                    <rect key="frame" x="26" y="245" width="323" height="60"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
                                                     <color key="backgroundColor" red="0.894528985" green="0.94902664420000005" blue="0.99678415060000003" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="26"/>
@@ -700,21 +699,21 @@
             <objects>
                 <viewController storyboardIdentifier="InitialStartupViewController" title="Start" id="lyB-Ng-TAZ" customClass="InitialStartupViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FNf-5G-hvr">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="3gE-eQ-86D">
-                                <rect key="frame" x="-38" y="-24" width="490" height="784"/>
+                                <rect key="frame" x="-38" y="-24" width="451" height="715"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="deco line" translatesAutoresizingMaskIntoConstraints="NO" id="BkB-fQ-Bit">
-                                <rect key="frame" x="109" y="129" width="196" height="40"/>
+                                <rect key="frame" x="109" y="120.5" width="157" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="Os6-q9-J74"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IMMERSE." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zcL-bU-aLM">
-                                <rect key="frame" x="12" y="74" width="391" height="75"/>
+                                <rect key="frame" x="11.5" y="74" width="352" height="67.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="zcL-bU-aLM" secondAttribute="height" multiplier="391:75" id="e66-pI-Tig"/>
                                 </constraints>
@@ -722,15 +721,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TaU-p3-7v3">
-                                <rect key="frame" x="52" y="618" width="309" height="76"/>
+                            <visualEffectView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TaU-p3-7v3">
+                                <rect key="frame" x="52" y="557" width="270" height="68"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
-                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" id="wOZ-DM-WI3">
-                                    <rect key="frame" x="0.0" y="0.0" width="309" height="76"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="wOZ-DM-WI3">
+                                    <rect key="frame" x="0.0" y="0.0" width="270" height="68"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
-                                        <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5sL-bR-hNm">
-                                            <rect key="frame" x="-7" y="-2" width="323" height="79"/>
+                                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5sL-bR-hNm">
+                                            <rect key="frame" x="46" y="12" width="216.66666666666666" height="53"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" secondItem="5sL-bR-hNm" secondAttribute="height" multiplier="323:79" id="VUO-RK-mIq"/>
                                             </constraints>
@@ -753,7 +752,7 @@
                                 <blurEffect style="regular"/>
                             </visualEffectView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2t0-eG-4We">
-                                <rect key="frame" x="36" y="20" width="342" height="74"/>
+                                <rect key="frame" x="36" y="20" width="303" height="65.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="2t0-eG-4We" secondAttribute="height" multiplier="171:37" id="YHw-9V-iU2"/>
                                 </constraints>
@@ -761,16 +760,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tcC-Od-Ed8">
-                                <rect key="frame" x="16" y="201" width="382" height="409"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Kwi-iq-024">
+                                <rect key="frame" x="16" y="168" width="343" height="354"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <string key="text">Hi There, we are Neon Cherry Co from SST inc.
 Welcome to Immerse! 
 Immerse is a virtual tour of School of Science and Technology, Singapore which aims to provide you - our audience, our unique experiences in this school. As we tour you around our school, we hope to bring you to a perspective of an SST student and what they can experience here in SST. So without further ado, get ready to immerse yourself in our perspective.</string>
-                                <fontDescription key="fontDescription" name="MankSans" family="MankSans" pointSize="22"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -791,12 +789,13 @@ Immerse is a virtual tour of School of Science and Technology, Singapore which a
                     </view>
                     <navigationItem key="navigationItem" id="EBS-Kd-R67"/>
                     <connections>
+                        <outlet property="start_btn" destination="TaU-p3-7v3" id="Lv5-fN-PZp"/>
                         <segue destination="Xbf-uC-vaq" kind="show" identifier="toMain" id="fxj-bJ-Ztc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eSW-X2-ki2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="65" y="-2213"/>
+            <point key="canvasLocation" x="64.799999999999997" y="-2213.3433283358322"/>
         </scene>
         <!--Main Tab Bar-->
         <scene sceneID="keR-ta-RhW">
@@ -823,11 +822,11 @@ Immerse is a virtual tour of School of Science and Technology, Singapore which a
             <objects>
                 <viewController storyboardIdentifier="INC1A" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Sc9-Lb-gdV" customClass="IncAViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5tj-A6-3Ci">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ndI-zt-2Dy" customClass="CTPanoramaView" customModule="CTPanoramaView">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
@@ -848,11 +847,11 @@ Immerse is a virtual tour of School of Science and Technology, Singapore which a
             <objects>
                 <viewController storyboardIdentifier="INC1B" useStoryboardIdentifierAsRestorationIdentifier="YES" id="owi-Up-ais" customClass="IncBViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cTc-NG-WCs">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3JL-MQ-SKL" customClass="CTPanoramaView" customModule="CTPanoramaView">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                         </subviews>
@@ -878,11 +877,11 @@ Immerse is a virtual tour of School of Science and Technology, Singapore which a
             <objects>
                 <viewController storyboardIdentifier="INC1C" useStoryboardIdentifierAsRestorationIdentifier="YES" id="zFf-A2-Jmv" customClass="IncCViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ocn-Or-ouW">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wDi-5R-ULn" customClass="CTPanoramaView" customModule="CTPanoramaView">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                         </subviews>
@@ -908,11 +907,11 @@ Immerse is a virtual tour of School of Science and Technology, Singapore which a
             <objects>
                 <viewController storyboardIdentifier="INC1D" useStoryboardIdentifierAsRestorationIdentifier="YES" id="sHz-yc-dJk" customClass="IncDViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SY8-3f-Zmd">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="48A-Bk-Ibw" customClass="CTPanoramaView" customModule="CTPanoramaView">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                         </subviews>
@@ -940,7 +939,7 @@ Immerse is a virtual tour of School of Science and Technology, Singapore which a
                     <tabBarItem key="tabBarItem" title="Block A" image="blockPIC.001" id="Oua-u3-VIn"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="aNS-At-t3s">
-                        <rect key="frame" x="0.0" y="20" width="414" height="96"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -959,7 +958,7 @@ Immerse is a virtual tour of School of Science and Technology, Singapore which a
                     <tabBarItem key="tabBarItem" title="Block C" image="blockPIC.003" id="ycG-wz-bxp"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="sca-ST-ich">
-                        <rect key="frame" x="0.0" y="20" width="414" height="96"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -978,7 +977,7 @@ Immerse is a virtual tour of School of Science and Technology, Singapore which a
                     <tabBarItem key="tabBarItem" title="Block B" image="blockPIC.002" id="aep-cJ-jQE"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="xCw-9b-NDe">
-                        <rect key="frame" x="0.0" y="20" width="414" height="96"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -997,7 +996,7 @@ Immerse is a virtual tour of School of Science and Technology, Singapore which a
                     <tabBarItem key="tabBarItem" title="Block D" image="blockPIC.004" id="LnI-Cy-ORZ"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="4fV-JB-oqy">
-                        <rect key="frame" x="0.0" y="20" width="414" height="96"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -1012,20 +1011,20 @@ Immerse is a virtual tour of School of Science and Technology, Singapore which a
     </scenes>
     <resources>
         <image name="Canteen_1a" width="6912" height="3456"/>
-        <image name="background" width="1308" height="1764"/>
+        <image name="background" width="654" height="882"/>
         <image name="blockPIC.001" width="25" height="25"/>
         <image name="blockPIC.002" width="25" height="25"/>
         <image name="blockPIC.003" width="25" height="25"/>
         <image name="blockPIC.004" width="25" height="25"/>
         <image name="cross" width="512" height="512"/>
-        <image name="deco line" width="720" height="96"/>
-        <image name="help" width="50" height="50"/>
+        <image name="deco line" width="360" height="48"/>
+        <image name="help" width="37.5" height="37.5"/>
         <image name="helping1" width="1080" height="1920"/>
         <image name="helping2" width="1080" height="1920"/>
         <image name="helping3" width="1080" height="1920"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="xiA-mJ-RPy"/>
+        <segue reference="ZS3-sL-sAo"/>
         <segue reference="xyr-7Y-rDp"/>
         <segue reference="vTB-ZJ-UNB"/>
     </inferredMetricsTieBreakers>

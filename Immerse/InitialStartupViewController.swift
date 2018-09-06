@@ -10,14 +10,13 @@ import UIKit
 
 class InitialStartupViewController: UIViewController {
 
+    @IBOutlet weak var start_btn: UIVisualEffectView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-   
-        
-    
-
         // Do any additional setup after loading the view.
+        
+        start_btn.layer.cornerRadius = 20
     }
     
 
