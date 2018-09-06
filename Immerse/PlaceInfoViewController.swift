@@ -81,7 +81,7 @@ class PlaceInfoViewController: UIViewController {
             case "Pond":
                 Place_name.text = "School Pond"
                 Place_image.image = UIImage(named: "Pond_1a")
-                Place_description.text = "EMPTY HOLDER"
+                Place_description.text = "The SST Eco pond provides an environment for students to wonder and admire the vast biodiversity in SST. This also provides a platform for students to conduct research for their learning and development."
                 view360_identifier = "Pond"
                 
             // Block C
