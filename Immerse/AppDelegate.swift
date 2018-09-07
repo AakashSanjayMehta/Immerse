@@ -17,7 +17,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        var vc: UIViewController
+
+        if (UserDefaults.standard.value(forKey: "beenToStart") as? String) == nil {
+            //show the screen
+            vc = storyboard.instantiateViewController(withIdentifier: "InitialStartupViewController")
+
+        } else {
+            //show the actual thing
+            vc = storyboard.instantiateInitialViewController()!
+
+        }
+
+        self.window?.rootViewController = vc
+        self.window?.makeKeyAndVisible()
         return true
     }
 
@@ -44,10 +59,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Saves changes in the application's managed object context before the application terminates.
         self.saveContext()
     }
-    
+
     /// set orientations you want to be allowed in this property by default
     var orientationLock = UIInterfaceOrientationMask.all
-    
+
     func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
         return self.orientationLock
     }
@@ -66,7 +81,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             if let error = error as NSError? {
                 // Replace this implementation with code to handle the error appropriately.
                 // fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
-                 
+
                 /*
                  Typical reasons for an error here include:
                  * The parent directory does not exist, cannot be created, or disallows writing.
@@ -83,7 +98,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     // MARK: - Core Data Saving support
 
-    func saveContext () {
+    func saveContext() {
         let context = persistentContainer.viewContext
         if context.hasChanges {
             do {
@@ -101,22 +116,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 // setup Orientation lock
 struct AppUtility {
-    
+
     static func lockOrientation(_ orientation: UIInterfaceOrientationMask) {
-        
+
         if let delegate = UIApplication.shared.delegate as? AppDelegate {
             delegate.orientationLock = orientation
         }
     } // end static func
-    
+
     /// OPTIONAL Added method to adjust lock and rotate to the desired orientation
-    static func lockOrientation(_ orientation: UIInterfaceOrientationMask, andRotateTo rotateOrientation:UIInterfaceOrientation) {
-        
+    static func lockOrientation(_ orientation: UIInterfaceOrientationMask, andRotateTo rotateOrientation: UIInterfaceOrientation) {
+
         self.lockOrientation(orientation)
-        
+
         UIDevice.current.setValue(rotateOrientation.rawValue, forKey: "orientation")
     } // end static func
-    
+
 } // end struct
 
 /*

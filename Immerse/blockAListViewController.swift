@@ -8,57 +8,57 @@
 
 import UIKit
 
-let blockAPlace = ["Library", "General_Office", "Eletronic_Labs"]
+let blockAPlace = ["Library"/*, "General_Office", "Eletronic_Labs"*/]
 
-class blockAListViewController: UIViewController, UITableViewDelegate, UITableViewDataSource  {
+class blockAListViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return blockAPlace.count
     }
-    
+
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
+
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! blockATableViewCell
-        
+
         switch blockAPlace[indexPath.row] {
-            
+
         case "Library":
             cell.Preview_Image.image = UIImage(named: "Library_1a")
             cell.place_name.text = "   Library"
-            
+
         case "General_Office": // NOT DONE
             cell.Preview_Image.image = UIImage(named: "")
             cell.place_name.text = "   General Office"
-            
+
         case "Eletronic_Labs":
             cell.Preview_Image.image = UIImage(named: "")
             cell.place_name.text = "   Eletronic Labs"
-            
+
         default:
             break
         }
-        
+
         cell.Preview_Image.layer.cornerRadius = 25
         cell.place_name.layer.cornerRadius = 20
-        
+
         return (cell)
     }
-    
+
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
+
         UserDefaults.standard.set(blockAPlace[indexPath.row], forKey: "place name")
-        
+
         tableView.deselectRow(at: indexPath, animated: true)
-        
+
     }
-    
+
     /*
      The height of the cell will get big
      */
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 328
     }
-    
+
     /*
     var tableCellShown = [Bool](repeating: false, count: blockCPlace.count)
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
@@ -78,7 +78,6 @@ class blockAListViewController: UIViewController, UITableViewDelegate, UITableVi
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         // Do any additional setup after loading the view.
     }
 
@@ -86,12 +85,12 @@ class blockAListViewController: UIViewController, UITableViewDelegate, UITableVi
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+
     @IBAction func toAR(_ sender: Any) {
         let vc = self.storyboard!.instantiateViewController(withIdentifier: "ARSkewl")
         self.present(vc, animated: true, completion: nil)
     }
-    
+
     /*
     // MARK: - Navigation
 

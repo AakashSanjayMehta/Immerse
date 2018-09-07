@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1D948D9485A646542E1AE52D /* Pods_ImmerseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B34536E297BAAB9C6ABF2DD3 /* Pods_ImmerseTests.framework */; };
+		24DB9C2C21417B04008CB3BC /* AboutAfter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DB9C2B21417B04008CB3BC /* AboutAfter.swift */; };
 		4202336720ECC13A00800155 /* Infohub.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4202336620ECC13A00800155 /* Infohub.m4a */; };
 		42783C5C20FE02E100E0EAF9 /* LibraryPanaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42783C5B20FE02E100E0EAF9 /* LibraryPanaViewController.swift */; };
 		42783C5E20FE040F00E0EAF9 /* LibraryBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42783C5D20FE040E00E0EAF9 /* LibraryBViewController.swift */; };
@@ -26,7 +27,7 @@
 		5E53470F20B5BE5C00EDE55E /* FieldBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53470E20B5BE5C00EDE55E /* FieldBViewController.swift */; };
 		5E53471120B5BE7800EDE55E /* FieldPanaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53471020B5BE7800EDE55E /* FieldPanaViewController.swift */; };
 		5E53471420B64C1200EDE55E /* Makers'LabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53471320B64C1200EDE55E /* Makers'LabViewController.swift */; };
-		5E53471620B64C2500EDE55E /* BiioTechLabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53471520B64C2500EDE55E /* BiioTechLabViewController.swift */; };
+		5E53471620B64C2500EDE55E /* BioTechLabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53471520B64C2500EDE55E /* BioTechLabViewController.swift */; };
 		5E53471920B64E2200EDE55E /* blockBListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53471820B64E2200EDE55E /* blockBListViewController.swift */; };
 		5E53471C20B6506C00EDE55E /* CAFEPanoPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53471B20B6506C00EDE55E /* CAFEPanoPageViewController.swift */; };
 		5E53471E20B6508900EDE55E /* CafeAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53471D20B6508900EDE55E /* CafeAViewController.swift */; };
@@ -63,6 +64,7 @@
 		5E677F8920ABBBCB00E1C46B /* IncBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E677F8820ABBBCB00E1C46B /* IncBViewController.swift */; };
 		5E677F8B20ABBBD900E1C46B /* IncCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E677F8A20ABBBD900E1C46B /* IncCViewController.swift */; };
 		5E677F8D20ABBBE400E1C46B /* IncDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E677F8C20ABBBE400E1C46B /* IncDViewController.swift */; };
+		5E6E303A2140ED8800A9C681 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6E30392140ED8800A9C681 /* MainTabBarController.swift */; };
 		5E8DD4CD20B4552200EEA163 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E8DD4CC20B4552100EEA163 /* Assets.xcassets */; };
 		5EE657BD212FBCD800060558 /* ARControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE657BC212FBCD800060558 /* ARControllerViewController.swift */; };
 		77FDB7C26CEB2932DB07F33E /* Pods_ImmerseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A045DFE373F9DCCDB51B5100 /* Pods_ImmerseUITests.framework */; };
@@ -88,6 +90,7 @@
 /* Begin PBXFileReference section */
 		084F61F872D3FCE213D1DF73 /* Pods-ImmerseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImmerseUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImmerseUITests/Pods-ImmerseUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		10467C47D94BF3EDC2CCE081 /* Pods_Immerse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Immerse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24DB9C2B21417B04008CB3BC /* AboutAfter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAfter.swift; sourceTree = "<group>"; };
 		3595C1A65257165159A151D2 /* Pods-Immerse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Immerse.release.xcconfig"; path = "Pods/Target Support Files/Pods-Immerse/Pods-Immerse.release.xcconfig"; sourceTree = "<group>"; };
 		4202336620ECC13A00800155 /* Infohub.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Infohub.m4a; sourceTree = "<group>"; };
 		42783C5B20FE02E100E0EAF9 /* LibraryPanaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryPanaViewController.swift; sourceTree = "<group>"; };
@@ -107,7 +110,7 @@
 		5E53470E20B5BE5C00EDE55E /* FieldBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldBViewController.swift; sourceTree = "<group>"; };
 		5E53471020B5BE7800EDE55E /* FieldPanaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldPanaViewController.swift; sourceTree = "<group>"; };
 		5E53471320B64C1200EDE55E /* Makers'LabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Makers'LabViewController.swift"; sourceTree = "<group>"; };
-		5E53471520B64C2500EDE55E /* BiioTechLabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiioTechLabViewController.swift; sourceTree = "<group>"; };
+		5E53471520B64C2500EDE55E /* BioTechLabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioTechLabViewController.swift; sourceTree = "<group>"; };
 		5E53471820B64E2200EDE55E /* blockBListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blockBListViewController.swift; sourceTree = "<group>"; };
 		5E53471B20B6506C00EDE55E /* CAFEPanoPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAFEPanoPageViewController.swift; sourceTree = "<group>"; };
 		5E53471D20B6508900EDE55E /* CafeAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeAViewController.swift; sourceTree = "<group>"; };
@@ -150,6 +153,7 @@
 		5E677F8820ABBBCB00E1C46B /* IncBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncBViewController.swift; sourceTree = "<group>"; };
 		5E677F8A20ABBBD900E1C46B /* IncCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncCViewController.swift; sourceTree = "<group>"; };
 		5E677F8C20ABBBE400E1C46B /* IncDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncDViewController.swift; sourceTree = "<group>"; };
+		5E6E30392140ED8800A9C681 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		5E8DD4CC20B4552100EEA163 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EE657BC212FBCD800060558 /* ARControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARControllerViewController.swift; sourceTree = "<group>"; };
 		7998BB7F669E039691728286 /* Pods-ImmerseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImmerseUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImmerseUITests/Pods-ImmerseUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -242,7 +246,7 @@
 			isa = PBXGroup;
 			children = (
 				5E53471320B64C1200EDE55E /* Makers'LabViewController.swift */,
-				5E53471520B64C2500EDE55E /* BiioTechLabViewController.swift */,
+				5E53471520B64C2500EDE55E /* BioTechLabViewController.swift */,
 			);
 			name = "Block C Labs";
 			sourceTree = "<group>";
@@ -323,6 +327,7 @@
 		5E53DF8320AB189000153856 = {
 			isa = PBXGroup;
 			children = (
+				5E6E30392140ED8800A9C681 /* MainTabBarController.swift */,
 				5E53DF8E20AB189000153856 /* Immerse */,
 				5E53DFA620AB189100153856 /* ImmerseTests */,
 				5E53DFB120AB189100153856 /* ImmerseUITests */,
@@ -367,6 +372,7 @@
 				5E053571212A4EB40072DAF1 /* ARAssets.scnassets */,
 				5E053573212A508C0072DAF1 /* Writeups.rtf */,
 				5E0BD8322133F09500088BAE /* InitialStartupViewController.swift */,
+				24DB9C2B21417B04008CB3BC /* AboutAfter.swift */,
 			);
 			path = Immerse;
 			sourceTree = "<group>";
@@ -644,6 +650,7 @@
 				5E53472420B685F900EDE55E /* blockAListViewController.swift in Sources */,
 				5E677F8D20ABBBE400E1C46B /* IncDViewController.swift in Sources */,
 				5E53472220B6541C00EDE55E /* CanteenViewController.swift in Sources */,
+				5E6E303A2140ED8800A9C681 /* MainTabBarController.swift in Sources */,
 				5E53472D20B6B8DE00EDE55E /* Sec1and3AViewController.swift in Sources */,
 				5E53DF9020AB189000153856 /* AppDelegate.swift in Sources */,
 				5E53470F20B5BE5C00EDE55E /* FieldBViewController.swift in Sources */,
@@ -659,7 +666,8 @@
 				5E53471420B64C1200EDE55E /* Makers'LabViewController.swift in Sources */,
 				5E677F8720ABBBBE00E1C46B /* IncAViewController.swift in Sources */,
 				5E0BD8332133F09500088BAE /* InitialStartupViewController.swift in Sources */,
-				5E53471620B64C2500EDE55E /* BiioTechLabViewController.swift in Sources */,
+				24DB9C2C21417B04008CB3BC /* AboutAfter.swift in Sources */,
+				5E53471620B64C2500EDE55E /* BioTechLabViewController.swift in Sources */,
 				5E677F8B20ABBBD900E1C46B /* IncCViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,25 +9,25 @@
 import UIKit
 
 class BlockDListViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-    
+
     public let blockDPlace = ["Field"]
-    
+
     /*
      Returns the number of items in the list blockDPlace
      */
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return blockDPlace.count
     }
-    
+
     /*
      Cell text is allocated to each cell based on the index of BlockCPlace
      */
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
+
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! blockDTableViewCell
-        
+
         switch blockDPlace[indexPath.row] {
-            
+
         case "Field":
             cell.Preview_Image.image = UIImage(named: "Field_1a")
             cell.place_name.text = "   Field"
@@ -35,13 +35,13 @@ class BlockDListViewController: UIViewController, UITableViewDelegate, UITableVi
         default:
             break
         }
-        
+
         cell.Preview_Image.layer.cornerRadius = 25
         cell.place_name.layer.cornerRadius = 20
-        
+
         return (cell)
     }
-    
+
     /*
      Animating the Cell
      
@@ -60,20 +60,18 @@ class BlockDListViewController: UIViewController, UITableViewDelegate, UITableVi
      }
      }
      */
-    
-    
-    
-    
+
+
     /*
      When a cell is selected (Based on Number) it will move on to the next vc
      */
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
+
         UserDefaults.standard.set(blockDPlace[indexPath.row], forKey: "place name")
-        
+
         tableView.deselectRow(at: indexPath, animated: true)
     }
-    
+
     /*
      The height of the cell will get big
      */
@@ -92,12 +90,12 @@ class BlockDListViewController: UIViewController, UITableViewDelegate, UITableVi
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+
     @IBAction func toARD(_ sender: Any) {
         let vc = self.storyboard!.instantiateViewController(withIdentifier: "ARSkewl")
         self.present(vc, animated: true, completion: nil)
     }
-    
+
     /*
     // MARK: - Navigation
 

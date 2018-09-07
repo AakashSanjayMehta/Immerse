@@ -10,24 +10,27 @@ import UIKit
 
 class InitialStartupViewController: UIViewController {
 
+    @IBOutlet weak var start_btn: UIVisualEffectView!
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        let launchedBefore = UserDefaults.standard.bool(forKey: "launchedBefore")
-        if launchedBefore  {
-            print("Not first launch.")
-        } else {
-            print("First launch, setting UserDefault.")
-            UserDefaults.standard.set(true, forKey: "launchedBefore")
-        }
-
         // Do any additional setup after loading the view.
+        setupViews()
+    }
+
+    fileprivate func setupViews() {
+        start_btn.layer.cornerRadius = 20
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+
+    @IBAction func startTouched(_ sender: Any) {
+        UserDefaults.standard.set("DONE", forKey: "beenToStart")
+        performSegue(withIdentifier: "toMain", sender: self)
+    }
 
     /*
     // MARK: - Navigation

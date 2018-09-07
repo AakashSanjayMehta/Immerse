@@ -12,19 +12,19 @@ import CTPanoramaView
 class LibraryBViewController: UIViewController {
 
     @IBOutlet var IPCanteenV: CTPanoramaView!
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         IPCanteenV.controlMethod = .motion
         IPCanteenV.image = UIImage(named: "Library_1b")
     }
-    
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    
+
+
     /*
      // MARK: - Navigation
      
@@ -34,5 +34,5 @@ class LibraryBViewController: UIViewController {
      // Pass the selected object to the new view controller.
      }
      */
-    
+
 }

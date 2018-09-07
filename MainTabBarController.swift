@@ -1,22 +1,21 @@
 //
-//  LibraryViewController.swift
+//  MainTabBarController.swift
 //  Immerse
 //
-//  Created by Aakash Sanjay Mehta on 24/5/18.
+//  Created by Aakash Sanjay Mehta on 6/9/18.
 //  Copyright © 2018 Aakash Sanjay Mehta. All rights reserved.
 //
 
 import UIKit
-import CTPanoramaView
 
-class LibraryAViewController: UIViewController {
+class MainTabBarController: UITabBarController {
 
-    @IBOutlet var IPCanteenV: CTPanoramaView!
+    @IBAction func returnHere(sender: UIStoryboardSegue) {
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        IPCanteenV.controlMethod = .motion
-        IPCanteenV.image = UIImage(named: "Library_1a")
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
