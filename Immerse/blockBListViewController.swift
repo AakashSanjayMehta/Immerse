@@ -8,7 +8,7 @@
 
 import UIKit
 
-let blockBPlace = ["Cafe", "Pond"]
+let blockBPlace = [""]
 
 class blockBListViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
@@ -21,13 +21,7 @@ class blockBListViewController: UIViewController, UITableViewDelegate, UITableVi
 
         switch blockBPlace[indexPath.row] {
 
-        case "Cafe":
-            cell.Preview_Image.image = UIImage(named: "Cafe_1a")
-            cell.place_name.text = "   Cafe"
-
-        case "Pond":
-            cell.Preview_Image.image = UIImage(named: "Pond_1a")
-            cell.place_name.text = "   Pond"
+        
 
         default:
             break

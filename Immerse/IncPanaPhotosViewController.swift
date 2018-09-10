@@ -103,12 +103,32 @@ class PanaPhotosViewController: UIPageViewController, UIPageViewControllerDataSo
         let button = UIButton(frame: CGRect(x: 16, y: 32, width: 50, height: 50))
         button.backgroundColor = .white
         button.alpha = 0.5
-        button.layer.cornerRadius = 25
+        button.layer.cornerRadius = button.layer.frame.width / 2
         button.setImage(UIImage(named: "cross"), for: UIControlState.normal)
         button.addTarget(self, action: #selector(dismiss_btn), for: .touchUpInside)
 
         self.view.addSubview(button)
+        
+        let audioButton = UIButton(frame: CGRect(x: UIScreen.main.bounds.width - 100, y: UIScreen.main.bounds.height - 75, width: 75, height: 50))
+        audioButton.backgroundColor = UIColor.black
+        audioButton.layer.cornerRadius = button.layer.frame.height / 2
+        
+        
+        
+        audioButton.addTarget(self, action: #selector(playingpausing(_:)), for: .touchUpInside)
+        
+        self.view.addSubview(audioButton)
+        
+        
+        
+        
+        
 
+        
+        
+        
+        
+        
         guard let audiopath = Bundle.main.path(forResource: "SST INC", ofType: "m4a") else {
             print("error111")
             return
@@ -121,27 +141,20 @@ class PanaPhotosViewController: UIPageViewController, UIPageViewControllerDataSo
         try! player = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audiopath) as URL)
         player?.prepareToPlay()
 
-        let playPause = UIBarButtonItem(barButtonSystemItem: .play, target: self, action: #selector(PanaPhotosViewController.playingpausing(_:)))
-        navigationItem.rightBarButtonItem = playPause
+//        let playPause = UIBarButtonItem(barButtonSystemItem: .play, target: self, action: #selector(PanaPhotosViewController.playingpausing(_:)))
+//        navigationItem.rightBarButtonItem = playPause
 
         configurePageControl()
     }
 
     @objc func playingpausing(_ sender: UIBarButtonItem!) {
-        var new_button = UIBarButtonItem()
+        
         if (player?.isPlaying)! {
 
             player?.pause()
             // Update the button
-            new_button = UIBarButtonItem(barButtonSystemItem: .play, target: self, action: #selector(playingpausing(_:)))
-        } else {
-
-            player?.play();
-            // Create the pause button
-            new_button = UIBarButtonItem(barButtonSystemItem: .pause, target: self, action: #selector(playingpausing(_:)))
-        }
-
-        navigationItem.rightBarButtonItem = new_button
+            
+        } else { player?.play() }
 
     }
 

@@ -10,7 +10,7 @@ import UIKit
 
 class BlockDListViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
-    public let blockDPlace = ["Field"]
+    public let blockDPlace = ["ICT", "Media", "Dance"]
 
     /*
      Returns the number of items in the list blockDPlace
@@ -28,9 +28,6 @@ class BlockDListViewController: UIViewController, UITableViewDelegate, UITableVi
 
         switch blockDPlace[indexPath.row] {
 
-        case "Field":
-            cell.Preview_Image.image = UIImage(named: "Field_1a")
-            cell.place_name.text = "   Field"
 
         default:
             break
@@ -91,10 +88,6 @@ class BlockDListViewController: UIViewController, UITableViewDelegate, UITableVi
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func toARD(_ sender: Any) {
-        let vc = self.storyboard!.instantiateViewController(withIdentifier: "ARSkewl")
-        self.present(vc, animated: true, completion: nil)
-    }
 
     /*
     // MARK: - Navigation

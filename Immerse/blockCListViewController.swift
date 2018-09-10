@@ -11,7 +11,7 @@ import UIKit
 /*
  blockCPlace is a list of the places recorded in this app, that is in SST block C
  */
-public let blockCPlace = ["SST_Inc", /*"Robotics@apex", */"S1S3_clasrooms", "Biotech_Lab", "Makers'_Lab", "Canteen"]
+public let blockCPlace = [""]
 
 class blockCListViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
@@ -31,29 +31,7 @@ class blockCListViewController: UIViewController, UITableViewDelegate, UITableVi
 
         switch blockCPlace[indexPath.row] {
 
-        case "SST_Inc":
-            cell.Preview_Image.image = UIImage(named: "Inc_1a")
-            cell.place_name.text = "   SST Inc."
-
-        case "Robotics@apex": // NOT DONE
-            cell.Preview_Image.image = UIImage(named: "")
-            cell.place_name.text = "   Robotics @ apex"
-
-        case "S1S3_clasrooms":
-            cell.Preview_Image.image = UIImage(named: "L4Class_1a")
-            cell.place_name.text = "   Level 4 Clasrooms"
-
-        case "Biotech_Lab":
-            cell.Preview_Image.image = UIImage(named: "BiotechLab_1a")
-            cell.place_name.text = "   Biotech Lab"
-
-        case "Makers'_Lab":
-            cell.Preview_Image.image = UIImage(named: "MakerLab_1a")
-            cell.place_name.text = "   Makers' Lab"
-
-        case "Canteen":
-            cell.Preview_Image.image = UIImage(named: "Canteen_1a")
-            cell.place_name.text = "   Canteen"
+        
 
         default:
             break
