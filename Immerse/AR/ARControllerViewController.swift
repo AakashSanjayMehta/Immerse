@@ -33,6 +33,22 @@ class ARControllerViewController: UIViewController, ARSCNViewDelegate {
         let lightNode = SCNNode()
         lightNode.light = sceneLight
         lightNode.position = SCNVector3(x:0, y:10, z:2)
+        
+        
+        let button = UIButton(frame: CGRect(x: 16, y: 32, width: 50, height: 50))
+        button.backgroundColor = .white
+        button.alpha = 0.5
+        button.layer.cornerRadius = button.layer.frame.width / 2
+        button.setImage(UIImage(named: "cross"), for: UIControlState.normal)
+        button.addTarget(self, action: #selector(dismiss_btn), for: .touchUpInside)
+        
+        self.view.addSubview(button)
+        
+        
+    }
+    //MARK: dismiss button
+    @objc func dismiss_btn(sender: UIButton!) {
+        self.dismiss(animated: true, completion: nil)
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -124,7 +140,7 @@ class ARControllerViewController: UIViewController, ARSCNViewDelegate {
         if hitResults.count > 0 {
             let result = hitResults.first!
             let newLocation = SCNVector3(x: result.worldTransform.columns.3.x, y: result.worldTransform.columns.3.y + 0.15, z: result.worldTransform.columns.3.z)
-            let schoolNode = SCNScene(named: "ARAssets.scnassets/IMMERSE 3D SCH MODEL.dae")?.rootNode.childNode(withName: "SketchUp", recursively: true)
+            let schoolNode = SCNScene(named: "ARAssets.scnassets/IMMERSE3DSCHMODEL.dae")?.rootNode.childNode(withName: "SketchUp", recursively: true)
             schoolNode?.rotation.y = -90
             schoolNode?.rotation.x = 90
             schoolNode?.position = newLocation
