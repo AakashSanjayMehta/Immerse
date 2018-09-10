@@ -11,7 +11,7 @@ import CTPanoramaView
 import AVFoundation
 
 class Makers_LabViewController: UIViewController {
-    
+
     var player:AVAudioPlayer?
     @IBOutlet var IPmakersLabV: CTPanoramaView!
     
@@ -24,7 +24,7 @@ class Makers_LabViewController: UIViewController {
         super.viewDidLoad()
         IPmakersLabV.controlMethod = .motion
         IPmakersLabV.image = UIImage(named: "MakerLab_1a")
-        
+
         // Init dissmiss button
         let button = UIButton(frame: CGRect(x: 16, y: 32, width: 50, height: 50))
         button.backgroundColor = .white
