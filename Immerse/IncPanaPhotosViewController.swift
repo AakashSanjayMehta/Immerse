@@ -109,26 +109,15 @@ class PanaPhotosViewController: UIPageViewController, UIPageViewControllerDataSo
 
         self.view.addSubview(button)
         
+        // MARK: Audio setup
         let audioButton = UIButton(frame: CGRect(x: UIScreen.main.bounds.width - 100, y: UIScreen.main.bounds.height - 75, width: 75, height: 50))
         audioButton.backgroundColor = UIColor.black
         audioButton.layer.cornerRadius = button.layer.frame.height / 2
         
-        
-        
         audioButton.addTarget(self, action: #selector(playingpausing(_:)), for: .touchUpInside)
         
         self.view.addSubview(audioButton)
-        
-        
-        
-        
-        
-
-        
-        
-        
-        
-        
+  
         guard let audiopath = Bundle.main.path(forResource: "SST INC", ofType: "m4a") else {
             print("error111")
             return

@@ -109,40 +109,39 @@ class LibraryPanaViewController: UIPageViewController, UIPageViewControllerDataS
 
         self.view.addSubview(button)
 
+        // MARK: Auto setup
+        let audioButton = UIButton(frame: CGRect(x: UIScreen.main.bounds.width - 100, y: UIScreen.main.bounds.height - 75, width: 75, height: 50))
+        audioButton.backgroundColor = UIColor.black
+        audioButton.layer.cornerRadius = button.layer.frame.height / 2
+        
+        audioButton.addTarget(self, action: #selector(playingpausing(_:)), for: .touchUpInside)
+        
+        self.view.addSubview(audioButton)
+        
         guard let audiopath = Bundle.main.path(forResource: "Infohub", ofType: "m4a") else {
             print("error111")
             return
         }
         print(audiopath)
-
+        
         try! AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
         try! AVAudioSession.sharedInstance().setActive(true)
-
+        
         try! player = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audiopath) as URL)
         player?.prepareToPlay()
-
-        let playPause = UIBarButtonItem(barButtonSystemItem: .play, target: self, action: #selector(PanaPhotosViewController.playingpausing(_:)))
-        navigationItem.rightBarButtonItem = playPause
 
         configurePageControl()
     }
 
     @objc func playingpausing(_ sender: UIBarButtonItem!) {
-        var new_button = UIBarButtonItem()
+        
         if (player?.isPlaying)! {
-
+            
             player?.pause()
             // Update the button
-            new_button = UIBarButtonItem(barButtonSystemItem: .play, target: self, action: #selector(playingpausing(_:)))
-        } else {
-
-            player?.play();
-            // Create the pause button
-            new_button = UIBarButtonItem(barButtonSystemItem: .pause, target: self, action: #selector(playingpausing(_:)))
-        }
-
-        navigationItem.rightBarButtonItem = new_button
-
+            
+        } else { player?.play() }
+        
     }
 
     override func didReceiveMemoryWarning() {

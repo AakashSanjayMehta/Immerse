@@ -99,22 +99,7 @@ class FieldPanaViewController: UIPageViewController, UIPageViewControllerDelegat
             setViewControllers([firstVC], direction: .forward, animated: true, completion: nil)
         }
 
-        /*
-        // Setup audio
-        guard let audiopath =  Bundle.main.path(forResource: "Red Bricks", ofType: "m4a") else{
-            print("error111")
-            return
-        }
-        print(audiopath)
-        
-        try! AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
-        try! AVAudioSession.sharedInstance().setActive(true)
-        
-        try! player = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audiopath) as URL)
-        player?.prepareToPlay()
-        */
-
-        // Init dissmiss button
+        // MARK: Init dissmiss button
         let button = UIButton(frame: CGRect(x: 16, y: 32, width: 50, height: 50))
         button.backgroundColor = .white
         button.alpha = 0.5
@@ -123,7 +108,7 @@ class FieldPanaViewController: UIPageViewController, UIPageViewControllerDelegat
         button.addTarget(self, action: #selector(dismiss_btn), for: .touchUpInside)
 
         self.view.addSubview(button)
-
+        
         // adding page control
         configurePageControl()
     }

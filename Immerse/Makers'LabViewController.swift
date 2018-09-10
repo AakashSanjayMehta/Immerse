@@ -35,7 +35,16 @@ class Makers_LabViewController: UIViewController {
         
         self.view.addSubview(button)
         
-        guard let audiopath =  Bundle.main.path(forResource: "Cafe", ofType: "m4a") else{
+        // MARK: Audio setup
+        let audioButton = UIButton(frame: CGRect(x: UIScreen.main.bounds.width - 100, y: UIScreen.main.bounds.height - 75, width: 75, height: 50))
+        audioButton.backgroundColor = UIColor.black
+        audioButton.layer.cornerRadius = button.layer.frame.height / 2
+        
+        audioButton.addTarget(self, action: #selector(playingpausing(_:)), for: .touchUpInside)
+        
+        self.view.addSubview(audioButton)
+        
+        guard let audiopath = Bundle.main.path(forResource: "Makers Lab", ofType: "m4a") else {
             print("error111")
             return
         }
@@ -46,7 +55,18 @@ class Makers_LabViewController: UIViewController {
         
         try! player = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audiopath) as URL)
         player?.prepareToPlay()
-        // Do any additional setup after loading the view.
+        
+    }
+    
+    @objc func playingpausing(_ sender: UIBarButtonItem!) {
+        
+        if (player?.isPlaying)! {
+            
+            player?.pause()
+            // Update the button
+            
+        } else { player?.play() }
+        
     }
 
     override func didReceiveMemoryWarning() {

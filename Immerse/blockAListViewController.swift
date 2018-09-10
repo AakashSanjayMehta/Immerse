@@ -105,23 +105,6 @@ class blockAListViewController: UIViewController, UITableViewDelegate, UITableVi
         return 328
     }
 
-    /*
-    var tableCellShown = [Bool](repeating: false, count: blockCPlace.count)
-    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
-        
-        if (tableCellShown[indexPath.row]) == false{
-            let rotationTransform = CATransform3DTranslate(CATransform3DIdentity, -500, 10, 0)
-            cell.layer.transform = rotationTransform
-            
-            UIView.animate(withDuration: 1.0) {
-                cell.layer.transform = CATransform3DIdentity
-            }
-            
-            tableCellShown[indexPath.row] = true
-        }
-    }
-    */
-
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
