@@ -19,68 +19,56 @@ class blockAListViewController: UIViewController, UITableViewDelegate, UITableVi
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! blockATableViewCell
-
+        cell.place_name.text = blockAPlace[indexPath.row]
         switch blockAPlace[indexPath.row] {
 
         case "Library":
             cell.Preview_Image.image = UIImage(named: "Library_1a")
-            cell.place_name.text = "   Library"
             break
 
         case "General_Office": // NOT DONE
             cell.Preview_Image.image = UIImage(named: "")
-            cell.place_name.text = "   General Office"
             break
 
         case "Eletronic_Labs":
             cell.Preview_Image.image = UIImage(named: "")
-            cell.place_name.text = "   Eletronic Labs"
             break
         
         case "Cafe":
             cell.Preview_Image.image = UIImage(named: "Cafe_1a")
-            cell.place_name.text = "   Cafe"
             break
             
         case "Pond":
             cell.Preview_Image.image = UIImage(named: "Pond_1a")
-            cell.place_name.text = "   Pond"
             break
             
         case "SST_Inc":
             cell.Preview_Image.image = UIImage(named: "Inc_1a")
-            cell.place_name.text = "   SST Inc."
             break
             
         case "Robotics@apex": // NOT DONE
             cell.Preview_Image.image = UIImage(named: "")
-            cell.place_name.text = "   Robotics @ apex"
             break
             
         case "S1S3_clasrooms":
             cell.Preview_Image.image = UIImage(named: "L4Class_1a")
-            cell.place_name.text = "   Level 4 Clasrooms"
             break
             
         case "Biotech_Lab":
             cell.Preview_Image.image = UIImage(named: "BiotechLab_1a")
-            cell.place_name.text = "   Biotech Lab"
             break
             
         case "Makers'_Lab":
             cell.Preview_Image.image = UIImage(named: "MakerLab_1a")
-            cell.place_name.text = "   Makers' Lab"
             break
             
             
         case "Canteen":
             cell.Preview_Image.image = UIImage(named: "Canteen_1a")
-            cell.place_name.text = "   Canteen"
             break
             
         case "Field":
             cell.Preview_Image.image = UIImage(named: "Field_1a")
-            cell.place_name.text = "   Field"
             break
             
         default:

@@ -15,12 +15,11 @@ class InitialStartupViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        setupViews()
+        
     }
 
-    fileprivate func setupViews() {
-        start_btn.layer.cornerRadius = 20
-    }
+    
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

@@ -10,7 +10,7 @@ import UIKit
 
 class BlockDListViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
-    public let blockDPlace = ["ICT", "Media", "Dance"]
+    public let blockDPlace = ["ICT", "Media", "Dance", "Math", "Science", "English", "Humanities", "ADMT"]
 
     /*
      Returns the number of items in the list blockDPlace

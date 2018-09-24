@@ -19,7 +19,7 @@ class AboutAfter: UIViewController {
     }
 
     fileprivate func setupViews() {
-        startButton.layer.cornerRadius = 20
+       
     }
 
     /*

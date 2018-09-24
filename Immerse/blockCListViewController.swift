@@ -11,7 +11,7 @@ import UIKit
 /*
  blockCPlace is a list of the places recorded in this app, that is in SST block C
  */
-public let blockCPlace = [""]
+let blockCPlace = ["Atheletics", "Badminton", "Basketball", "Fencing", "Floorball", "Football", "Taekwondoe", "English Drama Club", "Guitar Ensemble", "Show Choir", "Astronomy Club", "Media Club", "Robotics@APEX", "Singapore Youth Flying Club", "Scouts"]
 
 class blockCListViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 

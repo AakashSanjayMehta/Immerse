@@ -8,7 +8,7 @@
 
 import UIKit
 
-let blockBPlace = [""]
+let blockBPlace = ["Languages", "Science", "Mathematics", "Integrated Humanities", "Sports and Wellness", "Art, Design, Media and Technology", "Innovation and Entrepreneurship", "Information and Communication Technology (ICT)", "Applied Subjects"]
 
 class blockBListViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
@@ -18,8 +18,9 @@ class blockBListViewController: UIViewController, UITableViewDelegate, UITableVi
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! blockBTableViewCell
-
+        cell.place_name.text = blockBPlace[indexPath.row]
         switch blockBPlace[indexPath.row] {
+            
 
         
 
