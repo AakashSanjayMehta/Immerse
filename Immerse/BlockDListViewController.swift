@@ -25,7 +25,7 @@ class BlockDListViewController: UIViewController, UITableViewDelegate, UITableVi
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! blockDTableViewCell
-
+        cell.place_name.text = blockDPlace[indexPath.row]
         switch blockDPlace[indexPath.row] {
 
 
