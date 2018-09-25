@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lyB-Ng-TAZ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lyB-Ng-TAZ">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
-        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -979,15 +977,15 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7TF-7F-diG">
-                                <rect key="frame" x="20" y="267" width="374" height="390"/>
+                                <rect key="frame" x="20" y="270" width="374" height="390"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mrs Linda Chan, Principal from 2016 to Present" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zAU-pc-khW">
-                                <rect key="frame" x="27" y="250" width="360" height="21"/>
+                                <rect key="frame" x="27" y="251" width="360" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -1008,7 +1006,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yUT-VQ-n3A" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1494" y="-2190"/>
+            <point key="canvasLocation" x="-1565" y="-2190"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="omP-il-vPX">
@@ -1560,6 +1558,63 @@
                     <view key="view" contentMode="scaleToFill" id="aMx-pi-Y9V">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Vision" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VOg-Kr-etl">
+                                <rect key="frame" x="20" y="131" width="123" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mission" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w8J-dt-D3a">
+                                <rect key="frame" x="20" y="315" width="123" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bki-Wz-2wd">
+                                <rect key="frame" x="20" y="179" width="374" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">Our vision stems from our keen awareness of the present realities of Singapore as a global city, and the role that our school can play by realising our raison d’être (reason for being). SST was started as a school specialising in science and technology; we offer an educational experience that is deep in both disciplinary and interdisciplinary learning, immersing our students in real-world applications which require them to transfer their learning and see connections. SST aspires to push the frontiers of teaching and learning, and be at the forefront of curriculum design, pedagogy and assessment. As a globally connected institution, SST seeks to be an agent of positive change by spreading new ways of learning which will transform education.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="zj5-a6-f7r">
+                                <rect key="frame" x="20" y="363" width="374" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">SST provides a holistic education to nurture our students into passionate innovators who will use their knowledge of science and technology to think beyond conventional means, take risks and experiment in order to overcome challenges, initiate change and make a positive difference to human lives. Our graduates will discover themselves, have a sense of purpose and be distinctive in the way that they demonstrate 21st century skills and competencies, which are articulated as the 10Cs in the SST community. Through our unique applied learning approach and innovative use of technology, SST seeks to connect our students’ hands, heads and hearts so that they will be engaged learners in the present, and empathetic digital citizens and leaders in the community in the years ahead.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Values" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pkt-GI-hWF">
+                                <rect key="frame" x="20" y="499" width="123" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="uKq-bV-kgn">
+                                <rect key="frame" x="20" y="537" width="374" height="179"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">Forging Excellence
+
+Members of the SST community will embark on every endeavour with passion, commitment, confidence and courage; and a belief that our best efforts will bring about positive outcomes for the common good, whilst developing excellence in personal work ethics and character. SST is an organisation where people care about and work towards being the best they can be, both personally and at the organisational and community levels.
+
+Building an Empowered Community
+
+In SST, we shall build ourselves and others, in every interaction and decision we make, and through respect and responsibility, live our espoused shared values with a sense of efficacy and desire to improve. We shall empower ourselves and others with positive thoughts to explore what is possible and to bring SST to greater heights. We will contribute to constructing the future world that we will inhabit and make it better for generations to come. We will take responsibility of and care for the SST and larger community beyond.
+
+Expanding Learning Networks
+
+SST is an ecological entity unto itself, where individuals with diverse interests, talents and world-views converge as a learning community, and where everyone is interdependent and needs to actively leverage the diversity to share knowledge and build collective wisdom. As part of FutureSchools@Singapore, SST is positioned as a forerunner in learning on the ICT platform, and in leading the way for learning communities in Singapore and beyond.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="TxA-yZ-Nul"/>
                     </view>
@@ -1574,7 +1629,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wal-sz-QDe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1565" y="-1484"/>
+            <point key="canvasLocation" x="-1565.217391304348" y="-1502.4456521739132"/>
         </scene>
         <!--Transformation in Action-->
         <scene sceneID="Dr0-VV-C3L">
@@ -1756,7 +1811,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mtt-H6-Vzc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1565" y="3781"/>
+            <point key="canvasLocation" x="-1565" y="3792"/>
         </scene>
         <!--Index and More-->
         <scene sceneID="7Q2-Nw-3o1">
@@ -1779,7 +1834,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2gG-k6-Pjj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1296" y="4543"/>
+            <point key="canvasLocation" x="-1565" y="4471"/>
         </scene>
         <!--Vision, Values, Mission-->
         <scene sceneID="nGq-Ti-mRi">
@@ -1905,7 +1960,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="scX-wO-D5f" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2254" y="2455"/>
+            <point key="canvasLocation" x="-2210" y="2455"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="F2P-EJ-ZyM">
@@ -1923,7 +1978,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5cE-kN-ZO1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2255" y="3120"/>
+            <point key="canvasLocation" x="-2210" y="3120"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="hM0-la-4ft">
@@ -1941,7 +1996,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yMN-c2-iJb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2255" y="3772"/>
+            <point key="canvasLocation" x="-2210" y="3792"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Lsa-4a-a1Q">
@@ -1959,27 +2014,27 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JLn-3c-j1g" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2370" y="4490"/>
+            <point key="canvasLocation" x="-2210" y="4471"/>
         </scene>
     </scenes>
     <resources>
         <image name="Canteen_1a" width="6912" height="3456"/>
-        <image name="background" width="1308" height="1764"/>
+        <image name="background" width="654" height="882"/>
         <image name="blockPIC.001" width="25" height="25"/>
         <image name="blockPIC.002" width="25" height="25"/>
         <image name="blockPIC.003" width="25" height="25"/>
         <image name="blockPIC.004" width="25" height="25"/>
         <image name="cross" width="512" height="512"/>
-        <image name="help" width="25" height="25"/>
+        <image name="help" width="75" height="75"/>
         <image name="helping1" width="1080" height="1920"/>
         <image name="helping2" width="1080" height="1920"/>
         <image name="helping3" width="1080" height="1920"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="AyJ-oy-33c"/>
+        <segue reference="8T9-vd-bw9"/>
         <segue reference="8ZC-IQ-tYV"/>
-        <segue reference="f81-ke-C2n"/>
-        <segue reference="272-Nc-z09"/>
+        <segue reference="g2w-nW-c2G"/>
+        <segue reference="bdt-1S-83l"/>
         <segue reference="oaU-ji-ltU"/>
         <segue reference="Mnc-U0-gm5"/>
         <segue reference="cME-IJ-7G8"/>
