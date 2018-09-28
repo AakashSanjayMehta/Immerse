@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lyB-Ng-TAZ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lyB-Ng-TAZ">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -321,7 +323,7 @@
         <!--Facilities-->
         <scene sceneID="mGP-QG-X90">
             <objects>
-                <viewController title="Facilities" id="Q0v-dt-7Jn" customClass="blockAListViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Facilities" title="Facilities" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Q0v-dt-7Jn" customClass="blockAListViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FXa-Wu-Ber">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -967,7 +969,7 @@
         <!--Principal's Foreword-->
         <scene sceneID="qf7-5y-Ws3">
             <objects>
-                <viewController title="Principal's Foreword" id="4oB-uB-9vG" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Principal's Foreword" title="Principal's Foreword" useStoryboardIdentifierAsRestorationIdentifier="YES" id="4oB-uB-9vG" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Wz5-rR-Zr5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1006,7 +1008,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yUT-VQ-n3A" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1565" y="-2190"/>
+            <point key="canvasLocation" x="-3248" y="-3033"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="omP-il-vPX">
@@ -1554,7 +1556,7 @@
         <!--Vision, Values, Mission-->
         <scene sceneID="EqZ-zl-QuC">
             <objects>
-                <viewController title="Vision, Values, Mission" id="lM8-Rm-rEj" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Vision, Values, Mission" title="Vision, Values, Mission" useStoryboardIdentifierAsRestorationIdentifier="YES" id="lM8-Rm-rEj" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aMx-pi-Y9V">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1577,7 +1579,7 @@
                                 <rect key="frame" x="20" y="179" width="374" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">Our vision stems from our keen awareness of the present realities of Singapore as a global city, and the role that our school can play by realising our raison d’être (reason for being). SST was started as a school specialising in science and technology; we offer an educational experience that is deep in both disciplinary and interdisciplinary learning, immersing our students in real-world applications which require them to transfer their learning and see connections. SST aspires to push the frontiers of teaching and learning, and be at the forefront of curriculum design, pedagogy and assessment. As a globally connected institution, SST seeks to be an agent of positive change by spreading new ways of learning which will transform education.</mutableString>
+                                <string key="text">Our vision stems from our keen awareness of the present realities of Singapore as a global city, and the role that our school can play by realising our raison d’être (reason for being). SST was started as a school specialising in science and technology; we offer an educational experience that is deep in both disciplinary and interdisciplinary learning, immersing our students in real-world applications which require them to transfer their learning and see connections. SST aspires to push the frontiers of teaching and learning, and be at the forefront of curriculum design, pedagogy and assessment. As a globally connected institution, SST seeks to be an agent of positive change by spreading new ways of learning which will transform education.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1585,7 +1587,7 @@
                                 <rect key="frame" x="20" y="363" width="374" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">SST provides a holistic education to nurture our students into passionate innovators who will use their knowledge of science and technology to think beyond conventional means, take risks and experiment in order to overcome challenges, initiate change and make a positive difference to human lives. Our graduates will discover themselves, have a sense of purpose and be distinctive in the way that they demonstrate 21st century skills and competencies, which are articulated as the 10Cs in the SST community. Through our unique applied learning approach and innovative use of technology, SST seeks to connect our students’ hands, heads and hearts so that they will be engaged learners in the present, and empathetic digital citizens and leaders in the community in the years ahead.</mutableString>
+                                <string key="text">SST provides a holistic education to nurture our students into passionate innovators who will use their knowledge of science and technology to think beyond conventional means, take risks and experiment in order to overcome challenges, initiate change and make a positive difference to human lives. Our graduates will discover themselves, have a sense of purpose and be distinctive in the way that they demonstrate 21st century skills and competencies, which are articulated as the 10Cs in the SST community. Through our unique applied learning approach and innovative use of technology, SST seeks to connect our students’ hands, heads and hearts so that they will be engaged learners in the present, and empathetic digital citizens and leaders in the community in the years ahead.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1600,7 +1602,7 @@
                                 <rect key="frame" x="20" y="537" width="374" height="179"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">Forging Excellence
+                                <string key="text">Forging Excellence
 
 Members of the SST community will embark on every endeavour with passion, commitment, confidence and courage; and a belief that our best efforts will bring about positive outcomes for the common good, whilst developing excellence in personal work ethics and character. SST is an organisation where people care about and work towards being the best they can be, both personally and at the organisational and community levels.
 
@@ -1610,7 +1612,7 @@ In SST, we shall build ourselves and others, in every interaction and decision w
 
 Expanding Learning Networks
 
-SST is an ecological entity unto itself, where individuals with diverse interests, talents and world-views converge as a learning community, and where everyone is interdependent and needs to actively leverage the diversity to share knowledge and build collective wisdom. As part of FutureSchools@Singapore, SST is positioned as a forerunner in learning on the ICT platform, and in leading the way for learning communities in Singapore and beyond.</mutableString>
+SST is an ecological entity unto itself, where individuals with diverse interests, talents and world-views converge as a learning community, and where everyone is interdependent and needs to actively leverage the diversity to share knowledge and build collective wisdom. As part of FutureSchools@Singapore, SST is positioned as a forerunner in learning on the ICT platform, and in leading the way for learning communities in Singapore and beyond.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1629,16 +1631,262 @@ SST is an ecological entity unto itself, where individuals with diverse interest
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wal-sz-QDe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1565.217391304348" y="-1502.4456521739132"/>
+            <point key="canvasLocation" x="-3249" y="33"/>
         </scene>
-        <!--Transformation in Action-->
+        <!--Transformation  in Action-->
         <scene sceneID="Dr0-VV-C3L">
             <objects>
-                <viewController id="5gG-BN-SOx" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Transformation in Action" title="Transformation  in Action" useStoryboardIdentifierAsRestorationIdentifier="YES" id="5gG-BN-SOx" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="c9W-6s-BOw">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="2866"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dox-Ux-fgI">
+                                <rect key="frame" x="0.0" y="116" width="414" height="2750"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4NT-ob-ZB1">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="3000"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Developing the Skills and Attitudes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J8M-SA-eMH">
+                                                <rect key="frame" x="8" y="8" width="318" height="24"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Science, Technology, Engineering And Mathematics (STEM)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V6p-oE-1Xy">
+                                                <rect key="frame" x="33" y="40" width="373" height="42"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EJk-dW-4wa">
+                                                <rect key="frame" x="8" y="245" width="277" height="24"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Early Start to Applied Learning
+
+</string>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Il-dE-9sH">
+                                                <rect key="frame" x="33" y="277" width="373" height="41"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Providing An Edge Beyond The GCE O-Level Examination
+
+</string>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="EgQ-Zo-5g6">
+                                                <rect key="frame" x="33" y="326" width="373" height="260"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <string key="text">At SST learning is not confined within the four walls of the classroom. Our curriculum is carefully designed to ensure that students are actively engaged in learning tasks that are not only content rich, but process-focused, and meaningfully connected to issues in the community and the world at large. By enabling students to apply their learning to challenges outside the classroom early on, students gain mastery of academic subjects through acquiring a deeper understanding of critical concepts and skills in authentic real-life contexts. This integration of a strong academic foundation with an Applied Learning approach to instruction will prepare students well for the GCE O-Level Examination and beyond, enabling them to pursue their chosen paths and excel in their future endeavours.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Talent Development Programme (TDP)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cLy-E0-diw">
+                                                <rect key="frame" x="8" y="594" width="351" height="24"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Enabling Students To Realise Their Full Potential" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i7I-C8-oT5">
+                                                <rect key="frame" x="33" y="626" width="373" height="41"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="b3v-tN-LET">
+                                                <rect key="frame" x="33" y="671" width="373" height="195"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <mutableString key="text">SST’s TDP provides opportunities for students to gain foundational skills and competencies that capitalise on their personal strengths and unique talents. Students may choose from a wide spectrum of areas to cultivate their interests and talents. Students who want to develop leadership skills can take part in the Student Leadership Programme which incorporates the Peer Support and Student Council platforms. For students interested in robotics, technology, or start-ups, our Robotics @APEX club and SST Inc. are great avenues to transform those passions into industry expertise.</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Forerunners In Information and Communication Technology (ICT)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kXm-28-bSB">
+                                                <rect key="frame" x="8" y="874" width="398" height="55"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Exploring Beyond Textbook Learning" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qbp-cF-Ty4">
+                                                <rect key="frame" x="33" y="937" width="286" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="p1W-aN-zSr">
+                                                <rect key="frame" x="33" y="966" width="373" height="200"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <mutableString key="text">“Technology as a way of life” is a dictum at SST as we believe that the 1:1 ICT-enabled learning environment elevates student engagement in learning and stretches each student’s potential. The use of simulation tools, cutting-edge geometrical software and applets, as well as online platforms and tools, all contribute to the creation of a dynamic and interactive classroom. Beyond software application and computational thinking, SST provides the differentiated opportunities for students to develop the skills and attributes of designers, makers and programmers.
+
+As a forerunner in transforming learning, the school believes in helping to build an empowered community. SST students take the lead in running several ICT initiatives for their peers/students from other schools, which include SST Hackathon, SST Make-A-Thon and the Cyber Wellness Student Ambassador Programme (CWSAP) initiatives. SST teachers help other educators adopt innovative teaching practices through platforms such as the SST Tech Summit and Lab School@SST.</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Active Citizenship Education (ACE)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Db4-zk-Tbr">
+                                                <rect key="frame" x="8" y="1174" width="321" height="24"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nurturing Active Local And Global Citizens" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fk4-4G-uRQ">
+                                                <rect key="frame" x="33" y="1206" width="332" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Ad6-D3-FGb">
+                                                <rect key="frame" x="33" y="1235" width="373" height="172"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <mutableString key="text">The Active Citizenship Education (ACE) programme plays a pivotal role in fostering SST students to become global citizens who see the world as an interconnected set of systems. It aims to help our students develop attributes that allows them to take advantage of the opportunities abroad.
+
+They will be equipped with skills to carry out advocacy projects and serve the community with purpose and enthusiasm. Through this experience, we want our students to appreciate that their actions have an impact on others and hence have the courage to take the lead in contributing towards creating a better environment for themselves and others.</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SST Industrials and Research Attachment Programme (IRAP)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ONg-x1-itx">
+                                                <rect key="frame" x="8" y="1415" width="398" height="49"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Enhancing Learning Experiences" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="adM-Mn-O1X">
+                                                <rect key="frame" x="33" y="1472" width="255" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X9F-Ph-fKw">
+                                                <rect key="frame" x="33" y="1501" width="373" height="177"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <string key="text">The IRAP is open to SST students who are keen on the practical application of their skills and competencies, and first-hand experience in understanding the functions, operations and challenges of the various organisations in their respective industries. Some companies where students have completed internships include A*STAR’s Genome Institute of Singapore, National University Hospital (NUH), National Library Board (NLB), Winson Press Pte Ltd and Greenpac (S) Pte Ltd.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Partnership Learning Networks" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YL0-sa-mLM">
+                                                <rect key="frame" x="8" y="1686" width="283" height="24"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Grooming Passionate Innovators" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j4L-a7-qYN">
+                                                <rect key="frame" x="33" y="1718" width="254" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Vaq-u2-NzL">
+                                                <rect key="frame" x="33" y="1747" width="373" height="200"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <mutableString key="text">At SST, provision is made for students to be academically, professionally and globally competitive in the fields of science and technology. Through our partnerships with premier tertiary institutions such as Nanyang Technological University (NTU), Singapore University of Technology and Design (SUTD) and Ngee Ann Polytechnic (NP), we have availed our students to various learning opportunities exclusive to SST. We also have partner schools and organisations in our overseas networks in China, Japan, Korea, New Zealand, the United States and ASEAN countries that provide additional learning opportunities for our students.</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Character and Citizenship Education (CCE)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gjS-0h-aQF">
+                                                <rect key="frame" x="8" y="1955" width="394" height="24"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="PiF-DD-Unt">
+                                                <rect key="frame" x="33" y="1987" width="369" height="182"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <string key="text">CCE in SST aims to prepare students for the vulnerable, uncertain, complex and ambiguous world of the future. The SST CCE Programme is an intentional, proactive effort to develop students holistically and imbue core ethical values through its academic and non-academic programmes. It seeks to develop 21st Century skills in our students so that they are anchored in sound moral values and able to lead a life of good conduct. They will learn how to contribute actively and meaningfully to the community.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Student Leadership Programme (SLP)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FxF-GH-7RG">
+                                                <rect key="frame" x="8" y="2177" width="346" height="24"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5Mt-PO-gFd">
+                                                <rect key="frame" x="33" y="2209" width="369" height="197"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <mutableString key="text">The SLP aims to develop leadership competencies and values in SST students so that they will become dynamic leaders in service of humanity. We also believe that each SST student is a leader who has the potential to advocate for a worthy cause for the common good and lead others to act in a manner which will impact the community in a positive way. We believe that self-mastery is the foundation in every SST leader. There are many leadership opportunities and platforms available in SST where students are able to develop skills in leading themselves, others and communities.</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Youth Service Programme (YSP)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ORb-ah-jNv">
+                                                <rect key="frame" x="8" y="2414" width="295" height="24"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="rhh-LI-PPs">
+                                                <rect key="frame" x="35" y="2446" width="367" height="244"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <mutableString key="text">The YSP is SST’s community involvement programme. It is both an essential and integral part of the curriculum in SST, and we seek to develop students who are: Community-Oriented, Active Contributors to Society, Reflective and Empathetic. As part of the programme, students will apply relevant knowledge and skills in school-organised or self-initiated community projects. Through this process, our students will make meaningful connections between what they learn and the society at large. In rendering community service, SST students will meet and work with people of different ages, ethnicity and socio-cultural backgrounds. This allows them opportunities to develop and hone their 21st Century skills such as civic-mindedness, cross-cultural understanding, effective collaboration and communication skills.</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="3000" id="orb-zy-opM"/>
+                                        </constraints>
+                                    </view>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="WAI-Aj-oJm">
+                                        <rect key="frame" x="30" y="87" width="374" height="144"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <string key="text">SST aims to develop students who are curious and passionate practitioners in improving society through the application of STEM skills problem solving.
+Programmes that enable our students to hone their STEM skills include:
+Applied Subjects (Biotechnology, Computing, Design Studies, Electronics)
+Investigative Skills in Science (ISS)
+NTU-SST Flagship Programme
+Talent Development Programme (Science, ICT, Math, Robotics)
+SST-3M Innovation Challenge
+SUTD-SST Big-D Camp
+SunburST Makers’ Innofest</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="4NT-ob-ZB1" firstAttribute="leading" secondItem="Dox-Ux-fgI" secondAttribute="leading" id="Ied-pQ-s4d"/>
+                                    <constraint firstAttribute="bottom" secondItem="4NT-ob-ZB1" secondAttribute="bottom" id="LsT-Sd-v3J"/>
+                                    <constraint firstItem="4NT-ob-ZB1" firstAttribute="top" secondItem="Dox-Ux-fgI" secondAttribute="top" id="cAv-kj-zoN"/>
+                                    <constraint firstAttribute="trailing" secondItem="4NT-ob-ZB1" secondAttribute="trailing" id="uuF-SR-cS9"/>
+                                    <constraint firstItem="4NT-ob-ZB1" firstAttribute="centerX" secondItem="Dox-Ux-fgI" secondAttribute="centerX" id="z8E-Ff-NhM"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Dox-Ux-fgI" firstAttribute="bottom" secondItem="ofN-rc-DN8" secondAttribute="bottom" id="QZE-zo-Urb"/>
+                            <constraint firstItem="Dox-Ux-fgI" firstAttribute="leading" secondItem="ofN-rc-DN8" secondAttribute="leading" id="WeK-Mj-ZzE"/>
+                            <constraint firstItem="Dox-Ux-fgI" firstAttribute="trailing" secondItem="ofN-rc-DN8" secondAttribute="trailing" id="ZWZ-VD-geD"/>
+                            <constraint firstItem="Dox-Ux-fgI" firstAttribute="top" secondItem="ofN-rc-DN8" secondAttribute="top" id="zDA-Xx-xhA"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="ofN-rc-DN8"/>
                     </view>
                     <navigationItem key="navigationItem" title="Transformation in Action" id="Vrr-f4-lF4">
@@ -1649,19 +1897,152 @@ SST is an ecological entity unto itself, where individuals with diverse interest
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <size key="freeformSize" width="414" height="2866"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Do-8S-Jce" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1565" y="-825"/>
+            <point key="canvasLocation" x="-4817" y="-2111"/>
         </scene>
         <!--Partners-->
         <scene sceneID="8WH-bZ-441">
             <objects>
                 <viewController id="zD2-OW-0k1" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="AUq-np-LwJ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LhV-KL-YOw">
+                                <rect key="frame" x="0.0" y="116" width="414" height="1384"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KG2-LL-rbO">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                        <subviews>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="VxL-V5-8so">
+                                                <rect key="frame" x="22" y="8" width="384" height="216"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <string key="text">Through our partnerships with premier tertiary institutions such as Nanyang Technological University (NTU), Singapore University of Technology and Design (SUTD) and Ngee Ann Polytechnic (NP), we have availed our students to various learning opportunities exclusive to SST. We also have partner schools and organisations in our overseas networks in the United States, New Zealand, China, Japan, Korea, and ASEAN countries that provide additional learning opportunities for our students.
+
+Through SST’s Industrial and Research Attachment Programme (IRAP), upper secondary students are matched with various organisations that enable them to apply their skills and also create value for the partnering organisation.Some companies that students have interned with include; A*Star’s Genome Institute of Singapore, MediaCorp Pte Ltd, National Library Board, Winson Press Pte Ltd and Greenpac (S) Pte Ltd.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Industry Partners" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VNP-05-22c">
+                                                <rect key="frame" x="8" y="232" width="398" height="38"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ExE-1u-e9i">
+                                                <rect key="frame" x="22" y="268" width="384" height="131"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <string key="text">Aside from our partners in education, SST also works in partnership with leading players in the industry such as the 3M Singapore, Apple Inc,  DSO National Laboratories, Exploit Technologies (ETPL), Google, Institute of Bioengineering and Nanotechnology (IBN) and Singapore Technologies Endowment Programme (STEP) to provide valuable learning opportunities to students.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SunburST Makers’ InnoFest" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ycc-Aq-KQX">
+                                                <rect key="frame" x="8" y="407" width="390" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lbw-ci-7gq">
+                                                <rect key="frame" x="22" y="445" width="374" height="145"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <string key="text">Aside from our partners in education, SST also works in partnership with leading players in the industry such as the 3M Singapore, Apple Inc,  DSO National Laboratories, Exploit Technologies (ETPL), Google, Institute of Bioengineering and Nanotechnology (IBN) and Singapore Technologies Endowment Programme (STEP) to provide valuable learning opportunities to students.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Educational Partners" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oUF-2F-lrz">
+                                                <rect key="frame" x="8" y="1104" width="398" height="38"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="zzL-Yf-K76">
+                                                <rect key="frame" x="24" y="951" width="374" height="145"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <string key="text">As part of our Staff Development programme, SST also invites other Apple Distinguished Educators on a regular basis to share ideas and leverage the use of technology to transform teaching and learning in the school.
+
+SST’s recognition as an Apple Distinguished School in 2017 marks the third year in which the school was given this coveted certification, and highlights our success as an innovative and compelling learning environment that engages students and provides tangible evidence of academic accomplishment.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Apple Distinguished School" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lQF-pp-YIo">
+                                                <rect key="frame" x="8" y="913" width="390" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="yEY-Ww-Ryh">
+                                                <rect key="frame" x="24" y="827" width="374" height="78"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <string key="text">On 23 May 2010, SST and the IBN signed its first Memorandum of Understanding to broaden and deepen SST students’ learning in the field of scientific research as well as concepts of technopreneurship.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SST-IBN MOU Signing" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ih3-D6-wwC">
+                                                <rect key="frame" x="8" y="789" width="390" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7qA-ZH-IQ2">
+                                                <rect key="frame" x="22" y="636" width="374" height="145"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <string key="text">Aside from our partners in education, SST also works in partnership with leading players in the industry such as the 3M Singapore, Apple Inc,  DSO National Laboratories, Exploit Technologies (ETPL), Google, Institute of Bioengineering and Nanotechnology (IBN) and Singapore Technologies Endowment Programme (STEP) to provide valuable learning opportunities to students.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3M InnoScience Challenge 2016" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GB1-kS-Rzx">
+                                                <rect key="frame" x="8" y="598" width="390" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="pLD-Ke-eee">
+                                                <rect key="frame" x="24" y="1150" width="382" height="216"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <string key="text">Through our partnerships with premier tertiary institutions such as Nanyang Technological University (NTU), Singapore University of Technology and Design (SUTD) and Ngee Ann Polytechnic (NP), we have availed our students to various learning opportunities exclusive to SST. We also have partner schools and organisations in our overseas networks in the United States, New Zealand, China, Japan, Korea, and ASEAN countries that provide additional learning opportunities for our students.
+
+Through SST’s Industrial and Research Attachment Programme (IRAP), upper secondary students are matched with various organisations that enable them to apply their skills and also create value for the partnering organisation.Some companies that students have interned with include; A*Star’s Genome Institute of Singapore, MediaCorp Pte Ltd, National Library Board, Winson Press Pte Ltd and Greenpac (S) Pte Ltd.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1500" id="i3v-AT-rxo"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="KG2-LL-rbO" secondAttribute="bottom" id="PHV-vD-cs7"/>
+                                    <constraint firstAttribute="trailing" secondItem="KG2-LL-rbO" secondAttribute="trailing" id="gKu-da-rpy"/>
+                                    <constraint firstItem="KG2-LL-rbO" firstAttribute="leading" secondItem="LhV-KL-YOw" secondAttribute="leading" id="ifI-Fj-5af"/>
+                                    <constraint firstItem="KG2-LL-rbO" firstAttribute="top" secondItem="LhV-KL-YOw" secondAttribute="top" id="p8R-kD-biW"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="LhV-KL-YOw" firstAttribute="top" secondItem="tjR-R2-x0M" secondAttribute="top" id="0gY-ov-CGC"/>
+                            <constraint firstItem="LhV-KL-YOw" firstAttribute="bottom" secondItem="tjR-R2-x0M" secondAttribute="bottom" id="HqC-bD-iDP"/>
+                            <constraint firstItem="LhV-KL-YOw" firstAttribute="leading" secondItem="tjR-R2-x0M" secondAttribute="leading" id="P6Y-Pi-3ej"/>
+                            <constraint firstItem="LhV-KL-YOw" firstAttribute="trailing" secondItem="tjR-R2-x0M" secondAttribute="trailing" id="ndH-IR-SYU"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="tjR-R2-x0M"/>
                     </view>
                     <navigationItem key="navigationItem" title="Partners" leftItemsSupplementBackButton="YES" id="C41-HC-2LV">
@@ -1672,15 +2053,16 @@ SST is an ecological entity unto itself, where individuals with diverse interest
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <size key="freeformSize" width="414" height="1500"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zVE-xS-BAe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1565" y="-165"/>
+            <point key="canvasLocation" x="-3249.275362318841" y="707.60869565217399"/>
         </scene>
         <!--Programmes-->
         <scene sceneID="1wp-7a-KPT">
             <objects>
-                <viewController id="aWT-d4-Kkh" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Programmes" title="Programmes" useStoryboardIdentifierAsRestorationIdentifier="YES" id="aWT-d4-Kkh" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="k45-aG-ujA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1702,7 +2084,7 @@ SST is an ecological entity unto itself, where individuals with diverse interest
         <!--Achievements-->
         <scene sceneID="5bh-8f-X6c">
             <objects>
-                <viewController id="DQm-zO-8bp" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Achievements" useStoryboardIdentifierAsRestorationIdentifier="YES" id="DQm-zO-8bp" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vZ8-J3-dlR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1725,7 +2107,7 @@ SST is an ecological entity unto itself, where individuals with diverse interest
         <!--P for SST-->
         <scene sceneID="TDV-Ja-qi2">
             <objects>
-                <viewController id="2Z5-Yp-tcX" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="P for SST" title="P for SST" useStoryboardIdentifierAsRestorationIdentifier="YES" id="2Z5-Yp-tcX" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Txz-Uo-5va">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1744,10 +2126,10 @@ SST is an ecological entity unto itself, where individuals with diverse interest
             </objects>
             <point key="canvasLocation" x="-1565" y="1793"/>
         </scene>
-        <!--Income Limits, Benefits-->
+        <!--Income Limits and Benefits-->
         <scene sceneID="NB5-Aq-7UA">
             <objects>
-                <viewController id="niG-vO-nty" sceneMemberID="viewController">
+                <viewController restorationIdentifier="Income Limits and Benefits" storyboardIdentifier="Income Limits and Benefits" title="Income Limits and Benefits" id="niG-vO-nty" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="d1O-Wu-VeO">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1767,10 +2149,10 @@ SST is an ecological entity unto itself, where individuals with diverse interest
             </objects>
             <point key="canvasLocation" x="-1565" y="2455"/>
         </scene>
-        <!--Scholarships, Bursaries-->
+        <!--Scholarships and Bursaries-->
         <scene sceneID="Ood-Q5-oSD">
             <objects>
-                <viewController id="0S5-wv-O9L" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Scholarships and Bursaries" title="Scholarships and Bursaries" useStoryboardIdentifierAsRestorationIdentifier="YES" id="0S5-wv-O9L" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rnY-Wy-bfg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1793,7 +2175,7 @@ SST is an ecological entity unto itself, where individuals with diverse interest
         <!--Open House 2018-->
         <scene sceneID="evF-cK-b3c">
             <objects>
-                <viewController id="z00-Vl-9iY" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Open House 2018" title="Open House 2018" useStoryboardIdentifierAsRestorationIdentifier="YES" id="z00-Vl-9iY" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="67f-Bu-gYQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1816,7 +2198,7 @@ SST is an ecological entity unto itself, where individuals with diverse interest
         <!--Index and More-->
         <scene sceneID="7Q2-Nw-3o1">
             <objects>
-                <viewController id="Gy4-Tb-Xpm" sceneMemberID="viewController">
+                <viewController id="Gy4-Tb-Xpm" customClass="IndexTableViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="woR-kc-D0b">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1825,12 +2207,18 @@ SST is an ecological entity unto itself, where individuals with diverse interest
                                 <rect key="frame" x="0.0" y="116" width="414" height="620"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="Gy4-Tb-Xpm" id="uYO-51-9pf"/>
+                                    <outlet property="delegate" destination="Gy4-Tb-Xpm" id="oSy-bu-IoT"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="7Xm-Vw-qTm"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Index and More" id="ZSK-nL-g33"/>
+                    <navigationItem key="navigationItem" title="Index and More" largeTitleDisplayMode="always" id="ZSK-nL-g33">
+                        <barButtonItem key="backBarButtonItem" title="Index" id="VDE-li-U9D"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2gG-k6-Pjj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2019,29 +2407,29 @@ SST is an ecological entity unto itself, where individuals with diverse interest
     </scenes>
     <resources>
         <image name="Canteen_1a" width="6912" height="3456"/>
-        <image name="background" width="654" height="882"/>
+        <image name="background" width="1308" height="1764"/>
         <image name="blockPIC.001" width="25" height="25"/>
         <image name="blockPIC.002" width="25" height="25"/>
         <image name="blockPIC.003" width="25" height="25"/>
         <image name="blockPIC.004" width="25" height="25"/>
         <image name="cross" width="512" height="512"/>
-        <image name="help" width="75" height="75"/>
+        <image name="help" width="25" height="25"/>
         <image name="helping1" width="1080" height="1920"/>
         <image name="helping2" width="1080" height="1920"/>
         <image name="helping3" width="1080" height="1920"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="8T9-vd-bw9"/>
-        <segue reference="8ZC-IQ-tYV"/>
+        <segue reference="8Mc-SI-Cfm"/>
         <segue reference="g2w-nW-c2G"/>
-        <segue reference="bdt-1S-83l"/>
+        <segue reference="272-Nc-z09"/>
         <segue reference="oaU-ji-ltU"/>
         <segue reference="Mnc-U0-gm5"/>
         <segue reference="cME-IJ-7G8"/>
         <segue reference="fEO-cp-gPz"/>
         <segue reference="Byk-uq-9AT"/>
         <segue reference="EbF-xA-qdz"/>
-        <segue reference="vLF-tr-rtR"/>
-        <segue reference="ILW-iW-dIC"/>
+        <segue reference="1uD-vl-XPX"/>
+        <segue reference="BQU-yV-9Kg"/>
     </inferredMetricsTieBreakers>
 </document>

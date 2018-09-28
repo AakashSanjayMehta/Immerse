@@ -66,6 +66,7 @@
 		5E677F8D20ABBBE400E1C46B /* IncDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E677F8C20ABBBE400E1C46B /* IncDViewController.swift */; };
 		5E6E303A2140ED8800A9C681 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6E30392140ED8800A9C681 /* MainTabBarController.swift */; };
 		5E8DD4CD20B4552200EEA163 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E8DD4CC20B4552100EEA163 /* Assets.xcassets */; };
+		5EE0BFAF215DF3D500009089 /* IndexTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE0BFAE215DF3D500009089 /* IndexTableViewController.swift */; };
 		5EE657BD212FBCD800060558 /* ARControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE657BC212FBCD800060558 /* ARControllerViewController.swift */; };
 		77FDB7C26CEB2932DB07F33E /* Pods_ImmerseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A045DFE373F9DCCDB51B5100 /* Pods_ImmerseUITests.framework */; };
 /* End PBXBuildFile section */
@@ -155,6 +156,7 @@
 		5E677F8C20ABBBE400E1C46B /* IncDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncDViewController.swift; sourceTree = "<group>"; };
 		5E6E30392140ED8800A9C681 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		5E8DD4CC20B4552100EEA163 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EE0BFAE215DF3D500009089 /* IndexTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexTableViewController.swift; sourceTree = "<group>"; };
 		5EE657BC212FBCD800060558 /* ARControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARControllerViewController.swift; sourceTree = "<group>"; };
 		7998BB7F669E039691728286 /* Pods-ImmerseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImmerseUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImmerseUITests/Pods-ImmerseUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7FF3A90422D3630B76C48E75 /* Pods-ImmerseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImmerseTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImmerseTests/Pods-ImmerseTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -327,6 +329,7 @@
 		5E53DF8320AB189000153856 = {
 			isa = PBXGroup;
 			children = (
+				5EE0BFAE215DF3D500009089 /* IndexTableViewController.swift */,
 				5E6E30392140ED8800A9C681 /* MainTabBarController.swift */,
 				5E53DF8E20AB189000153856 /* Immerse */,
 				5E53DFA620AB189100153856 /* ImmerseTests */,
@@ -666,6 +669,7 @@
 				5E53472720B6A2C300EDE55E /* PondPanoViewController.swift in Sources */,
 				5E53471E20B6508900EDE55E /* CafeAViewController.swift in Sources */,
 				42E711B4211DC78000A22BE0 /* PlaceInfoViewController.swift in Sources */,
+				5EE0BFAF215DF3D500009089 /* IndexTableViewController.swift in Sources */,
 				5E53471420B64C1200EDE55E /* Makers'LabViewController.swift in Sources */,
 				5E677F8720ABBBBE00E1C46B /* IncAViewController.swift in Sources */,
 				5E0BD8332133F09500088BAE /* InitialStartupViewController.swift in Sources */,
