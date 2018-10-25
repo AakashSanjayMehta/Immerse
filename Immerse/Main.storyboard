@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lyB-Ng-TAZ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lyB-Ng-TAZ">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
-        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -1707,7 +1705,7 @@ SST is an ecological entity unto itself, where individuals with diverse interest
                                                 <rect key="frame" x="33" y="671" width="373" height="195"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <mutableString key="text">SST’s TDP provides opportunities for students to gain foundational skills and competencies that capitalise on their personal strengths and unique talents. Students may choose from a wide spectrum of areas to cultivate their interests and talents. Students who want to develop leadership skills can take part in the Student Leadership Programme which incorporates the Peer Support and Student Council platforms. For students interested in robotics, technology, or start-ups, our Robotics @APEX club and SST Inc. are great avenues to transform those passions into industry expertise.</mutableString>
+                                                <string key="text">SST’s TDP provides opportunities for students to gain foundational skills and competencies that capitalise on their personal strengths and unique talents. Students may choose from a wide spectrum of areas to cultivate their interests and talents. Students who want to develop leadership skills can take part in the Student Leadership Programme which incorporates the Peer Support and Student Council platforms. For students interested in robotics, technology, or start-ups, our Robotics @APEX club and SST Inc. are great avenues to transform those passions into industry expertise.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
@@ -1729,9 +1727,9 @@ SST is an ecological entity unto itself, where individuals with diverse interest
                                                 <rect key="frame" x="33" y="966" width="373" height="200"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <mutableString key="text">“Technology as a way of life” is a dictum at SST as we believe that the 1:1 ICT-enabled learning environment elevates student engagement in learning and stretches each student’s potential. The use of simulation tools, cutting-edge geometrical software and applets, as well as online platforms and tools, all contribute to the creation of a dynamic and interactive classroom. Beyond software application and computational thinking, SST provides the differentiated opportunities for students to develop the skills and attributes of designers, makers and programmers.
+                                                <string key="text">“Technology as a way of life” is a dictum at SST as we believe that the 1:1 ICT-enabled learning environment elevates student engagement in learning and stretches each student’s potential. The use of simulation tools, cutting-edge geometrical software and applets, as well as online platforms and tools, all contribute to the creation of a dynamic and interactive classroom. Beyond software application and computational thinking, SST provides the differentiated opportunities for students to develop the skills and attributes of designers, makers and programmers.
 
-As a forerunner in transforming learning, the school believes in helping to build an empowered community. SST students take the lead in running several ICT initiatives for their peers/students from other schools, which include SST Hackathon, SST Make-A-Thon and the Cyber Wellness Student Ambassador Programme (CWSAP) initiatives. SST teachers help other educators adopt innovative teaching practices through platforms such as the SST Tech Summit and Lab School@SST.</mutableString>
+As a forerunner in transforming learning, the school believes in helping to build an empowered community. SST students take the lead in running several ICT initiatives for their peers/students from other schools, which include SST Hackathon, SST Make-A-Thon and the Cyber Wellness Student Ambassador Programme (CWSAP) initiatives. SST teachers help other educators adopt innovative teaching practices through platforms such as the SST Tech Summit and Lab School@SST.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
@@ -1753,9 +1751,9 @@ As a forerunner in transforming learning, the school believes in helping to buil
                                                 <rect key="frame" x="33" y="1235" width="373" height="172"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <mutableString key="text">The Active Citizenship Education (ACE) programme plays a pivotal role in fostering SST students to become global citizens who see the world as an interconnected set of systems. It aims to help our students develop attributes that allows them to take advantage of the opportunities abroad.
+                                                <string key="text">The Active Citizenship Education (ACE) programme plays a pivotal role in fostering SST students to become global citizens who see the world as an interconnected set of systems. It aims to help our students develop attributes that allows them to take advantage of the opportunities abroad.
 
-They will be equipped with skills to carry out advocacy projects and serve the community with purpose and enthusiasm. Through this experience, we want our students to appreciate that their actions have an impact on others and hence have the courage to take the lead in contributing towards creating a better environment for themselves and others.</mutableString>
+They will be equipped with skills to carry out advocacy projects and serve the community with purpose and enthusiasm. Through this experience, we want our students to appreciate that their actions have an impact on others and hence have the courage to take the lead in contributing towards creating a better environment for themselves and others.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
@@ -1799,7 +1797,7 @@ They will be equipped with skills to carry out advocacy projects and serve the c
                                                 <rect key="frame" x="33" y="1747" width="373" height="200"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <mutableString key="text">At SST, provision is made for students to be academically, professionally and globally competitive in the fields of science and technology. Through our partnerships with premier tertiary institutions such as Nanyang Technological University (NTU), Singapore University of Technology and Design (SUTD) and Ngee Ann Polytechnic (NP), we have availed our students to various learning opportunities exclusive to SST. We also have partner schools and organisations in our overseas networks in China, Japan, Korea, New Zealand, the United States and ASEAN countries that provide additional learning opportunities for our students.</mutableString>
+                                                <string key="text">At SST, provision is made for students to be academically, professionally and globally competitive in the fields of science and technology. Through our partnerships with premier tertiary institutions such as Nanyang Technological University (NTU), Singapore University of Technology and Design (SUTD) and Ngee Ann Polytechnic (NP), we have availed our students to various learning opportunities exclusive to SST. We also have partner schools and organisations in our overseas networks in China, Japan, Korea, New Zealand, the United States and ASEAN countries that provide additional learning opportunities for our students.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
@@ -1829,7 +1827,7 @@ They will be equipped with skills to carry out advocacy projects and serve the c
                                                 <rect key="frame" x="33" y="2209" width="369" height="197"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <mutableString key="text">The SLP aims to develop leadership competencies and values in SST students so that they will become dynamic leaders in service of humanity. We also believe that each SST student is a leader who has the potential to advocate for a worthy cause for the common good and lead others to act in a manner which will impact the community in a positive way. We believe that self-mastery is the foundation in every SST leader. There are many leadership opportunities and platforms available in SST where students are able to develop skills in leading themselves, others and communities.</mutableString>
+                                                <string key="text">The SLP aims to develop leadership competencies and values in SST students so that they will become dynamic leaders in service of humanity. We also believe that each SST student is a leader who has the potential to advocate for a worthy cause for the common good and lead others to act in a manner which will impact the community in a positive way. We believe that self-mastery is the foundation in every SST leader. There are many leadership opportunities and platforms available in SST where students are able to develop skills in leading themselves, others and communities.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
@@ -1844,7 +1842,7 @@ They will be equipped with skills to carry out advocacy projects and serve the c
                                                 <rect key="frame" x="35" y="2446" width="367" height="244"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <mutableString key="text">The YSP is SST’s community involvement programme. It is both an essential and integral part of the curriculum in SST, and we seek to develop students who are: Community-Oriented, Active Contributors to Society, Reflective and Empathetic. As part of the programme, students will apply relevant knowledge and skills in school-organised or self-initiated community projects. Through this process, our students will make meaningful connections between what they learn and the society at large. In rendering community service, SST students will meet and work with people of different ages, ethnicity and socio-cultural backgrounds. This allows them opportunities to develop and hone their 21st Century skills such as civic-mindedness, cross-cultural understanding, effective collaboration and communication skills.</mutableString>
+                                                <string key="text">The YSP is SST’s community involvement programme. It is both an essential and integral part of the curriculum in SST, and we seek to develop students who are: Community-Oriented, Active Contributors to Society, Reflective and Empathetic. As part of the programme, students will apply relevant knowledge and skills in school-organised or self-initiated community projects. Through this process, our students will make meaningful connections between what they learn and the society at large. In rendering community service, SST students will meet and work with people of different ages, ethnicity and socio-cultural backgrounds. This allows them opportunities to develop and hone their 21st Century skills such as civic-mindedness, cross-cultural understanding, effective collaboration and communication skills.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
@@ -2407,13 +2405,13 @@ Through SST’s Industrial and Research Attachment Programme (IRAP), upper secon
     </scenes>
     <resources>
         <image name="Canteen_1a" width="6912" height="3456"/>
-        <image name="background" width="1308" height="1764"/>
+        <image name="background" width="654" height="882"/>
         <image name="blockPIC.001" width="25" height="25"/>
         <image name="blockPIC.002" width="25" height="25"/>
         <image name="blockPIC.003" width="25" height="25"/>
         <image name="blockPIC.004" width="25" height="25"/>
         <image name="cross" width="512" height="512"/>
-        <image name="help" width="25" height="25"/>
+        <image name="help" width="75" height="75"/>
         <image name="helping1" width="1080" height="1920"/>
         <image name="helping2" width="1080" height="1920"/>
         <image name="helping3" width="1080" height="1920"/>
