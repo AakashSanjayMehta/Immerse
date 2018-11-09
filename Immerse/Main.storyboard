@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lyB-Ng-TAZ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lyB-Ng-TAZ">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -78,7 +78,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Year1234" translatesAutoresizingMaskIntoConstraints="NO" id="UoF-CO-BJh">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="binocualrs" translatesAutoresizingMaskIntoConstraints="NO" id="UoF-CO-BJh">
                                 <rect key="frame" x="132" y="44" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -219,7 +219,7 @@
                                                     <constraint firstAttribute="width" constant="175" id="74h-37-g1e"/>
                                                     <constraint firstAttribute="height" constant="175" id="Y1U-Dt-M0j"/>
                                                 </constraints>
-                                                <state key="normal" image="Year1234">
+                                                <state key="normal" image="year01">
                                                     <color key="titleColor" red="0.99129265550000001" green="0.33729130029999999" blue="0.28917163610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                                 <connections>
@@ -250,20 +250,20 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y7i-eB-MJH">
-                                                <rect key="frame" x="8" y="595" width="175" height="82"/>
+                                                <rect key="frame" x="8" y="595" width="175" height="175"/>
                                                 <color key="backgroundColor" red="0.0" green="0.33455923199653625" blue="0.13123175501823425" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" image="Year1234">
                                                     <color key="titleColor" red="0.99129265550000001" green="0.33729130029999999" blue="0.28917163610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Explore@SST" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oxA-uW-Awc">
-                                                <rect key="frame" x="129.66666666666666" y="694" width="154.99999999999997" height="123"/>
+                                                <rect key="frame" x="129.66666666666666" y="787" width="154.99999999999997" height="30"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="04" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cQ0-zL-BZC">
-                                                <rect key="frame" x="212" y="595" width="175" height="82"/>
+                                                <rect key="frame" x="212" y="595" width="175" height="175"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -380,7 +380,7 @@
                                 <color key="textColor" red="0.37893337669999999" green="0.078431372550000003" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Year1234" translatesAutoresizingMaskIntoConstraints="NO" id="syn-Ly-nLO">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="year01" translatesAutoresizingMaskIntoConstraints="NO" id="syn-Ly-nLO">
                                 <rect key="frame" x="57" y="102" width="300" height="300"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="syn-Ly-nLO" secondAttribute="height" multiplier="1:1" id="F6Q-iZ-FOf"/>
@@ -500,7 +500,7 @@
                                 <color key="textColor" red="0.37893337669999999" green="0.078431372550000003" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Year1234" translatesAutoresizingMaskIntoConstraints="NO" id="NHk-Vf-gmA">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="year01" translatesAutoresizingMaskIntoConstraints="NO" id="NHk-Vf-gmA">
                                 <rect key="frame" x="20" y="300" width="175" height="175"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="175" id="GcC-Tg-KD6"/>
@@ -598,9 +598,6 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kqu-tZ-zYp">
                                 <rect key="frame" x="0.0" y="105" width="414" height="221"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wfZ-7c-uKY">
-                                <rect key="frame" x="120" y="128" width="175" height="175"/>
-                            </imageView>
                             <containerView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ev4-ZB-FoT">
                                 <rect key="frame" x="20" y="334" width="374" height="285"/>
                                 <connections>
@@ -624,6 +621,9 @@
                                     <segue destination="WV7-ud-Ghs" kind="show" id="Dyz-hx-iPx"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="SClogo" translatesAutoresizingMaskIntoConstraints="NO" id="wfZ-7c-uKY">
+                                <rect key="frame" x="126" y="143" width="162" height="107"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.85882352939999995" green="0.94117647059999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -654,6 +654,68 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bqV-3v-WpH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2181" y="-3163"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="WEa-5l-oqk">
+            <objects>
+                <viewController id="w2K-dZ-gzg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4mI-Q4-6zz">
+                        <rect key="frame" x="0.0" y="0.0" width="374" height="285"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="kmQ-c8-Zlt">
+                                <rect key="frame" x="0.0" y="0.0" width="374" height="285"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">Badge Night is an annual event, and SST tradition, which                
+marks the official induction of the new Secondary 1                     
+students into the SST Family. It is held after the end of                
+their Secondary 1 Orientation, typically on a Friday at the              
+start of the term.                                                                        
+                                                                                                  
+Badge Night aims to inculcate a sense of belonging into the            
+new Secondary 1 students and officially welcome them,                
+while also allowing the Secondary 1 students to forge                  
+closer ties with their peers. The Secondary 1 students will           
+also complete a session on school ethos and values                      
+(by SConnect).                                                                           
+                                                                                                 
+We welcome you to SST and we hope that you have a                
+wonderful journey ahead! See you in school!</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="lRF-ud-axU"/>
+                    </view>
+                    <size key="freeformSize" width="374" height="285"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RAw-Vz-GmF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2740.579710144928" y="-3163.451086956522"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="cow-Ra-CWO">
+            <objects>
+                <viewController id="o7y-DA-Wol" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fYl-HN-zj0">
+                        <rect key="frame" x="0.0" y="0.0" width="374" height="285"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xdr-be-vxe">
+                                <rect key="frame" x="0.0" y="0.0" width="374" height="285"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="sih-FU-ElA"/>
+                    </view>
+                    <size key="freeformSize" width="374" height="285"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fwe-oR-FRO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3298.5507246376815" y="-3163.451086956522"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Af2-0U-bZZ">
@@ -1438,7 +1500,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Year1234" translatesAutoresizingMaskIntoConstraints="NO" id="Iog-OR-WQc">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="year01" translatesAutoresizingMaskIntoConstraints="NO" id="Iog-OR-WQc">
                                 <rect key="frame" x="20" y="410" width="240" height="240"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1515,7 +1577,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Year1234" translatesAutoresizingMaskIntoConstraints="NO" id="Uy3-pe-rLI">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="year01" translatesAutoresizingMaskIntoConstraints="NO" id="Uy3-pe-rLI">
                                 <rect key="frame" x="20" y="410" width="230" height="230"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -2136,7 +2198,7 @@ Through SST’s Industrial and Research Attachment Programme (IRAP), upper secon
                                 <rect key="frame" x="0.0" y="106" width="414" height="351"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fsw-GQ-Q0J">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="year01" translatesAutoresizingMaskIntoConstraints="NO" id="fsw-GQ-Q0J">
                                 <rect key="frame" x="82" y="156" width="250" height="250"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -2209,7 +2271,7 @@ Through SST’s Industrial and Research Attachment Programme (IRAP), upper secon
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EjZ-e3-rep">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="year01" translatesAutoresizingMaskIntoConstraints="NO" id="EjZ-e3-rep">
                                 <rect key="frame" x="82" y="105" width="250" height="250"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -2238,7 +2300,7 @@ Through SST’s Industrial and Research Attachment Programme (IRAP), upper secon
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="amg-gJ-8Bq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2231.8840579710145" y="-1290.4891304347827"/>
+            <point key="canvasLocation" x="-2284" y="-1273"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="LTx-9b-RCV">
@@ -2353,17 +2415,49 @@ Through SST’s Industrial and Research Attachment Programme (IRAP), upper secon
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rnM-de-pQ0">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SST students shine in a diverse rangeof mixed and sometimes eclectic fields" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YQY-uq-hI9">
-                                <rect key="frame" x="93" y="135" width="239" height="21"/>
+                                <rect key="frame" x="88" y="74" width="239" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UP1-zX-a3v">
+                                <rect key="frame" x="88" y="168" width="239" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tEe-h7-YLZ">
+                                <rect key="frame" x="98" y="178" width="239" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B2N-UF-65B">
+                                <rect key="frame" x="108" y="188" width="239" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vVX-dj-Qdj">
+                                <rect key="frame" x="118" y="198" width="239" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rnM-de-pQ0">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.85882352939999995" green="0.94117647059999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="8Ij-4P-MzZ"/>
@@ -2456,19 +2550,11 @@ Through SST’s Industrial and Research Attachment Programme (IRAP), upper secon
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xgq-cK-4O0">
-                                <rect key="frame" x="244" y="648" width="150" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Catch the show choir!">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AaW-Uc-2jw">
                                 <rect key="frame" x="20" y="105" width="374" height="277"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
-                                    <segue destination="yoo-OF-xDe" kind="embed" id="kkk-yV-lFF"/>
+                                    <segue destination="FEM-UJ-jxg" kind="embed" id="3jj-VK-BzJ"/>
                                 </connections>
                             </containerView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FoG-Z8-2lm">
@@ -2489,7 +2575,7 @@ Through SST’s Industrial and Research Attachment Programme (IRAP), upper secon
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mxh-2e-NCX">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mxh-2e-NCX">
                                 <rect key="frame" x="292" y="627" width="102" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2508,6 +2594,151 @@ Through SST’s Industrial and Research Attachment Programme (IRAP), upper secon
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G7m-Ge-WVs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1378.2608695652175" y="-2398.3695652173915"/>
+        </scene>
+        <!--Page View Controller-->
+        <scene sceneID="0gB-yi-Jxt">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="FEM-UJ-jxg" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z2h-kx-bmd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-720" y="-2448"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="gAu-LA-b37">
+            <objects>
+                <viewController id="jhz-rV-ySu" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wH3-nP-LIH">
+                        <rect key="frame" x="0.0" y="0.0" width="374" height="277"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="omg-jY-96W">
+                                <rect key="frame" x="0.0" y="0.0" width="374" height="277"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">One of the early milestones you would face as an         
+SST student is chosing a CCA. Since the cohort is a      
+small one, we are told that the school will start        
+new CCAs only if there is a sizeable number of            
+interested students. But the truth is that our               
+students have no problems finding a CCA that               
+either helps to hone current skills and interests or         
+uncover a hidden talent or passion. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="uMO-dq-VNR"/>
+                    </view>
+                    <size key="freeformSize" width="374" height="277"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eWF-Gh-X3e" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-166.66666666666669" y="-2448.505434782609"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="neE-QG-tAX">
+            <objects>
+                <viewController id="NGU-kv-Gf4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Upk-zL-eyL">
+                        <rect key="frame" x="0.0" y="0.0" width="374" height="277"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="meM-rI-YLW">
+                                <rect key="frame" x="0.0" y="0.0" width="374" height="277"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">During the CCA tryouts, students are given the             
+opportunity to attend any CCA session of their          
+choice during a two-week trial period. Following          
+the trial period, students would then indicate their         
+preferred choice of CCA for the rest of their 4            
+years in SST. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Viv-Gj-sEg"/>
+                    </view>
+                    <size key="freeformSize" width="374" height="277"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0fV-8N-eyg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="395.6521739130435" y="-2449.3206521739135"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="bAB-Jm-taB">
+            <objects>
+                <viewController id="lQ4-aQ-oah" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Zkg-GT-ZLz">
+                        <rect key="frame" x="0.0" y="0.0" width="374" height="277"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="B01-MJ-ltN">
+                                <rect key="frame" x="0.0" y="0.0" width="374" height="277"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">I had a hard time choosing but eventually went           
+with my heart in choosing showchoir. Showchoir is a        
+performings arts CCA in SST. Other categories are        
+Sports and Games, Clubs and Societies and Uniform      
+groups. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="YHo-Ii-oml"/>
+                    </view>
+                    <size key="freeformSize" width="374" height="277"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HHo-oC-UtP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="952.17391304347836" y="-2450.1358695652175"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="boh-lR-7iw">
+            <objects>
+                <viewController id="gK3-70-rzj" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6XW-6E-NZd">
+                        <rect key="frame" x="0.0" y="0.0" width="374" height="277"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="wpT-lF-Hqc">
+                                <rect key="frame" x="0.0" y="0.0" width="374" height="277"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">I had seen clips of my seniors performing and was       
+in awe.😲I’m finding out that getting to those             
+standards of performance took a lot of effort and       
+practice, not to mention team work. But as they          
+say,”No pain, no gain.”. I want to gain the                     
+confidence to express myself and the strength to       
+endure tough situations. So I’ll break a leg, not             
+literally of course. 😄</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="P8W-MF-1Hz"/>
+                    </view>
+                    <size key="freeformSize" width="374" height="277"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VYA-ME-yoW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1507" y="-2450"/>
+        </scene>
+        <!--AV Player View Controller-->
+        <scene sceneID="Qz3-1t-4hZ">
+            <objects>
+                <avPlayerViewController videoGravity="AVLayerVideoGravityResizeAspect" id="mKT-yu-Eji" sceneMemberID="viewController">
+                    <size key="freeformSize" width="374" height="277"/>
+                </avPlayerViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PpI-4T-ASe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2064" y="-2450"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Lsa-4a-a1Q">
@@ -2528,24 +2759,46 @@ Through SST’s Industrial and Research Attachment Programme (IRAP), upper secon
             <point key="canvasLocation" x="-5523" y="-2866"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="tbJ-dz-R8j">
+        <scene sceneID="fkd-dG-6f6">
             <objects>
-                <viewController id="yoo-OF-xDe" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="xd9-77-Nz4">
+                <viewController id="Sdw-ZU-l8L" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Wxd-ev-CTy">
                         <rect key="frame" x="0.0" y="0.0" width="374" height="277"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2Wn-ys-O2h">
+                                <rect key="frame" x="0.0" y="0.0" width="374" height="277"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">One of the early milestones you would face as an         
+SST student is chosing a CCA. Since the cohort is a      
+small one, we are told that the school will start        
+new CCAs only if there is a sizeable number of            
+interested students. But the truth is that our               
+students have no problems finding a CCA that               
+either helps to hone current skills and interests or         
+uncover a hidden talent or passion. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="lRC-wQ-ADV"/>
+                        <viewLayoutGuide key="safeArea" id="ZaA-IC-8bM"/>
                     </view>
+                    <size key="freeformSize" width="374" height="277"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="K0B-XO-YWH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xvV-5I-h1c" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-166.66666666666669" y="-2448.505434782609"/>
         </scene>
     </scenes>
     <resources>
-        <image name="Year1234" width="96" height="82.55999755859375"/>
-        <image name="background" width="468" height="690"/>
+        <image name="SClogo" width="265" height="280"/>
+        <image name="Year1234" width="400" height="344"/>
+        <image name="background" width="936" height="1380"/>
+        <image name="binocualrs" width="1024" height="1024"/>
         <image name="speechBubble" width="2000" height="1507"/>
+        <image name="year01" width="640" height="640"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="e1l-1v-NXl"/>
