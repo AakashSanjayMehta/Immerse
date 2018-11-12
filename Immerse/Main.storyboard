@@ -171,7 +171,7 @@
             </objects>
             <point key="canvasLocation" x="-4110" y="-3435"/>
         </scene>
-        <!--Getting to Know You-->
+        <!--Student Selection View Controller-->
         <scene sceneID="LfK-bO-7Ko">
             <objects>
                 <viewController id="pCA-Iw-B80" customClass="StudentSelectionViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController">
@@ -195,19 +195,19 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="01" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lEf-6c-HlS">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Year 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lEf-6c-HlS">
                                                 <rect key="frame" x="212" y="46" width="175" height="175"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="03" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Myx-IR-fgd">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Year 3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Myx-IR-fgd">
                                                 <rect key="frame" x="212" y="412" width="175" height="175"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="02" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xlg-cP-z4H">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Year 2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xlg-cP-z4H">
                                                 <rect key="frame" x="212" y="229" width="175" height="175"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                                 <nil key="textColor"/>
@@ -266,7 +266,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="04" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cQ0-zL-BZC">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Year 4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cQ0-zL-BZC">
                                                 <rect key="frame" x="212" y="595" width="175" height="82"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                                 <nil key="textColor"/>
@@ -350,7 +350,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="vTg-eG-1Nv"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Getting to Know You" id="dmr-KV-NCa"/>
+                    <navigationItem key="navigationItem" id="dmr-KV-NCa"/>
                     <size key="freeformSize" width="414" height="900"/>
                     <connections>
                         <outlet property="student_1" destination="zvw-Bb-qys" id="RM7-9c-ffT"/>
@@ -445,7 +445,7 @@
         <scene sceneID="7XX-2R-F5C">
             <objects>
                 <viewController id="YqL-7c-mF9" customClass="OrientationViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" alpha="0.94999999999999996" contentMode="scaleToFill" id="8NH-RV-voA">
+                    <view key="view" contentMode="scaleToFill" id="8NH-RV-voA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -2596,7 +2596,7 @@ Through SST’s Industrial and Research Attachment Programme (IRAP), upper secon
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4jj-4G-xF2">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="General Office 1" translatesAutoresizingMaskIntoConstraints="NO" id="4jj-4G-xF2">
                                 <rect key="frame" x="0.0" y="106" width="414" height="351"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -2604,9 +2604,10 @@ Through SST’s Industrial and Research Attachment Programme (IRAP), upper secon
                                 <rect key="frame" x="82" y="156" width="250" height="250"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcom back! How was your orientation? I'll be sharing with you some of my experiences this year before you start your journey!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pyA-eO-xCw">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pyA-eO-xCw">
                                 <rect key="frame" x="20" y="465" width="374" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Welcome back! How was your orientation? I'll be sharing with you some of my experiences this year before you start your journey!</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -2637,7 +2638,7 @@ Through SST’s Industrial and Research Attachment Programme (IRAP), upper secon
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YSL-sn-yYd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2239.130434782609" y="-2260.5978260869565"/>
+            <point key="canvasLocation" x="-2414" y="-2398"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="SW5-Pu-65V">
@@ -2840,6 +2841,7 @@ Through SST’s Industrial and Research Attachment Programme (IRAP), upper secon
                                 <rect key="frame" x="20" y="133" width="374" height="545"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="sectionIndexBackgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="112" id="eas-cz-yG5">
                                         <rect key="frame" x="0.0" y="28" width="374" height="112"/>
@@ -3055,15 +3057,15 @@ Through SST’s Industrial and Research Attachment Programme (IRAP), upper secon
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G7m-Ge-WVs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1378.2608695652175" y="-2398.3695652173915"/>
+            <point key="canvasLocation" x="-1770" y="-2398"/>
         </scene>
         <!--Page View Controller-->
         <scene sceneID="0gB-yi-Jxt">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="FEM-UJ-jxg" sceneMemberID="viewController"/>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="FEM-UJ-jxg" customClass="CCAPageViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z2h-kx-bmd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-720" y="-2448"/>
+            <point key="canvasLocation" x="-1143" y="-2585"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="gAu-LA-b37">
@@ -3096,7 +3098,7 @@ uncover a hidden talent or passion. </string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eWF-Gh-X3e" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-166.66666666666669" y="-2448.505434782609"/>
+            <point key="canvasLocation" x="-1109" y="-2299"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="neE-QG-tAX">
@@ -3127,7 +3129,7 @@ years in SST. </string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0fV-8N-eyg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="395.6521739130435" y="-2449.3206521739135"/>
+            <point key="canvasLocation" x="-535" y="-2299"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="bAB-Jm-taB">
@@ -3157,7 +3159,7 @@ groups. </string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HHo-oC-UtP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="952.17391304347836" y="-2450.1358695652175"/>
+            <point key="canvasLocation" x="10" y="-2301"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="boh-lR-7iw">
@@ -3190,7 +3192,7 @@ literally of course. 😄</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VYA-ME-yoW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1507" y="-2450"/>
+            <point key="canvasLocation" x="564" y="-2301"/>
         </scene>
         <!--AV Player View Controller-->
         <scene sceneID="Qz3-1t-4hZ">
@@ -3200,7 +3202,7 @@ literally of course. 😄</string>
                 </avPlayerViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PpI-4T-ASe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2064" y="-2450"/>
+            <point key="canvasLocation" x="1122" y="-2301"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Lsa-4a-a1Q">
@@ -3221,39 +3223,6 @@ literally of course. 😄</string>
             <point key="canvasLocation" x="-5523" y="-2866"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="fkd-dG-6f6">
-            <objects>
-                <viewController id="Sdw-ZU-l8L" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Wxd-ev-CTy">
-                        <rect key="frame" x="0.0" y="0.0" width="374" height="277"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2Wn-ys-O2h">
-                                <rect key="frame" x="0.0" y="0.0" width="374" height="277"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">One of the early milestones you would face as an         
-SST student is chosing a CCA. Since the cohort is a      
-small one, we are told that the school will start        
-new CCAs only if there is a sizeable number of            
-interested students. But the truth is that our               
-students have no problems finding a CCA that               
-either helps to hone current skills and interests or         
-uncover a hidden talent or passion. </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="ZaA-IC-8bM"/>
-                    </view>
-                    <size key="freeformSize" width="374" height="277"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="xvV-5I-h1c" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-166.66666666666669" y="-2448.505434782609"/>
-        </scene>
-        <!--View Controller-->
         <scene sceneID="hk5-FZ-Dx7">
             <objects>
                 <viewController id="ElV-bU-MGn" sceneMemberID="viewController">
@@ -3261,6 +3230,7 @@ uncover a hidden talent or passion. </string>
                         <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="E8h-sh-PxY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vqg-Dq-NH1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -3275,6 +3245,7 @@ uncover a hidden talent or passion. </string>
                         <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="QDa-Qv-PAB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qxm-as-MVP" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -3289,6 +3260,7 @@ uncover a hidden talent or passion. </string>
                         <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="3XL-PG-6CL"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NOa-c3-2uO" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -3297,6 +3269,7 @@ uncover a hidden talent or passion. </string>
         </scene>
     </scenes>
     <resources>
+        <image name="General Office 1" width="3024" height="4032"/>
         <image name="SClogo" width="265" height="280"/>
         <image name="Year1234" width="96" height="82.55999755859375"/>
         <image name="background" width="468" height="690"/>

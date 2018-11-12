@@ -26,6 +26,7 @@
 		59F49FEDFDC0C001A7E7B3AB /* Pods_Immerse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10467C47D94BF3EDC2CCE081 /* Pods_Immerse.framework */; };
 		5E053572212A4EB40072DAF1 /* ARAssets.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E053571212A4EB40072DAF1 /* ARAssets.scnassets */; };
 		5E0BD8332133F09500088BAE /* InitialStartupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0BD8322133F09500088BAE /* InitialStartupViewController.swift */; };
+		5E2815B2219955D700CEA3A8 /* CCAPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2815B1219955D700CEA3A8 /* CCAPageViewController.swift */; };
 		5E53470D20B5BE4200EDE55E /* FieldAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53470C20B5BE4200EDE55E /* FieldAViewController.swift */; };
 		5E53470F20B5BE5C00EDE55E /* FieldBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53470E20B5BE5C00EDE55E /* FieldBViewController.swift */; };
 		5E53471120B5BE7800EDE55E /* FieldPanaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53471020B5BE7800EDE55E /* FieldPanaViewController.swift */; };
@@ -113,6 +114,7 @@
 		475A348933277792B3FFBE08 /* Pods-ImmerseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImmerseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImmerseTests/Pods-ImmerseTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5E053571212A4EB40072DAF1 /* ARAssets.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = ARAssets.scnassets; sourceTree = "<group>"; };
 		5E0BD8322133F09500088BAE /* InitialStartupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialStartupViewController.swift; sourceTree = "<group>"; };
+		5E2815B1219955D700CEA3A8 /* CCAPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCAPageViewController.swift; sourceTree = "<group>"; };
 		5E53470C20B5BE4200EDE55E /* FieldAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldAViewController.swift; sourceTree = "<group>"; };
 		5E53470E20B5BE5C00EDE55E /* FieldBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldBViewController.swift; sourceTree = "<group>"; };
 		5E53471020B5BE7800EDE55E /* FieldPanaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldPanaViewController.swift; sourceTree = "<group>"; };
@@ -219,6 +221,7 @@
 				42B02260219680280020DB90 /* StudentSelectionViewController.swift */,
 				42B022622196854C0020DB90 /* IntroductionViewController.swift */,
 				42B0226421968BD10020DB90 /* OrientationViewController.swift */,
+				5E2815B1219955D700CEA3A8 /* CCAPageViewController.swift */,
 			);
 			name = "Sec 1";
 			sourceTree = "<group>";
@@ -709,6 +712,7 @@
 				42B02261219680280020DB90 /* StudentSelectionViewController.swift in Sources */,
 				5E53472D20B6B8DE00EDE55E /* Sec1and3AViewController.swift in Sources */,
 				5E53DF9020AB189000153856 /* AppDelegate.swift in Sources */,
+				5E2815B2219955D700CEA3A8 /* CCAPageViewController.swift in Sources */,
 				5E53470F20B5BE5C00EDE55E /* FieldBViewController.swift in Sources */,
 				5E677F8920ABBBCB00E1C46B /* IncBViewController.swift in Sources */,
 				42E43FB8212FD4F000676896 /* HelpPageViewController.swift in Sources */,
