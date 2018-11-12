@@ -2991,10 +2991,10 @@ Through SST’s Industrial and Research Attachment Programme (IRAP), upper secon
             </objects>
             <point key="canvasLocation" x="1045" y="-1272"/>
         </scene>
-        <!--View Controller-->
+        <!--Main View Controller-->
         <scene sceneID="uUN-Wo-FUO">
             <objects>
-                <viewController id="3A4-g7-NZQ" sceneMemberID="viewController">
+                <viewController id="3A4-g7-NZQ" customClass="CCAMainViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="V2L-Le-np7">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3017,6 +3017,7 @@ Through SST’s Industrial and Research Attachment Programme (IRAP), upper secon
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AaW-Uc-2jw">
                                 <rect key="frame" x="20" y="105" width="374" height="277"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
                                     <segue destination="FEM-UJ-jxg" kind="embed" id="3jj-VK-BzJ"/>
                                 </connections>
@@ -3050,19 +3051,27 @@ Through SST’s Industrial and Research Attachment Programme (IRAP), upper secon
                                     <segue destination="rOR-LZ-eQb" kind="show" id="jhk-6f-6BI"/>
                                 </connections>
                             </button>
+                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="XXc-iG-Wzx">
+                                <rect key="frame" x="20" y="345" width="374" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </pageControl>
                         </subviews>
                         <color key="backgroundColor" red="0.85882352939999995" green="0.94117647059999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="oHX-LD-6eU"/>
                     </view>
+                    <connections>
+                        <outlet property="CCAContainerView" destination="AaW-Uc-2jw" id="msl-8Y-OIo"/>
+                        <outlet property="CCAPVCPageControl" destination="XXc-iG-Wzx" id="RZ1-mc-Flr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G7m-Ge-WVs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1770" y="-2398"/>
+            <point key="canvasLocation" x="-1771.0144927536232" y="-2398.3695652173915"/>
         </scene>
         <!--Page View Controller-->
         <scene sceneID="0gB-yi-Jxt">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="FEM-UJ-jxg" customClass="CCAPageViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController"/>
+                <pageViewController storyboardIdentifier="CCAPVC" autoresizesArchivedViewToFullSize="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="FEM-UJ-jxg" customClass="CCAPageViewController" customModule="Immerse" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z2h-kx-bmd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1143" y="-2585"/>
@@ -3070,7 +3079,7 @@ Through SST’s Industrial and Research Attachment Programme (IRAP), upper secon
         <!--View Controller-->
         <scene sceneID="gAu-LA-b37">
             <objects>
-                <viewController id="jhz-rV-ySu" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CCAVC1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="jhz-rV-ySu" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wH3-nP-LIH">
                         <rect key="frame" x="0.0" y="0.0" width="374" height="277"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3078,7 +3087,7 @@ Through SST’s Industrial and Research Attachment Programme (IRAP), upper secon
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="omg-jY-96W">
                                 <rect key="frame" x="0.0" y="0.0" width="374" height="277"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">One of the early milestones you would face as an         
 SST student is chosing a CCA. Since the cohort is a      
 small one, we are told that the school will start        
@@ -3103,7 +3112,7 @@ uncover a hidden talent or passion. </string>
         <!--View Controller-->
         <scene sceneID="neE-QG-tAX">
             <objects>
-                <viewController id="NGU-kv-Gf4" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CCAVC2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="NGU-kv-Gf4" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Upk-zL-eyL">
                         <rect key="frame" x="0.0" y="0.0" width="374" height="277"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3111,7 +3120,7 @@ uncover a hidden talent or passion. </string>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="meM-rI-YLW">
                                 <rect key="frame" x="0.0" y="0.0" width="374" height="277"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">During the CCA tryouts, students are given the             
 opportunity to attend any CCA session of their          
 choice during a two-week trial period. Following          
@@ -3134,7 +3143,7 @@ years in SST. </string>
         <!--View Controller-->
         <scene sceneID="bAB-Jm-taB">
             <objects>
-                <viewController id="lQ4-aQ-oah" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CCAVC3" useStoryboardIdentifierAsRestorationIdentifier="YES" id="lQ4-aQ-oah" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Zkg-GT-ZLz">
                         <rect key="frame" x="0.0" y="0.0" width="374" height="277"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3142,7 +3151,7 @@ years in SST. </string>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="B01-MJ-ltN">
                                 <rect key="frame" x="0.0" y="0.0" width="374" height="277"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">I had a hard time choosing but eventually went           
 with my heart in choosing showchoir. Showchoir is a        
 performings arts CCA in SST. Other categories are        
@@ -3164,7 +3173,7 @@ groups. </string>
         <!--View Controller-->
         <scene sceneID="boh-lR-7iw">
             <objects>
-                <viewController id="gK3-70-rzj" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CCAVC4" useStoryboardIdentifierAsRestorationIdentifier="YES" id="gK3-70-rzj" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6XW-6E-NZd">
                         <rect key="frame" x="0.0" y="0.0" width="374" height="277"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3172,7 +3181,7 @@ groups. </string>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="wpT-lF-Hqc">
                                 <rect key="frame" x="0.0" y="0.0" width="374" height="277"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">I had seen clips of my seniors performing and was       
 in awe.😲I’m finding out that getting to those             
 standards of performance took a lot of effort and       
@@ -3197,7 +3206,7 @@ literally of course. 😄</string>
         <!--AV Player View Controller-->
         <scene sceneID="Qz3-1t-4hZ">
             <objects>
-                <avPlayerViewController videoGravity="AVLayerVideoGravityResizeAspect" id="mKT-yu-Eji" sceneMemberID="viewController">
+                <avPlayerViewController storyboardIdentifier="CCAVC5" useStoryboardIdentifierAsRestorationIdentifier="YES" videoGravity="AVLayerVideoGravityResizeAspect" id="mKT-yu-Eji" sceneMemberID="viewController">
                     <size key="freeformSize" width="374" height="277"/>
                 </avPlayerViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PpI-4T-ASe" userLabel="First Responder" sceneMemberID="firstResponder"/>

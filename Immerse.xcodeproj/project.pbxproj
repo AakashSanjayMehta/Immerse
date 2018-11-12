@@ -27,6 +27,7 @@
 		5E053572212A4EB40072DAF1 /* ARAssets.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E053571212A4EB40072DAF1 /* ARAssets.scnassets */; };
 		5E0BD8332133F09500088BAE /* InitialStartupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0BD8322133F09500088BAE /* InitialStartupViewController.swift */; };
 		5E2815B2219955D700CEA3A8 /* CCAPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2815B1219955D700CEA3A8 /* CCAPageViewController.swift */; };
+		5E2815B52199AD5C00CEA3A8 /* CCAMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2815B42199AD5C00CEA3A8 /* CCAMainViewController.swift */; };
 		5E53470D20B5BE4200EDE55E /* FieldAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53470C20B5BE4200EDE55E /* FieldAViewController.swift */; };
 		5E53470F20B5BE5C00EDE55E /* FieldBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53470E20B5BE5C00EDE55E /* FieldBViewController.swift */; };
 		5E53471120B5BE7800EDE55E /* FieldPanaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53471020B5BE7800EDE55E /* FieldPanaViewController.swift */; };
@@ -115,6 +116,7 @@
 		5E053571212A4EB40072DAF1 /* ARAssets.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = ARAssets.scnassets; sourceTree = "<group>"; };
 		5E0BD8322133F09500088BAE /* InitialStartupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialStartupViewController.swift; sourceTree = "<group>"; };
 		5E2815B1219955D700CEA3A8 /* CCAPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCAPageViewController.swift; sourceTree = "<group>"; };
+		5E2815B42199AD5C00CEA3A8 /* CCAMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCAMainViewController.swift; sourceTree = "<group>"; };
 		5E53470C20B5BE4200EDE55E /* FieldAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldAViewController.swift; sourceTree = "<group>"; };
 		5E53470E20B5BE5C00EDE55E /* FieldBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldBViewController.swift; sourceTree = "<group>"; };
 		5E53471020B5BE7800EDE55E /* FieldPanaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldPanaViewController.swift; sourceTree = "<group>"; };
@@ -218,10 +220,10 @@
 		423E07462195C8940071712F /* Sec 1 */ = {
 			isa = PBXGroup;
 			children = (
+				5E2815B32199AD4200CEA3A8 /* CCA */,
 				42B02260219680280020DB90 /* StudentSelectionViewController.swift */,
 				42B022622196854C0020DB90 /* IntroductionViewController.swift */,
 				42B0226421968BD10020DB90 /* OrientationViewController.swift */,
-				5E2815B1219955D700CEA3A8 /* CCAPageViewController.swift */,
 			);
 			name = "Sec 1";
 			sourceTree = "<group>";
@@ -294,6 +296,15 @@
 				5EE657BC212FBCD800060558 /* ARControllerViewController.swift */,
 			);
 			path = AR;
+			sourceTree = "<group>";
+		};
+		5E2815B32199AD4200CEA3A8 /* CCA */ = {
+			isa = PBXGroup;
+			children = (
+				5E2815B1219955D700CEA3A8 /* CCAPageViewController.swift */,
+				5E2815B42199AD5C00CEA3A8 /* CCAMainViewController.swift */,
+			);
+			name = CCA;
 			sourceTree = "<group>";
 		};
 		5E53470B20B5BE2500EDE55E /* Field VC */ = {
@@ -725,6 +736,7 @@
 				42E711B4211DC78000A22BE0 /* PlaceInfoViewController.swift in Sources */,
 				5EE0BFAF215DF3D500009089 /* IndexTableViewController.swift in Sources */,
 				5E53471420B64C1200EDE55E /* Makers'LabViewController.swift in Sources */,
+				5E2815B52199AD5C00CEA3A8 /* CCAMainViewController.swift in Sources */,
 				5E677F8720ABBBBE00E1C46B /* IncAViewController.swift in Sources */,
 				5E0BD8332133F09500088BAE /* InitialStartupViewController.swift in Sources */,
 				24DB9C2C21417B04008CB3BC /* AboutAfter.swift in Sources */,
