@@ -3051,17 +3051,12 @@ Through SST’s Industrial and Research Attachment Programme (IRAP), upper secon
                                     <segue destination="rOR-LZ-eQb" kind="show" id="jhk-6f-6BI"/>
                                 </connections>
                             </button>
-                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="XXc-iG-Wzx">
-                                <rect key="frame" x="20" y="345" width="374" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </pageControl>
                         </subviews>
                         <color key="backgroundColor" red="0.85882352939999995" green="0.94117647059999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="oHX-LD-6eU"/>
                     </view>
                     <connections>
                         <outlet property="CCAContainerView" destination="AaW-Uc-2jw" id="msl-8Y-OIo"/>
-                        <outlet property="CCAPVCPageControl" destination="XXc-iG-Wzx" id="RZ1-mc-Flr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G7m-Ge-WVs" userLabel="First Responder" sceneMemberID="firstResponder"/>

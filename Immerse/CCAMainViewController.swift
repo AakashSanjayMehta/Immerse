@@ -23,23 +23,7 @@ class CCAMainViewController: UIViewController {
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-        if let CCApageVC = segue.destination as? CCAPageViewController {
-            CCApageVC.CCAPageVCDelegate = self
-        }
-    }
     
-
 }
 
-extension CCAMainViewController: CCAPageViewControllerDelegate{
-    func CCAPageViewController(CCAPageVC: CCAPageViewController, didUpdatePageCount count: Int) {
-        CCAPVCPageControl.numberOfPages = count
-    }
-    
-    func CCAPageViewController(CCAPageVC: CCAPageViewController, didUpdatePageIndex index: Int) {
-        CCAPVCPageControl.currentPage = index
-    }
-}
+

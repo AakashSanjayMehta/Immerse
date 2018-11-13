@@ -20,6 +20,8 @@ class CCAPageViewController: UIPageViewController, UIPageViewControllerDataSourc
         UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "CCAVC3"),
         UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "CCAVC4")]
     
+    var pageControl = UIPageControl()
+    
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
         guard let viewControllerIndex = CCAVCs.index(of: viewController) else {
             return nil
@@ -54,7 +56,21 @@ class CCAPageViewController: UIPageViewController, UIPageViewControllerDataSourc
         return CCAVCs[nextIndex]
     }
     
-    weak var CCAPageVCDelegate: CCAPageViewControllerDelegate?
+    
+    func pageViewController(_ pageViewController: UIPageViewController, didFinishAnimating finsihed: Bool, previousViewControllers: [UIViewController], transiotionCompleted completed:Bool)  {
+        let pageContentviewController = pageViewController.viewControllers![0]
+        self.pageControl.currentPage = CCAVCs.index(of: pageContentviewController)!
+    }
+    
+    func configurePagControle() {
+        pageControl = UIPageControl(frame: CGRect(x: 0, y: UIScreen.main.bounds.maxY - 50, width: UIScreen.main.bounds.width, height: 50))
+        pageControl.numberOfPages = CCAVCs.count
+        pageControl.currentPage = 0
+        pageControl.tintColor = UIColor.blue
+        pageControl.pageIndicatorTintColor = UIColor.black
+        pageControl.currentPageIndicatorTintColor = UIColor.black
+        self.view.addSubview(pageControl)
+    }
     
     
 
@@ -62,10 +78,11 @@ class CCAPageViewController: UIPageViewController, UIPageViewControllerDataSourc
         super.viewDidLoad()
         dataSource = self as UIPageViewControllerDataSource
         delegate = self as? UIPageViewControllerDelegate
+        configurePagControle()
         if let firstVC = CCAVCs.first {
             setViewControllers([firstVC], direction: .forward, animated: true, completion: nil)
         }
-        CCAPageVCDelegate?.CCAPageViewController(CCAPageVC: self, didUpdatePageCount: CCAVCs.count)
+        
         
     }
     
@@ -84,38 +101,3 @@ class CCAPageViewController: UIPageViewController, UIPageViewControllerDataSourc
 
 }
 
-extension CCAPageViewController: UIPageViewControllerDelegate {
-    
-    func pageViewController(pageViewController: UIPageViewController,
-                            didFinishAnimating finished: Bool,
-                            previousViewControllers: [UIViewController],
-                            transitionCompleted completed: Bool) {
-        if let firstViewController = viewControllers?.first,
-            let index = CCAVCs.index(of: firstViewController) {
-            CCAPageVCDelegate?.CCAPageViewController(CCAPageVC: self, didUpdatePageCount: index)
-        }
-    }
-    
-}
-
-protocol CCAPageViewControllerDelegate: class {
-    
-    /**
-     Called when the number of pages is updated.
-     
-     - parameter tutorialPageViewController: the TutorialPageViewController instance
-     - parameter count: the total number of pages.
-     */
-    func CCAPageViewController(CCAPageVC: CCAPageViewController,
-                                    didUpdatePageCount count: Int)
-    
-    /**
-     Called when the current index is updated.
-     
-     - parameter tutorialPageViewController: the TutorialPageViewController instance
-     - parameter index: the index of the currently visible page.
-     */
-    func CCAPageViewController(CCAPageVC: CCAPageViewController,
-                                    didUpdatePageIndex index: Int)
-    
-}
